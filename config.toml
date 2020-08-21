@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://linuxmobile.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # Disable dual language setup
 disableLanguages = ["en"]
