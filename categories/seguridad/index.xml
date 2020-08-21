@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>seguridad - Categoría - nothingheresorry</title>
+        <link>https://linuxmobile.github.io/categories/seguridad/</link>
+        <description>seguridad - Categoría - nothingheresorry</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>bdiez19@gmail.com (Braian A. Diez)</managingEditor>
+            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/seguridad/" rel="self" type="application/rss+xml" /><item>
+    <title>Seeker. Una herramienta para obtener datos de GeoLocalización</title>
+    <link>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</link>
+    <pubDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</guid>
+    <description><![CDATA[<p>Seeker, una herramienta para localizar con precisión cualquier móvil utilizando ingenería social.</p>]]></description>
+</item><item>
+    <title>Nueva falla en smartphones Xiaomi</title>
+    <link>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</link>
+    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</guid>
+    <description><![CDATA[<p>Nueva falla en smartphones Xiaomi permite usar el escáner de huellas dactilares como una cámara.</p>]]></description>
+</item></channel>
+</rss>

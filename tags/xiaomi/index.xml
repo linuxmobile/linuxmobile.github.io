@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>xiaomi - Etiqueta - nothingheresorry</title>
+        <link>https://linuxmobile.github.io/tags/xiaomi/</link>
+        <description>xiaomi - Etiqueta - nothingheresorry</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>bdiez19@gmail.com (Braian A. Diez)</managingEditor>
+            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/xiaomi/" rel="self" type="application/rss+xml" /><item>
+    <title>Nueva falla en smartphones Xiaomi</title>
+    <link>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</link>
+    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</guid>
+    <description><![CDATA[<p>Nueva falla en smartphones Xiaomi permite usar el escáner de huellas dactilares como una cámara.</p>]]></description>
+</item></channel>
+</rss>
