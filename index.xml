@@ -4,12 +4,19 @@
         <link>https://linuxmobile.github.io/</link>
         <description>Un sitio web para nerds</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>bdiez19@gmail.com (Braian A. Diez)</managingEditor>
-            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 22 Aug 2020 14:50:00 &#43;0000</lastBuildDate>
             <atom:link href="https://linuxmobile.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>KTweak un nuevo mod para tu kernel</title>
+    <link>https://linuxmobile.github.io/posts/ktweak-un-nuevo-mod-para-tu-kernel/</link>
+    <pubDate>Sat, 22 Aug 2020 14:50:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://linuxmobile.github.io/posts/ktweak-un-nuevo-mod-para-tu-kernel/</guid>
+    <description><![CDATA[<p>KTweak es un mod para optimizar el rendimiento de tu kernel en Android.</p>]]></description>
+</item><item>
     <title>Apple corta las actualizaciones de la app de Wordpress en la store.</title>
     <link>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</link>
-    <pubDate>Sat, 22 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <pubDate>Sat, 22 Aug 2020 10:58:00 &#43;0000</pubDate>
     <author>Autor</author>
     <guid>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</guid>
     <description><![CDATA[<p>El fundador de Wordpress afirma que Apple cortó las actualizaciones de su aplicación completamente gratuita porque quiere un 30%</p>]]></description>

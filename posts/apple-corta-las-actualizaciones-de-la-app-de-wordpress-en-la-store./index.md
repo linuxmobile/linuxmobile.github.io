@@ -21,6 +21,3 @@ Anteriormente veíamos en las noticias como Apple combate contra `Epicgames`. En
 
 **¿Qué es lo que está pasando con Apple en estos últimos tiempos?**
 
-
-sw
-
