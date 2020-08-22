@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Apple corta las actualizaciones de la app de Wordpress en la store."
-date: 2020-08-22
+date: 2020-08-22T10:58:00
 lastmod: 2020-08-22
 draft: draft
 author: "Braian A. Diez"
@@ -39,6 +39,3 @@ Anteriormente veíamos en las noticias como Apple combate contra `Epicgames`. En
 > Wordpress ofreció bloquear el único lugar donde los usuarios de iOS podían ver funciones pagas, pero Apple rechazó esta opción.
 
 **¿Qué es lo que está pasando con Apple en estos últimos tiempos?**
-
-
-sw
