@@ -4,6 +4,9 @@
 El fundador de Wordpress afirma que Apple cortó las actualizaciones de su aplicación completamente gratuita porque quiere un 30%
 
 
+<!--more-->
+
+
 Wordpress la aplicación de iOS que permite administrar la famosa plataforma de microblogging ha sido pausada en la Store de Apple.
 El desarrollador y fundador de **Wordpress** `Matt Mullenweg` ha acusado a Apple de cortar la capacidad de actualizar la aplicación. 
 
@@ -19,7 +22,5 @@ Anteriormente veíamos en las noticias como Apple combate contra `Epicgames`. En
 **¿Qué es lo que está pasando con Apple en estos últimos tiempos?**
 
 
-
-<!--more-->
-
+sw
 
