@@ -2,29 +2,30 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/la-mejor-app-para-compartir-pantalla-scrcpy-se-actualiza/</loc><lastmod>2020-08-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</loc><lastmod>2020-08-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/linux/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/linux/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/unixporn/</loc><lastmod>2020-08-22T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/about/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/documentation/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/herramienta/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/seguridad/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/seguridad/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/</loc><lastmod>2020-08-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/android/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/android/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/elementary/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/gnu/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/linux/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/linux/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/xiaomi/</loc><lastmod>2020-08-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/app/</loc><lastmod>2020-08-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/unixporn/</loc><lastmod>2020-08-09T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/installation/_index.zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/configuration/_index.zh-cn/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

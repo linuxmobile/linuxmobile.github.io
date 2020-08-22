@@ -4,7 +4,25 @@
         <link>https://linuxmobile.github.io/tags/unixporn/</link>
         <description>unixporn - Etiqueta - nothingheresorry</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>bdiez19@gmail.com (Braian A. Diez)</managingEditor>
-            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/unixporn/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 22 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/unixporn/" rel="self" type="application/rss+xml" /><item>
+    <title>Apple corta las actualizaciones de la app de Wordpress en la store.</title>
+    <link>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</link>
+    <pubDate>Sat, 22 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</guid>
+    <description><![CDATA[<p>El fundador de Wordpress afirma que Apple cortó las actualizaciones de su aplicación completamente gratuita porque quiere un 30%</p>
+<p>Wordpress la aplicación de iOS que permite administrar la famosa plataforma de microblogging ha sido pausada en la Store de Apple.
+El desarrollador y fundador de <strong>Wordpress</strong> <code>Matt Mullenweg</code> ha acusado a Apple de cortar la capacidad de actualizar la aplicación.</p>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Heads up on why <a href="https://twitter.com/WordPressiOS?ref_src=twsrc%5Etfw">@WordPressiOS</a> updates have been absent... we were locked by App Store. To be able to ship updates and bug fixes again we had to commit to support in-app purchases for .com plans. I know why this is problematic, open to suggestions. Allow others IAP? New name?</p>&mdash; Matt Mullenweg (@photomatt) <a href="https://twitter.com/photomatt/status/1296879217297113088?ref_src=twsrc%5Etfw">August 21, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Actualmente la aplicación de Wordpress en la Store, no vende absolutamente nada. Su licencia es GNU, y es completamente gratuita.</p>
+<p>Anteriormente veíamos en las noticias como Apple combate contra <code>Epicgames</code>. En estos momentos hay una lucha (ya ganada por Apple) contra <code>Wordpress</code>.</p>
+<blockquote>
+<p>Wordpress ofreció bloquear el único lugar donde los usuarios de iOS podían ver funciones pagas, pero Apple rechazó esta opción.</p>
+</blockquote>
+<p><strong>¿Qué es lo que está pasando con Apple en estos últimos tiempos?</strong></p>]]></description>
+</item><item>
     <title>r/unixporn | Una comunidad de &#39;nix lovers</title>
     <link>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</link>
     <pubDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</pubDate>
