@@ -1,6 +1,11 @@
 
 #!/bin/sh
 
+echo "Add new posts when it get ready"
+git add -A
+echo "If it ready, i will upload all shits"
+git commit -m "New post for today"
+
 if [ "`git status -s`" ]
 then
     echo "The working directory is dirty. Please commit any pending changes."

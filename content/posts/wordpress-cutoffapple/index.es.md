@@ -11,8 +11,8 @@ resources:
 - name: "featured-image"
   src: "wordpress.jpg"
 
-tags: ["linux", "unixporn"]
-categories: ["linux"]
+tags: ["apple", "wordpress"]
+categories: ["noticias"]
 
 lightgallery: true
 
