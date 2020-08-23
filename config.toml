@@ -682,7 +682,7 @@ enableEmoji = true
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "google-site-verification=wagWsFJtA0UVWUHtxJTGsP-kugJgUS2UQiU0vAegHsQ"
+    google = "SDbEwJuI9jkW1VQ2BuIkjkxV8kMAFhDxoKfrFJhFikw"
     bing = ""
     yandex = ""
     pinterest = ""
