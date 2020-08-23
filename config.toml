@@ -628,8 +628,8 @@ enableEmoji = true
         languageCode = ""
       # Telegram comments config (https://comments.app/)
       [params.page.comment.telegram]
-        enable = false
-        siteID = ""
+        enable = true
+        siteID = "sHnAnDjM"
         limit = 5
         height = ""
         color = ""
@@ -643,7 +643,7 @@ enableEmoji = true
       [params.page.comment.utterances]
         enable = false
         # owner/repo
-        repo = ""
+        repo = "linuxmobile/linuxmobile.github.io"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -666,7 +666,7 @@ enableEmoji = true
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Linuxmobile"
         logoUrl = "/images/avatar.png"
 
   # TypeIt config
