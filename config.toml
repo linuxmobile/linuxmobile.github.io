@@ -682,7 +682,7 @@ enableEmoji = true
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = ""
+    google = "google-site-verification=wagWsFJtA0UVWUHtxJTGsP-kugJgUS2UQiU0vAegHsQ"
     bing = ""
     yandex = ""
     pinterest = ""
@@ -700,7 +700,7 @@ enableEmoji = true
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-176116253-1"
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
