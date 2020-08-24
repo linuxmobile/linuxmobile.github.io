@@ -9,7 +9,7 @@ theme = "LoveIt"
 # themesDir = ""
 
 # website title
-title = "nothingheresorry"
+title = "linuxmobile"
 
 # whether to use robots.txt
 enableRobotsTXT = true
@@ -30,7 +30,7 @@ enableEmoji = true
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    googleAnalytics = "UA-176116253-1"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
@@ -90,7 +90,7 @@ enableEmoji = true
       # site description
       description = "Pronto editaré esta sección"
       # site keywords
-      keywords = ["Theme", "Hugo"]
+      keywords = ["blog", "sitio", "web", "seguridad", "informatica", "linux", "archlinux", "mobile", "android", "movil", "personal"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -232,7 +232,7 @@ enableEmoji = true
     # la cantidad de post por páginas
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    googleAnalytics = "UA-176116253-1"
     # copyright description used only for seo schema
     copyright = "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons."
     # Menu config
@@ -288,7 +288,7 @@ enableEmoji = true
       # Descripción del sitio
       description = "Un sitio web para nerds"
       # palabras claves
-      keywords = ["Thème", "Hugo"]
+      keywords = ["blog", "sitio", "web", "seguridad", "informatica", "linux", "archlinux", "mobile", "android", "movil", "personal"]
       # App icon config
       [languages.es.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
