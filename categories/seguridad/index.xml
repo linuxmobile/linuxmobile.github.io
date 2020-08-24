@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>seguridad - Categoría - nothingheresorry</title>
+        <title>seguridad - Categoría - linuxmobile</title>
         <link>https://linuxmobile.github.io/categories/seguridad/</link>
-        <description>seguridad - Categoría - nothingheresorry</description>
+        <description>seguridad - Categoría - linuxmobile</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>bdiez19@gmail.com (Braian A. Diez)</managingEditor>
             <webMaster>bdiez19@gmail.com (Braian A. Diez)</webMaster><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/seguridad/" rel="self" type="application/rss+xml" /><item>
     <title>Seeker. Una herramienta para obtener datos de GeoLocalización</title>
