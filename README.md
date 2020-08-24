@@ -1,6 +1,6 @@
 ### :octocat: Hi there! Thanks for visiting!
 
-### This is my personal website [linuxmobile](linuxmobile.github.io)
+### This is my personal website [linuxmobile](https://linuxmobile.github.io)
 
 # LoveIt Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-loveit/deploys)
 
