@@ -11,23 +11,23 @@ $global-line-height: 1.5rem;
 
 // Color of the background
 $global-background-color: #fff !default;
-$global-background-color-dark: #292a2d !default;
+$global-background-color-dark: #373E4D !default;
 
 // Color of the text
 $global-font-color: #161209 !default;
-$global-font-color-dark: #a9a9b3 !default;
+$global-font-color-dark: #fff !default;
 
 // Color of the secondary text
 $global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+$global-font-secondary-color-dark: #63C5EA !default;
 
 // Color of the link
 $global-link-color: #161209 !default;
-$global-link-color-dark: #a9a9b3 !default;
+$global-link-color-dark: #2BE491 !default;
 
 // Color of the hover link
 $global-link-hover-color: #2d96bd !default;
-$global-link-hover-color-dark: #fff !default;
+$global-link-hover-color-dark: #FA5AA4 !default;
 
 // Color of the border
 $global-border-color: #f0f0f0 !default;
@@ -54,7 +54,7 @@ $header-height: 3.5rem !default;
 
 // Color of the header background
 $header-background-color: #f8f8f8 !default;
-$header-background-color-dark: #252627 !default;
+$header-background-color-dark: #434C5E !default;
 
 // Font style of the header title
 $header-title-font-family: $global-font-family !default;
@@ -76,7 +76,7 @@ $toc-content-font-size: 1rem !default;
 
 // Color of the single link
 $single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color-dark: #FA5AA4 !default;
 
 // Color of the hover single link
 $single-link-hover-color: #ef3982 !default;
@@ -108,7 +108,7 @@ $pagination-link-hover-color-dark: #fff !default;
 // ========== Code ========== //
 // Color of the code
 $code-color: #E74C3C !default;
-$code-color-dark: #E5BF78 !default;
+$code-color-dark: #2be491 !default;
 
 // Color of the code background
 $code-background-color: #f5f5f5 !default;
@@ -298,7 +298,7 @@ $code-highlight-color-map-dark: (
   /* LiteralStringRegex */ 'sr': #8cc570,
   /* LiteralStringSingle */ 's1': #8cc570,
   /* LiteralStringSymbol */ 'ss': #8cc570,
-  /* LiteralNumber */ 'm': #db985c,
+  /* LiteralNumber */ 'm': #fa946e,
   /* LiteralNumberBin */ 'mb': #db985c,
   /* LiteralNumberFloat */ 'mf': #db985c,
   /* LiteralNumberHex */ 'mh': #db985c,
