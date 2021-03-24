@@ -1,0 +1,313 @@
+{{- define "title" }}{{ .Title }} | {{ .Site.Params.Title }}{{ end -}}
+
+{{- define "dnsPrefetch" -}}
+{{- $params := .Scratch.Get "params" -}}
+{{- with $params.Seo.dnsPrefetch -}}
+{{- range $index, $value := . -}}
+<link rel="dns-prefetch" href="{{ $value }}">
+{{- end -}}
+{{- end -}}
+{{- with $.Site.Params.Seo.dnsPrefetch -}}
+{{- range $index, $value := . -}}
+<link rel="dns-prefetch" href="{{ $value }}">
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+{{- define "twitter-card" -}}
+{{- $params := .Scratch.Get "params" -}}
+{{ $twitterImage := ""}}
+{{- with .Resources.GetMatch "featured-image" -}}
+{{- if lt 4095 .Width -}}
+{{- $twitterImage = (.Resize "4095x q100").Permalink -}}
+{{- else -}}
+{{- $twitterImage = .Permalink -}}
+{{- end -}}
+{{- end -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ $twitterImage }}"/>
+<meta name="twitter:title" content="{{ $params.Title }}"/>
+<meta name="twitter:description" content="{{ $params.Description }}"/>
+{{- with ($params.twitter | default .Site.Params.Social.Twitter ) -}}
+<meta name="twitter:creator" content="@{{ . }}"/>
+{{- end -}}
+{{- end -}}
+
+{{- define "no-content" -}}
+
+{{- $params := .Scratch.Get "params" -}}
+
+{{ $viewCounter := .Site.Params.ViewCounter }}
+
+{{- $toc := $params.toc -}}
+{{- if eq $toc true -}}
+{{- $toc = .Site.Params.page.toc | default dict -}}
+{{- else if eq $toc false -}}
+{{- $toc = dict "enable" false -}}
+{{- end -}}
+
+{{- $pageTheme := $params.Theme | default .Site.Params.Page.theme | default "classic" -}}
+{{ $params.UniqueId }}
+<div class="container content-article {{ if eq $toc.keepStatic false }}page-toc{{ end }} theme-{{ $pageTheme }}">
+
+    {{- /* Auto TOC */ -}}
+    {{- if ne $toc.enable false -}}
+        <div class="toc" id="toc-auto">
+            <div class="toc-title">{{ T "contents" }}</div>
+            <div class="toc-content{{ if eq $toc.auto false }} always-active{{ end }}" id="toc-content-auto"></div>
+        </div>
+    {{- end -}}
+
+    {{- /* Featured image */ -}}
+    {{- $image := $params.featuredimage -}}
+    {{- $pageImageHidden := $params.hiddenFeaturedImage -}}
+    {{- with .Resources.GetMatch "featured-image" -}}
+    {{- $image = .Permalink -}}
+    {{- end -}}
+
+    {{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+    {{ $author := "" }}
+    {{- $authorPath := print "data/authors/" $authorName ".json" -}}
+    {{ if (fileExists $authorPath) -}}
+    {{ $author = index .Site.Data.authors $authorName }}
+    {{ end }}
+
+    <div class="header-post">
+
+        {{ if eq $pageTheme "hero" }}
+
+        {{- $heroImage := "" -}}
+        {{- with .Resources.GetMatch "featured-image" -}}
+        {{- if lt 1600 .Width -}}
+        {{- $heroImage = (.Resize "1600x q100").Permalink -}}
+        {{- else -}}
+        {{- $heroImage = .Permalink -}}
+        {{- end -}}
+        {{- end -}}
+
+        <div class="post-hero-grid">
+            <div class="post-hero-info">
+                <div class="hero-text-container">
+
+                    <h1>{{ $.Title }}</h1>
+                    <p class="hero-text-description">{{ $params.subtitle }}</p>
+                </div>
+
+                {{ with $author }}
+                <div class="hero-author">
+
+                    {{ with .link }}<a href=" {{- . | safeHTML -}}" class="hero-author-profile">{{ end }}
+                        <img class="hero-author-avatar" src="{{ with .avatar }} {{- . | safeHTML -}}{{ end }}" alt="{{ .full_name }}">
+                        <div class="profile-text-wrapper">
+                            <span class="hero-author-profile-name">{{ .full_name }}</span>
+                            <span class="hero-author-profile-title">{{ $params.customAuthor.short_about | default .short_about }}</span>
+                        </div>
+                    {{ with .link }}</a>{{ end }}
+
+                </div>
+                {{ end }}
+
+            </div>
+
+            <div class="post-hero-logo">
+
+                <figure class="hero-img">
+                    {{- dict "Src" $heroImage "Title" .Title "Resources" .Resources | partial "plugin/image.html" -}}
+                </figure>
+
+            </div>
+
+        </div>
+
+        <div class="hero-tags">
+            {{ if ne $viewCounter nil}}
+            <span class="rendered tag-none-display" id="views_container"><i class="svg-icon icon-eye-big"></i><span id="views_value" style="margin-right: 0">{{ if ne $params.Views nil}} {{ $params.Views }} {{ else }} Нет просмотров {{ end }}</span></span>
+            {{- end -}}
+
+            {{- with $.Site.Params.dateformat | default "2006-01-02" | $.PublishDate.Format -}}
+            {{- $timeAgoDate:= $.Site.Params.TimeAgo.DateFormat | default "2006-01-02" | $.PublishDate.Format -}}
+            <span id="post-date" class="rendered"><i class="svg-icon icon-clock-big"></i><time class="timeago" datetime="{{ $timeAgoDate }}">{{ . }}</time></span>
+            {{- end -}}
+
+            <span class="rendered"><i class="svg-icon icon-pencil-big"></i>{{ T "wordCount" $.WordCount }}</span>
+            <span class="rendered"><i class="svg-icon icon-stopwatch-big"></i>{{ T "readingTime" $.ReadingTime }}</span>
+        </div>
+        {{ end }}
+
+        {{ if not (eq $pageTheme "hero") }}
+        {{ if or (eq $pageTheme "full") (eq $pageTheme "mega-full") }}
+        {{- with $image -}}
+
+        {{- $fullImage := $image -}}
+        {{- if eq $pageTheme "full" -}}
+        {{- with $.Resources.GetMatch "featured-image" -}}
+        {{- if lt 1600 .Width -}}
+            {{- $fullImage = (.Resize "1600x q100").Permalink -}}
+        {{- else -}}
+            {{- $fullImage = .Permalink -}}
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+
+        <div class="featured-image" style="background-image: url('{{ $fullImage }}');">
+            {{- end -}}
+            {{- end -}}
+            <div class="post-title">
+
+                <div class="post-all-meta">
+                    {{ partial "breadcrumbs.html" . | safeHTML }}
+                    <h1 class="single-title flipInX">{{ $.Title }}</h1>
+                    {{- /* Subtitle */ -}}
+                    {{- with $params.subtitle -}}
+                    <h2 class="single-subtitle">{{ . }}</h2>
+                    {{- end -}}
+                    {{- /* Meta */ -}}
+                    <div class="post-meta">
+                        <div class="post-meta-line">
+                            {{- $categories := slice -}}
+                            {{- range $.Params.categories -}}
+                            {{- $category := partialCached "function/path.html" . . | printf "/categories/%v" | $.Site.GetPage -}}
+                            {{- $categories = $categories | append (printf `<a href="%v"><i class="svg-icon icon-folder"></i>%v</a>` $category.RelPermalink $category.Title) -}}
+                            {{- end -}}
+                            {{- with delimit $categories "&nbsp;" -}}
+                            <span class="post-category">
+                                {{ . }}
+                            </span>
+                            {{- end -}}
+                            {{ if ne $viewCounter nil}}
+                            <span class="post-meta-views tag-none-display" id="views_container">
+                                <i class="svg-icon icon-eye"></i><span id="views_value" style="margin-right: 0">Нет</span> просмотров</span>
+                            </span>
+                            {{- end -}}
+                            {{- with $.Site.Params.dateformat | default "2006-01-02" | $.PublishDate.Format -}}
+                            {{- $timeAgoDate:= $.Site.Params.TimeAgo.DateFormat | default "2006-01-02" | $.PublishDate.Format -}}
+                            <span class="post-meta-date">
+                                <i class="svg-icon icon-clock"></i><time class="timeago" datetime="{{ $timeAgoDate }}">{{ . }}</time>
+                            </span>
+                            {{- end -}}
+                            <span class="post-meta-words">
+                                <i class="svg-icon icon-pencil"></i>{{ T "wordCount" $.WordCount }}
+                            </span>
+                            <span class="post-meta-reading">
+                                <i class="svg-icon icon-stopwatch"></i>{{ T "readingTime" $.ReadingTime }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            {{ if or (eq $pageTheme "full") (eq $pageTheme "mega-full") }}
+            {{- with $image -}}
+        </div>
+        {{- end -}}
+        {{- end -}}
+        {{- end -}}
+
+    </div>
+
+    <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post">
+
+            {{- if and (or (eq $pageTheme "classic") (eq $pageTheme "wide")) (not $pageImageHidden) -}}
+            {{- with $image -}}
+            <div class="image-theme-{{ $pageTheme }}">
+                <img src="{{ $image }}" style="width: 100%">
+            </div>
+            {{- end -}}
+            {{- end -}}
+
+            {{- /* Static TOC */ -}}
+            {{- if ne $toc.enable false -}}
+            <div class="details toc" id="toc-static"  data-kept="{{ if $toc.keepStatic }}true{{ end }}">
+                <div class="details-summary toc-title">
+                    <span>{{ T "contents" }}</span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static">
+                    {{- dict "Content" .TableOfContents "Ruby" $params.ruby "Fraction" $params.fraction | partial "function/content.html" | safeHTML -}}
+                </div>
+            </div>
+            {{- end -}}
+
+            {{- /* Content */ -}}
+
+                {{- with .Site.Params.dateformat | default "2006-01-02" | .Lastmod.Format -}}
+                {{- $updateDate := . -}}
+                {{- if not (eq  . ($.Site.Params.dateformat | default "2006-01-02" | $.PublishDate.Format)) -}}
+                {{- with $params.upd -}}
+                <p class="is-style-explanation">
+                    <b>{{- dict "Date" $updateDate | T "updatedOnDate" -}}:</b> {{ $params.upd }}
+                </p>
+                {{- else -}}
+                <div style="margin: 20px 0 20px 0;">
+                    <span class="post-update">
+                        <b>{{- dict "Date" . | T "updatedOnDate" -}}</b>
+                    </span>
+                </div>
+                {{- end -}}
+                {{- end -}}
+                {{- end -}}
+
+                {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction | partial "function/content.html" | safeHTML -}}
+
+        </div>
+
+            <div class="post" style="padding-top: 0">
+                {{- /* Footer Post */ -}}
+                {{- partial "single/footer.html" . -}}
+            </div>
+        </div>
+    <div id="toc-final"></div>
+    </article>
+
+    {{- $comment := .Site.Params.Comment  -}}
+    {{- if ($params.comment.enable | default $comment.enable) -}}
+    <div class="page single comments content-block-position">
+        {{- $authorComment := $params.authorComment -}}
+        {{- if $authorComment -}}
+        {{- with $author -}}
+        <div class="author-comment">
+            <div class="author-avatar author-avatar-comment" style="float: left"><a href="{{ with .link }} {{- . | safeHTML -}}{{ end }}" target="_blank"><img alt="{{ .full_name }}" src="{{ with .avatar }} {{- . | safeHTML -}}{{ end }}"></a></div>
+            <div class="name">{{ .full_name }}</div>
+            <div class="author-comment-text">{{ $authorComment }}</div>
+        </div>
+        {{- end -}}
+        {{- end -}}
+        {{- /* Comment */ -}}
+        {{- partial "comment.html" . -}}
+    </div>
+    {{- end -}}
+</div>
+
+{{ if ne $viewCounter nil}}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const host = '{{ $viewCounter.url }}';
+        const pathName = window.location.pathname.replaceAll('/', '_')
+        const url = host + '/hit/{{ $viewCounter.key }}/' + pathName.substring(1).slice(0, -1);
+        const request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        request.onload = function () {
+            if (this.status >= 200 && this.status < 400) {
+                const response = JSON.parse(this.response);
+                const views = response.value;
+                if (views >= 1 && document.querySelector("#views_value") != null) {
+                    document.querySelector("#views_value").textContent = response.value.toLocaleString(undefined, {minimumFractionDigits: 0});
+                    document.querySelector("#views_container").style.display = '';
+                }
+            } else {
+                console.log("Call to " + url + " failed with status code " + this.status + ".");
+            }
+        };
+        request.onerror = function () {
+            console.log("Call to " + url + " failed with a connection error of some sort.");
+        };
+        request.send();
+    });
+</script>
+{{- end -}}
+
+{{- end -}}

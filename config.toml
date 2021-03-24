@@ -1,235 +1,30 @@
 baseURL = "https://linuxmobile.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
-# Disable dual language setup
-disableLanguages = ["en"]
 defaultContentLanguage = "es"
 # theme
-theme = "LoveIt"
+theme = "uBlogger"
 # themes directory
-# themesDir = ""
+#themesDir = "../.."
 
 # website title
 title = "linuxmobile"
-
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-# enableGitInfo = true
+enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
 [languages]
-  [languages.en]
+  [languages.es]
     weight = 1
     # language code
-    languageCode = "en"
+    languageCode = "es"
     # language name
-    languageName = "English"
+    languageName = "Español"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
-    # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = "UA-176116253-1"
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # Menu config
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        # you can add extra information after the name (HTML format is supported), such as icons
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.en.menu.main]]
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.en.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/linuxmobile"
-        title = "GitHub"
-        weight = 6
-    [languages.en.params]
-      # site description
-      description = "Pronto editaré esta sección"
-      # site keywords
-      keywords = ["blog", "sitio", "web", "seguridad", "informatica", "linux", "archlinux", "mobile", "android", "movil", "personal"]
-      # App icon config
-      [languages.en.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "Arch lovers only"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-      # Search config
-      [languages.en.params.search]
-        enable = true
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      # Home page config
-      [languages.en.params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-        [languages.en.params.home.profile]
-          enable = true
-          # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
-          # URL of avatar shown in home page
-          avatarURL = "/images/avatar.png"
-          # title shown in home page (HTML format is supported)
-          title = ""
-          # subtitle shown in home page
-          subtitle = "A website for nerds only"
-          # whether to use typeit animation for subtitle
-          typeit = true
-          # whether to show social links
-          social = true
-          # disclaimer (HTML format is supported)
-          disclaimer = ""
-        # Home page posts
-        [languages.en.params.home.posts]
-          enable = true
-          # special amount of posts in each home posts page
-          paginate = 6
-      # Social config in home page
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        Linkedin = ""
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Medium = ""
-        Gitlab = ""
-        Youtubelegacy = "xxxx"
-        Youtubecustom = ""
-        Youtubechannel = ""
-        Tumblr = ""
-        Quora = ""
-        Keybase = ""
-        Pinterest = ""
-        Reddit = ""
-        Codepen = ""
-        FreeCodeCamp = ""
-        Bitbucket = ""
-        Stackoverflow = ""
-        Weibo = ""
-        Odnoklassniki = ""
-        VK = ""
-        Flickr = ""
-        Xing = ""
-        Snapchat = ""
-        Soundcloud = ""
-        Spotify = ""
-        Bandcamp = ""
-        Paypal = ""
-        Fivehundredpx = ""
-        Mix = ""
-        Goodreads = ""
-        Lastfm = ""
-        Foursquare = ""
-        Hackernews = ""
-        Kickstarter = ""
-        Patreon = ""
-        Steam = ""
-        Twitch = ""
-        Strava = ""
-        Skype = ""
-        Whatsapp = ""
-        Zhihu = ""
-        Douban = ""
-        Angellist = ""
-        Slidershare = ""
-        Jsfiddle = ""
-        Deviantart = ""
-        Behance = ""
-        Dribbble = ""
-        Wordpress = ""
-        Vine = ""
-        Googlescholar = ""
-        Researchgate = ""
-        Thingiverse = ""
-        Devto = ""
-        Gitea = ""
-        XMPP = ""
-        Matrix = ""
-        Bilibili = ""
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
-
-  [languages.es]
-    weight = 3
-    # Codigo del lenguaje
-    languageCode = "es"
-    # Nombre del lenguaje
-    languageName = "Español"
-    # Si incluye cosas en idiomas raros como Chinese/Japanese/Korean
-    hasCJKLanguage = false
-    # la cantidad de post por páginas
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = "UA-176116253-1"
@@ -239,10 +34,13 @@ enableEmoji = true
     [languages.es.menu]
       [[languages.es.menu.main]]
         identifier = "posts"
+        # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
         post = ""
-        name = "Publicaciones"
+        name = "Posts"
         url = "/posts/"
+        # title will be shown when you hover on this menu link.
         title = ""
         weight = 1
       [[languages.es.menu.main]]
@@ -272,10 +70,18 @@ enableEmoji = true
       [[languages.es.menu.main]]
         identifier = "about"
         pre = ""
+        post = ""
         name = "Acerca"
         url = "/about/"
         title = ""
         weight = 5
+      [[languages.es.menu.main]]
+        identifier = "dotfiles"
+        pre = ""
+        name = "DOTFILES"
+        url = "/dotfiles/"
+        title = ""
+        weight = 6
       [[languages.es.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
@@ -283,11 +89,11 @@ enableEmoji = true
         name = ""
         url = "https://github.com/linuxmobile"
         title = "GitHub"
-        weight = 6
+        weight = 7
     [languages.es.params]
-      # Descripción del sitio
-      description = "Un sitio web para nerds"
-      # palabras claves
+      # site description
+      description = "Un sitio para aprender sobre tecnologías"
+      # site keywords
       keywords = ["blog", "sitio", "web", "seguridad", "informatica", "linux", "archlinux", "mobile", "android", "movil", "personal"]
       # App icon config
       [languages.es.params.app]
@@ -321,7 +127,7 @@ enableEmoji = true
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.es.params.search.algolia]
-          index = "index.fr"
+          index = "index.en"
           appID = "PASDMWALPK"
           searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
@@ -337,10 +143,8 @@ enableEmoji = true
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
           title = ""
-          # subtitle shown in home page
-          subtitle = "Un sitio web para nerds definitivamente"
-          # whether to use typeit animation for subtitle
-          typeit = true
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "Un sitio para aprender sobre tecnologías"
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
@@ -353,73 +157,79 @@ enableEmoji = true
       # Social config in home page
       [languages.es.params.social]
         GitHub = "linuxmobile"
-        #Linkedin = "xxxx"
-        Twitter = "n00b2h4kc3r"
+        Linkedin = ""
+        Twitter = "linuxmobile"
         Instagram = "elblogdebraian"
-        Facebook = "linuxmobile"
+        Facebook = "xxxx"
         Telegram = "linuxmobile"
-        #Medium = ""
-        #Gitlab = ""
-        #Youtubelegacy = ""
-        #Youtubecustom = ""
-        #Youtubechannel = ""
-        #Tumblr = ""
-        #Quora = ""
-        #Keybase = ""
-        #Pinterest = ""
-        #Reddit = ""
-        #Codepen = ""
-        #FreeCodeCamp = ""
-        #Bitbucket = ""
-        #Stackoverflow = ""
-        #Weibo = ""
-        #Odnoklassniki = ""
-        #VK = ""
-        #Flickr = ""
-        #Xing = ""
-        #Snapchat = "xxxx"
-        #Soundcloud = ""
-        #Spotify = ""
-        #Bandcamp = ""
-        #Paypal = ""
-        #Fivehundredpx = ""
-        #Mix = ""
-        #Goodreads = ""
-        #Lastfm = ""
-        #Foursquare = ""
-        #Hackernews = "xxxx"
-        #Kickstarter = ""
-        #Patreon = ""
-        #Steam = ""
-        #Twitch = ""
-        #Strava = ""
-        #Skype = ""
-        #Whatsapp = ""
-        #Zhihu = ""
-        #Douban = ""
-        #Angellist = ""
-        #Slidershare = ""
-        #Jsfiddle = ""
-        #Deviantart = ""
-        #Behance = ""
-        #Dribbble = "xxxx"
-        #Wordpress = ""
-        #Vine = ""
-        #Googlescholar = ""
-        #Researchgate = ""
-        #Mastodon = ""
-        #Thingiverse = ""
-        #Devto = ""
-        #Gitea = ""
-        #XMPP = ""
-        #Matrix = ""
-        #Bilibili = ""
-        #Email = "xxxx@xxxx.com"
+        Medium = ""
+        Gitlab = ""
+        Youtubelegacy = "xxxx"
+        Youtubecustom = ""
+        Youtubechannel = ""
+        Tumblr = ""
+        Quora = ""
+        Keybase = ""
+        Pinterest = ""
+        Reddit = ""
+        Codepen = ""
+        FreeCodeCamp = ""
+        Bitbucket = ""
+        Stackoverflow = ""
+        Weibo = ""
+        Odnoklassniki = ""
+        VK = ""
+        Flickr = ""
+        Xing = ""
+        Snapchat = ""
+        Soundcloud = ""
+        Spotify = ""
+        Bandcamp = ""
+        Paypal = ""
+        Fivehundredpx = ""
+        Mix = ""
+        Goodreads = ""
+        Lastfm = ""
+        Foursquare = ""
+        Hackernews = ""
+        Kickstarter = ""
+        Patreon = "linuxmobile"
+        Steam = ""
+        Twitch = ""
+        Strava = ""
+        Skype = ""
+        Whatsapp = ""
+        Zhihu = ""
+        Douban = ""
+        Angellist = ""
+        Slidershare = ""
+        Jsfiddle = ""
+        Deviantart = ""
+        Behance = ""
+        Dribbble = ""
+        Wordpress = ""
+        Vine = ""
+        Googlescholar = ""
+        Researchgate = ""
+        Thingiverse = ""
+        Devto = ""
+        Gitea = ""
+        XMPP = ""
+        Matrix = ""
+        Bilibili = ""
+        Email = "bdiez19@gmail.com"
+        DockerHub = ""
+        Discord = "xxxxxxxxx"
+        Leanpub = ""
+        Udemy = ""
         RSS = true
+        [languages.es.params.social.Mastodon]
+          id = "@xxxx"
+          prefix = "https://mastodon.technology/"
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
+  # uBlogger theme version
+  version = "2.0.X"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
@@ -486,6 +296,76 @@ enableEmoji = true
     # amount of RSS pages
     rss = 10
 
+  # Comment config
+  [params.comment]
+    enable = true
+    [params.comment.remark42]
+      enable = false
+      host = "https://comments.upagge.ru"
+      site = "documentation"
+      locale = "en"
+    # Disqus comment config (https://disqus.com/)
+    [params.comment.disqus]
+      enable = true
+      # Disqus shortname to use Disqus in posts
+      shortname = "n00b2h4ck3r"
+    # Gitalk comment config (https://github.com/gitalk/gitalk)
+    [params.comment.gitalk]
+      enable = false
+      owner = ""
+      repo = ""
+      clientId = ""
+      clientSecret = ""
+    # Valine comment config (https://github.com/xCss/Valine)
+    [params.comment.valine]
+      enable = false
+      appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+      appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+      placeholder = ""
+      avatar = "mp"
+      meta= ""
+      pageSize = 10
+      lang = ""
+      visitor = true
+      recordIP = true
+      highlight = true
+      enableQQ = false
+      serverURLs = "https://"
+      # emoji data file name, default is "google.yml"
+      # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+      # located in "themes/uBlogger/assets/data/emoji/" directory
+      # you can store your own data files in the same path under your project:
+      # "assets/data/emoji/"
+      emoji = ""
+    # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
+    [params.comment.facebook]
+      enable = false
+      width = "100%"
+      numPosts = 10
+      appId = ""
+      languageCode = ""
+    # Telegram comments config (https://comments.app/)
+    [params.comment.telegram]
+      enable = false
+      siteID = ""
+      limit = 5
+      height = ""
+      color = ""
+      colorful = true
+      dislikes = false
+      outlined = false
+    # Commento comment config (https://commento.io/)
+    [params.comment.commento]
+      enable = false
+    # Utterances comment config (https://utteranc.es/)
+    [params.comment.utterances]
+      enable = false
+      # owner/repo
+      repo = "linuxmobile/linuxmobile.github.io"
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      darkTheme = "github-dark"
   # Page config
   [params.page]
     # whether to hide a page from home page
@@ -494,8 +374,6 @@ enableEmoji = true
     hiddenFromSearch = false
     # whether to enable twemoji
     twemoji = false
-    # whether to enable lightgallery
-    lightgallery = false
     # whether to enable the ruby extended syntax
     ruby = true
     # whether to enable the fraction extended syntax
@@ -536,7 +414,7 @@ enableEmoji = true
     # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
     [params.page.mapbox]
       # access token of Mapbox GL JS
-      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+      accessToken = ""
       # style for the light theme
       lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
       # style for the dark theme
@@ -556,16 +434,16 @@ enableEmoji = true
       Facebook = true
       Linkedin = false
       Whatsapp = true
-      Pinterest = false
-      Tumblr = false
+      Pinterest = true
+      Tumblr = true
       HackerNews = true
       Reddit = true
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
-      Pocket = false
+      Pocket = true
       Digg = false
       Stumbleupon = false
       Flipboard = true
@@ -579,75 +457,7 @@ enableEmoji = true
       Skype = false
       Trello = false
       Mix = false
-    # Comment config
-    [params.page.comment]
-      enable = true
-      # Disqus comment config (https://disqus.com/)
-      [params.page.comment.disqus]
-        enable = true
-        # Disqus shortname to use Disqus in posts
-        shortname = "n00b2h4ck3r"
-      # Gitalk comment config (https://github.com/gitalk/gitalk)
-      [params.page.comment.gitalk]
-        enable = false
-        owner = ""
-        repo = ""
-        clientId = ""
-        clientSecret = ""
-      # Valine comment config (https://github.com/xCss/Valine)
-      [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
-        # emoji data file name, default is "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # located in "themes/LoveIt/assets/data/emoji/" directory
-        # you can store your own data files in the same path under your project:
-        # "assets/data/emoji/"
-        # emoji 数据文件名称, 默认是 "google.yml"
-        # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
-        # 位于 "themes/LoveIt/assets/data/emoji/" 目录
-        # "assets/data/emoji/"
-        emoji = ""
-      # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # Telegram comments config (https://comments.app/)
-      [params.page.comment.telegram]
-        enable = false
-        siteID = "sHnAnDjM"
-        limit = 5
-        height = ""
-        color = "dark"
-        colorful = true
-        dislikes = false
-        outlined = false
-      # Commento comment config (https://commento.io/)
-      [params.page.comment.commento]
-        enable = false
-      # Utterances comment config (https://utteranc.es/)
-      [params.page.comment.utterances]
-        enable = false
-        # owner/repo
-        repo = "linuxmobile/linuxmobile.github.io"
-        issueTerm = "pathname"
-        label = ""
-        lightTheme = "github-light"
-        darkTheme = "github-dark"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
@@ -666,19 +476,8 @@ enableEmoji = true
       images = []
       # Publisher info
       [params.page.seo.publisher]
-        name = "Linuxmobile"
+        name = "linuxmobile"
         logoUrl = "/images/avatar.png"
-
-  # TypeIt config
-  [params.typeit]
-    # typing speed between each step (measured in milliseconds)
-    speed = 100
-    # blinking speed of the cursor (measured in milliseconds)
-    cursorSpeed = 1000
-    # character used for the cursor (HTML format is supported)
-    cursorChar = "|"
-    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-    duration = -1
 
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
@@ -697,10 +496,13 @@ enableEmoji = true
 
   # Analytics config
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
+      # [UA-XXXXXXXX-X] google analytics code
       id = "UA-176116253-1"
+      # whether to use gtag linked
+      gtag = false
       # whether to anonymize IP
       anonymizeIP = true
     # Fathom Analytics
@@ -708,6 +510,8 @@ enableEmoji = true
       id = ""
       # server url for your tracker if you're self hosting
       server = ""
+    [params.analytics.yandex]
+      id = ""
 
   # Cookie consent config
   [params.cookieconsent]
@@ -722,11 +526,8 @@ enableEmoji = true
   [params.cdn]
     # CDN data file name, disabled by default
     # ("jsdelivr.yml")
-    # located in "themes/LoveIt/assets/data/cdn/" directory
+    # located in "themes/uBlogger/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
-    # "assets/data/cdn/"
-    # ("jsdelivr.yml")
-    # 位于 "themes/LoveIt/assets/data/cdn/" 目录
     # "assets/data/cdn/"
     data = "jsdelivr.yml"
 
@@ -745,7 +546,6 @@ enableEmoji = true
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
@@ -767,9 +567,7 @@ enableEmoji = true
 
 # Author config
 [author]
-  name = "Braian A. Diez"
-  email = "bdiez19@gmail.com"
-  link = "www.instagram.com/elblogdebraian"
+  name = "linuxmobile"
 
 # Sitemap config
 [sitemap]

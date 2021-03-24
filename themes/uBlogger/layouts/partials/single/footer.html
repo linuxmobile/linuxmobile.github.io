@@ -1,0 +1,42 @@
+{{- $params := .Scratch.Get "params" -}}
+{{- $pageTheme := $params.Theme | default .Site.Params.Page.theme | default "classic" -}}
+
+{{ $button := $params.button}}
+{{ if eq $button.enable true }}
+<div class="post-info-share">
+    <a href="{{ $button.link }}" class="button button-big button-red">{{ $button.text }}</a>
+</div>
+{{ end }}
+
+<div class="post-share">
+    {{- partial "plugin/share.html" . -}}
+</div>
+
+{{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+{{ $author := "" }}
+{{- $authorPath := print "data/authors/" $authorName ".json" -}}
+{{ if (fileExists $authorPath) -}}
+{{ $author = index .Site.Data.authors $authorName }}
+{{ end }}
+{{ if eq ($params.authorHidden | default false) false  }}
+{{- if and (not (eq $authorName " ")) (not (eq $pageTheme "hero")) -}}
+{{- with $author -}}
+<div class="footer-post-author">
+    <div class="author-avatar"><a href="{{ with .link }} {{- . | safeHTML -}}{{ end }}" target="_blank"><img alt="{{ .about }}" src="{{ with .avatar }} {{- . | safeHTML -}}{{ end }}"></a></div>
+    <div class="author-info">
+        <div class="name"><a href="{{ with .link }} {{- . | safeHTML -}}{{ end }}" target="_blank">{{ .full_name }}</a></div>
+        <div class="number-posts">{{ .about }}</span></div>
+    </div>
+</div>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+
+{{- with .Params.tags -}}
+<div class="post-tags">
+    {{- range $index, $value := . -}}
+    {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+    <a href="{{ $tag.RelPermalink }}" class="tag">{{ $tag.Title }}</a>
+    {{- end -}}
+</div>
+{{- end -}}

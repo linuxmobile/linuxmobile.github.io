@@ -1,0 +1,137 @@
+.admonition {
+  border-radius: 6px;
+  position: relative;
+  margin: $margin-article;
+  padding: 0 .75rem;
+  background-color: map-get($admonition-background-color-map, 'note');
+  border-left: .25rem solid map-get($admonition-color-map, 'note');
+  overflow: auto;
+
+  p:first-child, ul:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child, ul:last-child {
+    margin-bottom: 0;
+  }
+
+  .admonition-title {
+    font-weight: bold;
+    margin: 0 -0.75rem;
+    padding: .25rem 1.8rem;
+    border-bottom: 1px solid map-get($admonition-background-color-map, 'note');
+    background-color: opacify(map-get($admonition-background-color-map, 'note'), 0.15);
+  }
+
+  .admonition-title-none {
+    display: none;
+  }
+
+  &.open .admonition-title {
+    background-color: map-get($admonition-background-color-map, 'note');
+  }
+
+  .admonition-content {
+    padding: .5rem 0;
+  }
+
+  i.icon {
+    font-size: 0.85rem;
+    color: map-get($admonition-color-map, 'note');
+    position: absolute;
+    top: .6rem;
+    left: .5rem;
+  }
+
+  i.details-icon {
+    color: map-get($admonition-color-map, 'note');
+    position: absolute;
+    top: .55rem;
+    right: .3rem;
+  }
+
+  .admonition-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/icon/admonition.svg);
+  }
+
+  .icon-note {
+    background-position: 0;
+  }
+  .icon-abstract {
+    background-position: -23px 0;
+  }
+  .icon-info {
+    background-position: -46px;
+  }
+  .icon-tip {
+    background-position: -64px;
+  }
+  .icon-success {
+    background-position: -84px;
+  }
+  .icon-question {
+    background-position: -106px;
+  }
+  .icon-warning {
+    background-position: -129px;
+  }
+  .icon-failure {
+    background-position: -152px;
+  }
+  .icon-danger {
+    background-position: -170px;
+  }
+  .icon-bug {
+    background-position: -190px;
+  }
+  .icon-example {
+    background-position: -210px;
+  }
+  .icon-quote {
+    background-position: -233px;
+  }
+  .admonition-icon-arrow-right {
+    background-position: -253px;
+  }
+
+
+  @each $type, $color in $admonition-color-map {
+    &.#{$type} {
+      border-left-color: $color;
+
+      i.icon {
+        color: $color;
+      }
+
+      i.details-icon {
+        color: $color;
+      }
+    }
+  }
+
+  @each $type, $color in $admonition-background-color-map {
+    &.#{$type} {
+      background-color: $color;
+
+      .admonition-title {
+        border-bottom-color: $color;
+        background-color: opacify($color, 0.15);
+      }
+
+      &.open .admonition-title {
+        background-color: $color;
+      }
+    }
+  }
+
+  &:last-child {
+    margin-bottom: .75rem;
+  }
+}
+
+
+

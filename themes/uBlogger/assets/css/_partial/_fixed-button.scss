@@ -1,0 +1,29 @@
+#fixed-buttons {
+  display: none;
+}
+
+.fixed-button {
+  display: none;
+  z-index: 100;
+  position: fixed;
+  right: 1.5rem;
+  padding: .31rem .75rem;
+  background: $header-background-color;
+  @include border-radius(2rem);
+  @include transition(color 0.4s ease);
+
+  @include blur;
+
+  [theme=dark] & {
+    background: $header-background-color-dark;
+  }
+}
+
+#back-to-top {
+  display: block;
+  bottom: 1.5rem;
+}
+
+#view-comments {
+  bottom: 4.5rem;
+}
