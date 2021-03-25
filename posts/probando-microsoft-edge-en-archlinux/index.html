@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>Probando Microsoft Edge en Archlinux! | </title><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/microsoft-edge.jpeg"/>
+<meta name="twitter:title" content="Probando Microsoft Edge en Archlinux!"/>
+<meta name="twitter:description" content="Microsoft Edge ya soporta el inicio de sesión y la sincronización."/><meta name="twitter:creator" content="@linuxmobile"/><meta name="Description" content="Microsoft Edge ya soporta el inicio de sesión y la sincronización."><meta property="og:title" content="Probando Microsoft Edge en Archlinux!" />
+<meta property="og:description" content="Microsoft Edge ya soporta el inicio de sesión y la sincronización." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" /><meta property="og:image" content="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/microsoft-edge.jpeg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-25T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-25T09:44:25-03:00" />
+
+<meta name="application-name" content="Soy Linux, un fan de arch">
+<meta name="apple-mobile-web-app-title" content="Soy Linux, un fan de arch"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><meta name="google-site-verification" content="SDbEwJuI9jkW1VQ2BuIkjkxV8kMAFhDxoKfrFJhFikw" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Probando Microsoft Edge en Archlinux!",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/linuxmobile.github.io\/posts\/probando-microsoft-edge-en-archlinux\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/linuxmobile.github.io\/posts\/probando-microsoft-edge-en-archlinux\/microsoft-edge.jpeg",
+                            "width":  2120 ,
+                            "height":  1192 
+                        }],"genre": "posts","keywords": "microsoft, browser, edge","wordCount":  328 ,
+        "url": "https:\/\/linuxmobile.github.io\/posts\/probando-microsoft-edge-en-archlinux\/","datePublished": "2021-03-25T00:00:00+00:00","dateModified": "2021-03-25T09:44:25-03:00","license": "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.","description": "Microsoft Edge ya soporta el inicio de sesión y la sincronización."
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https:\/\/linuxmobile.github.io"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "software",
+            "item": "https://linuxmobile.github.io/categories/software/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Probando Microsoft Edge en Archlinux!"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="linuxmobile" class="header-logo logo-svg"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>I&#39;m linux, arch fan</a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="menu-inner"><li>
+                        <a class="menu-item" href="/posts/"> Posts </a>
+                    </li><li>
+                        <a class="menu-item" href="/tags/"> Etiquetas </a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/"> Categorías </a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/documentation/"> Docs </a>
+                    </li><li>
+                        <a class="menu-item" href="/about/"> Acerca </a>
+                    </li><li>
+                        <a class="menu-item" href="/dotfiles/"> DOTFILES </a>
+                    </li><li>
+                        <a class="menu-item" href="https://github.com/linuxmobile" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a>
+                    </li></ul>
+            </nav><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <span class="svg-icon icon-search"></span>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <span class="svg-icon icon-cancel"></span>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <span class="svg-icon icon-loading"></span>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <span class="svg-icon icon-moon"></span>
+                </a>
+            </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="linuxmobile" class="header-logo"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>I&#39;m linux, arch fan</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <span class="svg-icon icon-search"></span>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <span class="svg-icon icon-cancel"></span>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <span class="svg-icon icon-loading"></span>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><nav>
+                <ul><li>
+                        <a class="menu-item" href="/posts/" title="">Posts</a>
+                    </li><li>
+                        <a class="menu-item" href="/tags/" title="">Etiquetas</a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/" title="">Categorías</a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/documentation/" title="">Docs</a>
+                    </li><li>
+                        <a class="menu-item" href="/about/" title="">Acerca</a>
+                    </li><li>
+                        <a class="menu-item" href="/dotfiles/" title="">DOTFILES</a>
+                    </li><li>
+                        <a class="menu-item" href="https://github.com/linuxmobile" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a>
+                    </li></ul>
+            </nav>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <span class="svg-icon icon-moon"></span>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+<div class="container content-article page-toc theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contenido</div>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div>
+
+    <div class="header-post">
+
+        
+
+        
+        <div class="post-title">
+
+                <div class="post-all-meta">
+                    <nav class="breadcrumbs">
+    <ol>
+        <li><a href="/">Inicio </a></li><li><a href="/categories/software/">software </a></li><li>Probando Microsoft Edge en Archlinux!</li>
+    </ol>
+</nav>
+                    <h1 class="single-title flipInX">Probando Microsoft Edge en Archlinux!</h1><div class="post-meta">
+                        <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/software/"><i class="svg-icon icon-folder"></i>software</a>
+                            </span><span class="post-meta-date">
+                                <i class="svg-icon icon-clock"></i><time class="timeago" datetime="2021-03-25">2021-03-25</time>
+                            </span><span class="post-meta-words">
+                                <i class="svg-icon icon-pencil"></i>328 palabras
+                            </span>
+                            <span class="post-meta-reading">
+                                <i class="svg-icon icon-stopwatch"></i>2 minutos
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+    <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="image-theme-classic">
+                <img src="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/microsoft-edge.jpeg" style="width: 100%">
+            </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#una-actualización-interesante">Una actualización interesante.</a></li>
+    <li><a href="#habilitarlo">Habilitarlo:</a></li>
+    <li><a href="#mi-opinión-sobre-el-navegador">Mi opinión sobre el navegador:</a></li>
+  </ul>
+</nav></div>
+            </div><p>No soy un gran fanático de los productos de Microsoft, tampoco suelo cambiar de navegador aunque admito que he probado la mayoría de ellos.
+Sin embargo, he tomado la decisión de probar <code>Microsoft Edge</code> ya que mi esposa suele utilizarlo como su navegador predeterminado!</p>
+<p><em>Algo que quería aclarar es que está en fase de desarrollo, por ende no se puede descargar desde su propia web.</em> Sin embargo en <code>Archlinux</code>, tenemos nuestro amado <code>AUR</code> así que solo basta con un simple <code>yay -S microsoft-edge</code> y ya podemos probarlo sin problemas.</p>
+<hr>
+<h2 id="una-actualización-interesante">Una actualización interesante.</h2>
+<p>Para ponerlos un poco en contexto, Microsoft anunció en 2019 <code>Edge</code> para linux. Desde entonces ha habido un excelente progreso con respecto al navegador para nuestro SO favorito.</p>
+<p><code>Microsoft Edge Dev</code> anunció recientemente la función de inicio de sesión y sincronización. <strong>Por esta razón decidí instalarlo en Archlinux</strong> No es que yo utilice o estuviera espereando esta función, pero a mi Esposa le va a ser muy útil y valiosa.</p>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Hey there, Insiders! Dev channel update to version 91.0.831.1 is rolling out now. Linux users may spot something interesting and we&#39;ve implemented more in-browser themes. Check out these updates and more in Josh&#39;s change summary on our Insider forums here: <a href="https://t.co/u7ArMf0HLT">https://t.co/u7ArMf0HLT</a> <a href="https://t.co/NxSKw3oa1R">pic.twitter.com/NxSKw3oa1R</a></p>&mdash; Microsoft Edge Dev (@MSEdgeDev) <a href="https://twitter.com/MSEdgeDev/status/1374420160463785989?ref_src=twsrc%5Etfw">March 23, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p><code>Microsoft Edge</code> es la primera versión con esta característica. Lo que significa para nosotros (los usuarios) es que vamos a poder sincronizar nuestras extensiones, contraseñas y más.</p>
+<h2 id="habilitarlo">Habilitarlo:</h2>
+<p>No viene por defecto habilitado, por ende, vamos a tener que hacerlo de manera manual. No es dificil, abrimos <code>Edge</code> y en el barra escribimos <code>edge://flags</code></p>
+<a target="_blank" href="enable.png" title="/posts/probando-microsoft-edge-en-archlinux/enable.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="enable.png"
+            alt="/posts/probando-microsoft-edge-en-archlinux/enable.png"
+        />
+    </a>
+<h2 id="mi-opinión-sobre-el-navegador">Mi opinión sobre el navegador:</h2>
+<p>Con total sinceridad <strong>el navegador me parece excelente</strong>. No cambiaría mi apreciado <code>Firefox</code> pero puedo decir que Microsoft ha estado haciendo un trabajo excelente. Tiene poco consumo de ram. Un manejo excelente de la interfaz <em>(algunos puede gustarles, y a otros puede que no).</em></p>
+<figure><a target="_blank" href="microsoft.png" title="/posts/probando-microsoft-edge-en-archlinux/microsoft.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="microsoft.png"
+            alt="/posts/probando-microsoft-edge-en-archlinux/microsoft.png"
+        />
+    </a><figcaption class="image-caption">Testeando Microsoft en mi Arch</figcaption>
+    </figure>
+<p><em>Tu qué harías? Probarías Edge en tu Distribución?</em></p></div>
+
+            <div class="post" style="padding-top: 0">
+
+
+<div class="post-share"><div class="share-link">
+        <a class="share-icon share-twitter" href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!" data-via="linuxmobile" data-hashtags="microsoft,browser,edge"><span class="svg-social-icon icon-twitter"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-facebook" href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-hashtag="microsoft"><span class="svg-social-icon icon-facebook"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-whatsapp" href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!" data-web><span class="svg-social-icon icon-whatsapp"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-pinterest" href="javascript:void(0);" title="Compartir en Pinterest" data-sharer="pinterest" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-description="Microsoft Edge ya soporta el inicio de sesión y la sincronización."><span class="svg-social-icon icon-pinterest"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-tumblr" href="javascript:void(0);" title="Compartir en Tumblr" data-sharer="tumblr" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!" data-caption="Microsoft Edge ya soporta el inicio de sesión y la sincronización." data-tags="microsoft,browser,edge"><span class="svg-social-icon icon-tumblr"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-reddit" href="javascript:void(0);" title="Compartir en Reddit" data-sharer="reddit" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/"><span class="svg-social-icon icon-reddit"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-pocket" href="javascript:void(0);" title="Compartir en Pocket" data-sharer="pocket" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/"><span class="svg-social-icon icon-pocket"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-flipboard" href="javascript:void(0);" title="Compartir en Flipboard" data-sharer="flipboard" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!"><span class="svg-social-icon icon-flipboard"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-weibo" href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!"><span class="svg-social-icon icon-weibo"></span></a>
+    </div><div class="share-link">
+    <a class="share-icon share-hackernews" href="javascript:void(0);" title="Compartir en Hacker News" data-sharer="hackernews" data-url="https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/" data-title="Probando Microsoft Edge en Archlinux!"><span class="svg-social-icon icon-hacker-news"></span></a>
+    </div></div>
+<div class="post-tags"><a href="/tags/microsoft/" class="tag">microsoft</a><a href="/tags/browser/" class="tag">browser</a><a href="/tags/edge/" class="tag">edge</a></div></div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class="page single comments content-block-position"><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></div></div>
+
+</main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2019 - 2021</span><span class="author">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="svg-icon icon-arrow-up"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="svg-icon icon-comments-fixed"></i>
+            </a>
+        </div><script src="https://n00b2h4ck3r.disqus.com/embed.js" defer></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	        ga('create', 'UA-176116253-1', 'auto');
+	        ga('set', 'anonymizeIp', true);
+	        ga('send', 'pageview');
+	    </script></body>
+</html>

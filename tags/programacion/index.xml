@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>programacion - Etiqueta - linuxmobile</title>
+        <link>https://linuxmobile.github.io/tags/programacion/</link>
+        <description>programacion - Etiqueta - linuxmobile</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/programacion/" rel="self" type="application/rss+xml" /><item>
+    <title>Sonic Pi. Aprende programación con la música!</title>
+    <link>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</link>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</guid>
+    <description><![CDATA[<p>Sonic Pi es un proyecto social más que un software en sí. Y es que ha conseguido unificar la creatividad con el aprendizaje de programación. Consiguiendo que quienes quieran aprender a programar y sean melómanos puedan divertirse creando sus propios temas mientras aprenden a programar casi sin darse cuenta.</p>]]></description>
+</item></channel>
+</rss>

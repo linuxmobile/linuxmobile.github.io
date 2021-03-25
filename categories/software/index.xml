@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>software - Categoría - linuxmobile</title>
+        <link>https://linuxmobile.github.io/categories/software/</link>
+        <description>software - Categoría - linuxmobile</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/software/" rel="self" type="application/rss+xml" /><item>
+    <title>Probando Microsoft Edge en Archlinux!</title>
+    <link>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</link>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</guid>
+    <description><![CDATA[<p>No soy un gran fanático de los productos de Microsoft, tampoco suelo cambiar de navegador aunque admito que he probado la mayoría de ellos.
+Sin embargo, he tomado la decisión de probar <code>Microsoft Edge</code> ya que mi esposa suele utilizarlo como su navegador predeterminado!</p>]]></description>
+</item></channel>
+</rss>

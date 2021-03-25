@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>gnu - Etiqueta - linuxmobile</title>
+        <link>https://linuxmobile.github.io/tags/gnu/</link>
+        <description>gnu - Etiqueta - linuxmobile</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/gnu/" rel="self" type="application/rss+xml" /><item>
+    <title>Sonic Pi. Aprende programación con la música!</title>
+    <link>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</link>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</guid>
+    <description><![CDATA[<p>Sonic Pi es un proyecto social más que un software en sí. Y es que ha conseguido unificar la creatividad con el aprendizaje de programación. Consiguiendo que quienes quieran aprender a programar y sean melómanos puedan divertirse creando sus propios temas mientras aprenden a programar casi sin darse cuenta.</p>]]></description>
+</item><item>
+    <title>Ya disponible las primeras compilaciones de Elementary OS 6</title>
+    <link>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</link>
+    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</guid>
+    <description><![CDATA[<p>Ya disponemos las primeras versiones de Elementary OS 6 para que los usuarios puedan probar todas las novedades.</p>]]></description>
+</item></channel>
+</rss>

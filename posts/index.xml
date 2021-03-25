@@ -1,0 +1,79 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Todos los Artículos - linuxmobile</title>
+        <link>https://linuxmobile.github.io/posts/</link>
+        <description>Todos los Artículos | linuxmobile</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Probando Microsoft Edge en Archlinux!</title>
+    <link>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</link>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</guid>
+    <description><![CDATA[<p>No soy un gran fanático de los productos de Microsoft, tampoco suelo cambiar de navegador aunque admito que he probado la mayoría de ellos.
+Sin embargo, he tomado la decisión de probar <code>Microsoft Edge</code> ya que mi esposa suele utilizarlo como su navegador predeterminado!</p>]]></description>
+</item><item>
+    <title>Sonic Pi. Aprende programación con la música!</title>
+    <link>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</link>
+    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</guid>
+    <description><![CDATA[<p>Sonic Pi es un proyecto social más que un software en sí. Y es que ha conseguido unificar la creatividad con el aprendizaje de programación. Consiguiendo que quienes quieran aprender a programar y sean melómanos puedan divertirse creando sus propios temas mientras aprenden a programar casi sin darse cuenta.</p>]]></description>
+</item><item>
+    <title>Las mejores herramientas de Pen Testing para explorar con tu teléfono</title>
+    <link>https://linuxmobile.github.io/posts/las-mejores-herramientas-de-pen-testing-para-explorar-con-tu-tel%C3%A9fono/</link>
+    <pubDate>Tue, 25 Aug 2020 10:11:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/las-mejores-herramientas-de-pen-testing-para-explorar-con-tu-tel%C3%A9fono/</guid>
+    <description><![CDATA[<h1>Parte 1</h1>
+Las mejores herramientas de Pen Tensting que se pueden encontrar en BlackArch para penetrar un móvil.]]></description>
+</item><item>
+    <title>KTweak un nuevo mod para tu kernel</title>
+    <link>https://linuxmobile.github.io/posts/ktweak-un-nuevo-mod-para-tu-kernel/</link>
+    <pubDate>Sat, 22 Aug 2020 14:50:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/ktweak-un-nuevo-mod-para-tu-kernel/</guid>
+    <description><![CDATA[<p>KTweak es un mod para optimizar el rendimiento de tu kernel en Android.</p>]]></description>
+</item><item>
+    <title>Apple corta las actualizaciones de la app de Wordpress en la store.</title>
+    <link>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</link>
+    <pubDate>Sat, 22 Aug 2020 10:58:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</guid>
+    <description><![CDATA[<p>El fundador de Wordpress afirma que Apple cortó las actualizaciones de su aplicación completamente gratuita porque quiere un 30%</p>]]></description>
+</item><item>
+    <title>Seeker. Una herramienta para obtener datos de GeoLocalización</title>
+    <link>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</link>
+    <pubDate>Fri, 21 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</guid>
+    <description><![CDATA[<p>Seeker, una herramienta para localizar con precisión cualquier móvil utilizando ingenería social.</p>]]></description>
+</item><item>
+    <title>Nueva falla en smartphones Xiaomi</title>
+    <link>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</link>
+    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</guid>
+    <description><![CDATA[<p>Nueva falla en smartphones Xiaomi permite usar el escáner de huellas dactilares como una cámara.</p>]]></description>
+</item><item>
+    <title>Ya disponible las primeras compilaciones de Elementary OS 6</title>
+    <link>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</link>
+    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</guid>
+    <description><![CDATA[<p>Ya disponemos las primeras versiones de Elementary OS 6 para que los usuarios puedan probar todas las novedades.</p>]]></description>
+</item><item>
+    <title>La mejor app para compartir pantalla &#39;Scrcpy&#39; se actualiza</title>
+    <link>https://linuxmobile.github.io/posts/la-mejor-app-para-compartir-pantalla-scrcpy-se-actualiza/</link>
+    <pubDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/la-mejor-app-para-compartir-pantalla-scrcpy-se-actualiza/</guid>
+    <description><![CDATA[<p>Ya está disponible una nueva versión de Scrcpy, la manera más fácil de de compartir la pantalla de tu Android e interactuar con él</p>]]></description>
+</item><item>
+    <title>r/unixporn | Una comunidad de &#39;nix lovers</title>
+    <link>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</link>
+    <pubDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</guid>
+    <description><![CDATA[<p>r/unixporn una comunidad dedicada a todos aquellos amantes de modificar la apariencia de su escritorio.</p>]]></description>
+</item></channel>
+</rss>
