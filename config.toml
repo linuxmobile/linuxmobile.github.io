@@ -244,7 +244,7 @@ enableEmoji = true
   # Header config
   [params.header]
     # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
+    desktopMode = "auto"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
     # Header title config
