@@ -3,7 +3,14 @@
         <title>linux - Categoría - linuxmobile</title>
         <link>https://linuxmobile.github.io/categories/linux/</link>
         <description>linux - Categoría - linuxmobile</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 27 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch dentro de Windows 10 (wsl2)</title>
+    <link>https://linuxmobile.github.io/posts/arch-dentro-de-windows-10-wsl2/</link>
+    <pubDate>Sat, 27 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/arch-dentro-de-windows-10-wsl2/</guid>
+    <description><![CDATA[<p>Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.</p>]]></description>
+</item><item>
     <title>Ya disponible las primeras compilaciones de Elementary OS 6</title>
     <link>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</link>
     <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>

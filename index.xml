@@ -3,9 +3,16 @@
         <title>linuxmobile</title>
         <link>https://linuxmobile.github.io/</link>
         <description>Un sitio para aprender sobre tecnologías</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 27 Mar 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://linuxmobile.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Arch dentro de Windows 10 (wsl2)</title>
+    <link>https://linuxmobile.github.io/posts/arch-dentro-de-windows-10-wsl2/</link>
+    <pubDate>Sat, 27 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/arch-dentro-de-windows-10-wsl2/</guid>
+    <description><![CDATA[<p>Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.</p>]]></description>
+</item><item>
     <title>Probando Microsoft Edge en Archlinux!</title>
     <link>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</link>
     <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
@@ -70,12 +77,5 @@ Las mejores herramientas de Pen Tensting que se pueden encontrar en BlackArch pa
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/la-mejor-app-para-compartir-pantalla-scrcpy-se-actualiza/</guid>
     <description><![CDATA[<p>Ya está disponible una nueva versión de Scrcpy, la manera más fácil de de compartir la pantalla de tu Android e interactuar con él</p>]]></description>
-</item><item>
-    <title>r/unixporn | Una comunidad de &#39;nix lovers</title>
-    <link>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</link>
-    <pubDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</guid>
-    <description><![CDATA[<p>r/unixporn una comunidad dedicada a todos aquellos amantes de modificar la apariencia de su escritorio.</p>]]></description>
 </item></channel>
 </rss>
