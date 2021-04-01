@@ -1,6 +1,6 @@
 ---
 weight: 1
-title: "Arch dentro de Windows 10 (wsl2)"
+title: "Instalando Arch-WSL2 en Windows 2021"
 date: 2021-03-27
 lastmod: 2021-03-27
 draft: false
