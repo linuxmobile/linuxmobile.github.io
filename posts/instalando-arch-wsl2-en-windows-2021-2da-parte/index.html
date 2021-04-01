@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noodp"/><title>Instalando Arch-WSL2 en Windows 2021 - 2da Parte | </title><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/wsl2.jpeg"/>
+<meta name="twitter:title" content="Instalando Arch-WSL2 en Windows 2021 - 2da Parte"/>
+<meta name="twitter:description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."/><meta name="twitter:creator" content="@linuxmobile"/><meta name="Description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."><meta property="og:title" content="Instalando Arch-WSL2 en Windows 2021 - 2da Parte" />
+<meta property="og:description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" /><meta property="og:image" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/wsl2.jpeg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-31T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-03-31T21:06:56-03:00" />
+
+<meta name="application-name" content="Soy Linux, un fan de arch">
+<meta name="apple-mobile-web-app-title" content="Soy Linux, un fan de arch"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><meta name="google-site-verification" content="SDbEwJuI9jkW1VQ2BuIkjkxV8kMAFhDxoKfrFJhFikw" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Instalando Arch-WSL2 en Windows 2021 - 2da Parte",
+        "inLanguage": "es",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/linuxmobile.github.io\/posts\/instalando-arch-wsl2-en-windows-2021-2da-parte\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/linuxmobile.github.io\/posts\/instalando-arch-wsl2-en-windows-2021-2da-parte\/wsl2.jpeg",
+                            "width":  1000 ,
+                            "height":  420 
+                        }],"genre": "posts","keywords": "linux, wsl2, windows, arch","wordCount":  469 ,
+        "url": "https:\/\/linuxmobile.github.io\/posts\/instalando-arch-wsl2-en-windows-2021-2da-parte\/","datePublished": "2021-03-31T00:00:00+00:00","dateModified": "2021-03-31T21:06:56-03:00","license": "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.","description": "Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Inicio",
+            "item": "https:\/\/linuxmobile.github.io"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "linux",
+            "item": "https://linuxmobile.github.io/categories/linux/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Instalando Arch-WSL2 en Windows 2021 - 2da Parte"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="auto" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="linuxmobile" class="header-logo logo-svg"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>I&#39;m linux, arch fan</a>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul class="menu-inner"><li>
+                        <a class="menu-item" href="/posts/"> Posts </a>
+                    </li><li>
+                        <a class="menu-item" href="/tags/"> Etiquetas </a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/"> Categorías </a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/documentation/"> Docs </a>
+                    </li><li>
+                        <a class="menu-item" href="/about/"> Acerca </a>
+                    </li><li>
+                        <a class="menu-item" href="/dotfiles/"> DOTFILES </a>
+                    </li><li>
+                        <a class="menu-item" href="https://github.com/linuxmobile" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a>
+                    </li></ul>
+            </nav><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Buscar">
+                            <span class="svg-icon icon-search"></span>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Limpiar">
+                            <span class="svg-icon icon-cancel"></span>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <span class="svg-icon icon-loading"></span>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                    <span class="svg-icon icon-moon"></span>
+                </a>
+            </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="linuxmobile" class="header-logo"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>I&#39;m linux, arch fan</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Busca títulos o contenido..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Buscar">
+                            <span class="svg-icon icon-search"></span>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Limpiar">
+                            <span class="svg-icon icon-cancel"></span>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <span class="svg-icon icon-loading"></span>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancelar
+                    </a>
+                </div><nav>
+                <ul><li>
+                        <a class="menu-item" href="/posts/" title="">Posts</a>
+                    </li><li>
+                        <a class="menu-item" href="/tags/" title="">Etiquetas</a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/" title="">Categorías</a>
+                    </li><li>
+                        <a class="menu-item" href="/categories/documentation/" title="">Docs</a>
+                    </li><li>
+                        <a class="menu-item" href="/about/" title="">Acerca</a>
+                    </li><li>
+                        <a class="menu-item" href="/dotfiles/" title="">DOTFILES</a>
+                    </li><li>
+                        <a class="menu-item" href="https://github.com/linuxmobile" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a>
+                    </li></ul>
+            </nav>
+            <a href="javascript:void(0);" class="menu-item theme-switch" title="Cambia el tema">
+                <span class="svg-icon icon-moon"></span>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+<div class="container content-article page-toc theme-classic"><div class="toc" id="toc-auto">
+            <div class="toc-title">Contenido</div>
+            <div class="toc-content always-active" id="toc-content-auto"></div>
+        </div>
+
+    <div class="header-post">
+
+        
+
+        
+        <div class="post-title">
+
+                <div class="post-all-meta">
+                    <nav class="breadcrumbs">
+    <ol>
+        <li><a href="/">Inicio </a></li><li><a href="/categories/linux/">linux </a></li><li>Instalando Arch-WSL2 en Windows 2021 - 2da Parte</li>
+    </ol>
+</nav>
+                    <h1 class="single-title flipInX">Instalando Arch-WSL2 en Windows 2021 - 2da Parte</h1><div class="post-meta">
+                        <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/linux/"><i class="svg-icon icon-folder"></i>linux</a>
+                            </span><span class="post-meta-date">
+                                <i class="svg-icon icon-clock"></i><time class="timeago" datetime="2021-03-31">2021-03-31</time>
+                            </span><span class="post-meta-words">
+                                <i class="svg-icon icon-pencil"></i>469 palabras
+                            </span>
+                            <span class="post-meta-reading">
+                                <i class="svg-icon icon-stopwatch"></i>3 minutos
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
+    <article class="single toc-start">
+
+        <div class="content-block content-block-first content-block-position">
+
+        <div class="post"><div class="image-theme-classic">
+                <img src="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/wsl2.jpeg" style="width: 100%">
+            </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contenido</span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#instalando-arch-en-wsl2">Instalando Arch en WSL2</a></li>
+    <li><a href="#configurando-arch">Configurando Arch</a></li>
+    <li><a href="#configurando-arch-desde-dentro">Configurando arch desde dentro</a></li>
+    <li><a href="#instalamos-yay">Instalamos yay</a></li>
+    <li><a href="#listo">Listo!</a></li>
+  </ul>
+</nav></div>
+            </div><p>Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.</p>
+<div class="details admonition tip open">
+        <div class="details-summary admonition-title "><i class="icon admonition-icon icon-tip"></i>**INFO**<i class="details-icon  admonition-icon admonition-icon-arrow-right"></i></div>
+        <div class="details-content">
+            <div class="admonition-content">En este tutorial, vamos a aprender como instalar Archlinux dentro de Windows con WSL2 (lo cual no es soportado de forma nativa con Windows).</div>
+        </div>
+    </div>
+<h2 id="intro">Intro</h2>
+<p>Para estas instancias del tutorial, ya deberías haber instalado <code>WSL2</code>. Si aún no lo has hecho te recomiendo que veas nuestro post anterior.</p>
+<h2 id="instalando-arch-en-wsl2">Instalando Arch en WSL2</h2>
+<figure><a target="_blank" href="https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Arch_Alpine_Ubuntu.png" title="https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Arch_Alpine_Ubuntu.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Arch_Alpine_Ubuntu.png"
+            alt="https://raw.githubusercontent.com/wiki/yuk7/wsldl/img/Arch_Alpine_Ubuntu.png"
+        />
+    </a><figcaption class="image-caption">archwsl.</figcaption>
+    </figure>
+<p>Si seguiste todo al pie de la letra, <strong>no debería tener mayores complicaciones instalar</strong> <code>Arch</code> dentro de windows.</p>
+<ol>
+<li>Descargamos lo necesario <code><a href="https://github.com/yuk7/ArchWSL/releases/latest" target="_blank" rel="noopener noreffer">desde aquí</a></code></li>
+</ol>
+<a target="_blank" href="release.png" title="/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/release.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="release.png"
+            alt="/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/release.png"
+        />
+    </a>
+<ol start="2">
+<li>En el link vamos a encontrar tres archivos diferentes. Uno es un <code>.Appx</code>, otro es un <code>.cer</code> y un <code>.zip</code>.
+<em>Solo vamos a necesitar el .appx y .cer</em></li>
+<li>Una vez hayamos descargado debemos instalar el archivo <code>.cer</code> de manera manual.</li>
+</ol>
+<p><a target="_blank" href="https://wsldl-pg.github.io/ArchW-docs/img/cert/1.install.png" title="https://wsldl-pg.github.io/ArchW-docs/img/cert/1.install.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="https://wsldl-pg.github.io/ArchW-docs/img/cert/1.install.png"
+            alt="https://wsldl-pg.github.io/ArchW-docs/img/cert/1.install.png"
+        />
+    </a>
+<a target="_blank" href="https://wsldl-pg.github.io/ArchW-docs/img/cert/2.to-localmachine.png" title="https://wsldl-pg.github.io/ArchW-docs/img/cert/2.to-localmachine.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="https://wsldl-pg.github.io/ArchW-docs/img/cert/2.to-localmachine.png"
+            alt="https://wsldl-pg.github.io/ArchW-docs/img/cert/2.to-localmachine.png"
+        />
+    </a>
+<a target="_blank" href="https://wsldl-pg.github.io/ArchW-docs/img/cert/3.to-following.png" title="https://wsldl-pg.github.io/ArchW-docs/img/cert/3.to-following.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="https://wsldl-pg.github.io/ArchW-docs/img/cert/3.to-following.png"
+            alt="https://wsldl-pg.github.io/ArchW-docs/img/cert/3.to-following.png"
+        />
+    </a>
+<a target="_blank" href="https://wsldl-pg.github.io/ArchW-docs/img/cert/4.to-rootstore.png" title="https://wsldl-pg.github.io/ArchW-docs/img/cert/4.to-rootstore.png" >
+        <img loading="lazy" decoding="async"
+            data-sizes="auto"
+             src="https://wsldl-pg.github.io/ArchW-docs/img/cert/4.to-rootstore.png"
+            alt="https://wsldl-pg.github.io/ArchW-docs/img/cert/4.to-rootstore.png"
+        />
+    </a></p>
+<ol start="4">
+<li>Luego de haber instalado el certificado correctamente, vamos a instalar el <code>.appx</code>.
+Una forma sencilla de hacerlo es con doble click e instalan. Pero en caso de que (como yo) tengan algún inconveniente de instalar
+corren este comando en la shell, y se les instala sin problemas. (Recuerden que para tirar el comando deben abrir powershell en la carpeta donde tienen descargado el <code>.appx</code>)</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-AppxPackage</span> <span class="n">ArchWSL-AppX_20</span><span class="p">.</span><span class="n">11</span><span class="p">.</span><span class="n">25</span><span class="p">.</span><span class="n">0_x64</span><span class="p">.</span><span class="n">appx</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="configurando-arch">Configurando Arch</h2>
+<p><em>Sí todo salió bien luego de la instalación les aparecerá el ícono de Arch para poder correr el subsistema. Entonces corriendo arch, vamos a ejecutar estos comandos para poder configurarlo.</em></p>
+<ol>
+<li>Configuramos el Usuario y Contraseña</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># Configuras tu contraseña root</span>
+<span class="n">passwd</span>
+<span class="c"># Configuras el archivo sudoers</span>
+<span class="nb">echo </span><span class="s2">&#34;%wheel ALL=(ALL) ALL&#34;</span> <span class="p">&gt;</span> <span class="p">/</span><span class="n">etc</span><span class="p">/</span><span class="n">sudoers</span><span class="p">.</span><span class="n">d</span><span class="p">/</span><span class="n">wheel</span>
+<span class="c"># Añades tu usuario</span>
+<span class="n">useradd</span> <span class="n">-m</span> <span class="n">-G</span> <span class="n">wheel</span> <span class="n">-s</span> <span class="p">/</span><span class="n">bin</span><span class="p">/</span><span class="n">bash</span> <span class="n">yourusername</span>
+<span class="c"># Configuras la contraseña de tu usuario</span>
+<span class="n">passwd</span> <span class="n">yourusername</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Y cierras.</p>
+<ol start="2">
+<li>Abres nuevamente la powershell y escribes:</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">Arch</span><span class="p">.</span><span class="n">exe</span> <span class="n">config</span> <span class="p">-</span><span class="n">-default-user</span> <span class="n">yourusername</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="configurando-arch-desde-dentro">Configurando arch desde dentro</h2>
+<p><em>Bien, ya tienes configurado arch para poder utilizarlo, pero debemos configurar arch para que pueda ser usado tal y como es</em></p>
+<ol>
+<li>Iniciamos los keyrings (necesario para poder correr pacman)</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">sudo</span> <span class="n">pacman-key</span> <span class="p">-</span><span class="n">-init</span> <span class="p">&amp;&amp;</span> <span class="n">sudo</span> <span class="n">pacman-key</span> <span class="p">-</span><span class="n">-populate</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="2">
+<li>Actualizamos pacman e instalamos algunas utilidades.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">sudo</span> <span class="n">pacman</span> <span class="n">-Syy</span> <span class="p">&amp;&amp;</span> <span class="n">sudo</span> <span class="n">pacman</span> <span class="n">-S</span> <span class="n">base</span> <span class="n">base-devel</span> <span class="n">git</span> <span class="n">nano</span> <span class="nb">wget </span><span class="n">reflector</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>Habilitamos multilib</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">linenumber</span><span class="p">=$(</span><span class="n">grep</span> <span class="n">-nr</span> <span class="s2">&#34;\\#\\[multilib\\]&#34;</span> <span class="p">/</span><span class="n">etc</span><span class="p">/</span><span class="n">pacman</span><span class="p">.</span><span class="n">conf</span> <span class="p">|</span> <span class="n">gawk</span> <span class="s1">&#39;{print $1}&#39;</span> <span class="n">FS</span><span class="p">=</span><span class="s2">&#34;:&#34;</span><span class="p">)</span>
+<span class="n">sed</span> <span class="n">-i</span> <span class="s2">&#34;${linenumber}s:.*:[multilib]:&#34;</span> <span class="p">/</span><span class="n">etc</span><span class="p">/</span><span class="n">pacman</span><span class="p">.</span><span class="n">conf</span>
+<span class="n">linenumber</span><span class="p">=$((</span><span class="n">linenumber</span><span class="p">+</span><span class="n">1</span><span class="p">))</span>
+<span class="n">sed</span> <span class="n">-i</span> <span class="s2">&#34;${linenumber}s:.*:Include = /etc/pacman.d/mirrorlist:&#34;</span> <span class="p">/</span><span class="n">etc</span><span class="p">/</span><span class="n">pacman</span><span class="p">.</span><span class="n">conf</span>
+
+<span class="c"># actualizamos nuevamente</span>
+<span class="n">pacman</span> <span class="n">-Syy</span>
+</code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>Actualizamos los mirrors con reflector</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">reflector</span> <span class="p">-</span><span class="n">-verbose</span> <span class="p">-</span><span class="n">-latest</span> <span class="n">5</span> <span class="p">-</span><span class="n">-sort</span> <span class="n">rate</span> <span class="p">-</span><span class="n">-save</span> <span class="p">/</span><span class="n">etc</span><span class="p">/</span><span class="n">pacman</span><span class="p">.</span><span class="n">d</span><span class="p">/</span><span class="n">mirrorlist</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="instalamos-yay">Instalamos yay</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">mkdir</span> <span class="p">~/</span><span class="n">yay</span> <span class="p">&amp;&amp;</span> <span class="nb">cd </span><span class="p">~/</span><span class="n">yay</span>
+<span class="nb">wget </span><span class="s2">&#34;https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=yay&#34;</span> <span class="p">-</span><span class="n">-output-document</span><span class="p">=./</span><span class="n">PKGBUILD</span>
+<span class="n">makepkg</span> <span class="n">-si</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="listo">Listo!</h2>
+<p><em>Ahora con Arch instalado dentro de windows, podremos hacer cuanto quisieramos. Luego más adelante realizaré otro tutorial, enseñando a instalar ohmyzsh y algunos plugins interesantes para esta hermosa herramienta.</em></p>
+<h1 id="no-se-pierdan-nuestro-próximo-post-y-si-tuvieron-algún-problema-no-duden-en-escribirnos-en-los-comentarios">No se pierdan nuestro próximo post, y si tuvieron algún problema, no duden en escribirnos en los comentarios!!!</h1></div>
+
+            <div class="post" style="padding-top: 0">
+
+
+<div class="post-share"><div class="share-link">
+        <a class="share-icon share-twitter" href="javascript:void(0);" title="Compartir en Twitter" data-sharer="twitter" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte" data-via="linuxmobile" data-hashtags="linux,wsl2,windows,arch"><span class="svg-social-icon icon-twitter"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-facebook" href="javascript:void(0);" title="Compartir en Facebook" data-sharer="facebook" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-hashtag="linux"><span class="svg-social-icon icon-facebook"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-whatsapp" href="javascript:void(0);" title="Compartir en WhatsApp" data-sharer="whatsapp" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte" data-web><span class="svg-social-icon icon-whatsapp"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-pinterest" href="javascript:void(0);" title="Compartir en Pinterest" data-sharer="pinterest" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-description="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."><span class="svg-social-icon icon-pinterest"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-tumblr" href="javascript:void(0);" title="Compartir en Tumblr" data-sharer="tumblr" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte" data-caption="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2." data-tags="linux,wsl2,windows,arch"><span class="svg-social-icon icon-tumblr"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-reddit" href="javascript:void(0);" title="Compartir en Reddit" data-sharer="reddit" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/"><span class="svg-social-icon icon-reddit"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-pocket" href="javascript:void(0);" title="Compartir en Pocket" data-sharer="pocket" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/"><span class="svg-social-icon icon-pocket"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-flipboard" href="javascript:void(0);" title="Compartir en Flipboard" data-sharer="flipboard" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte"><span class="svg-social-icon icon-flipboard"></span></a>
+    </div><div class="share-link">
+        <a class="share-icon share-weibo" href="javascript:void(0);" title="Compartir en 微博" data-sharer="weibo" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte"><span class="svg-social-icon icon-weibo"></span></a>
+    </div><div class="share-link">
+    <a class="share-icon share-hackernews" href="javascript:void(0);" title="Compartir en Hacker News" data-sharer="hackernews" data-url="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" data-title="Instalando Arch-WSL2 en Windows 2021 - 2da Parte"><span class="svg-social-icon icon-hacker-news"></span></a>
+    </div></div>
+<div class="post-tags"><a href="/tags/linux/" class="tag">linux</a><a href="/tags/wsl2/" class="tag">wsl2</a><a href="/tags/windows/" class="tag">windows</a><a href="/tags/arch/" class="tag">arch</a></div></div>
+        </div>
+    <div id="toc-final"></div>
+    </article><div class="page single comments content-block-position"><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></div></div>
+
+</main><footer class="footer">
+        <div class="footer-container"><div class="footer-line"><i class="svg-icon icon-copyright"></i><span>2019 - 2021</span><span class="author">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Volver arriba">
+                <i class="svg-icon icon-arrow-up"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentarios">
+                <i class="svg-icon icon-comments-fixed"></i>
+            </a>
+        </div><script src="https://n00b2h4ck3r.disqus.com/embed.js" defer></script><script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script src="https://cdn.jsdelivr.net/npm/sharer.js@0.4.0/sharer.min.js"></script><script>window.config={"code":{"copyTitle":"Copiar al portapapeles","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No se encontraron resultados","snippetLength":30,"type":"algolia"}};</script><script src="/js/theme.min.js"></script><script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	        ga('create', 'UA-176116253-1', 'auto');
+	        ga('set', 'anonymizeIp', true);
+	        ga('send', 'pageview');
+	    </script></body>
+</html>

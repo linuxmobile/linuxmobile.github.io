@@ -1,4 +1,4 @@
-# Arch dentro de Windows 10 (wsl2)
+# Instalando Arch-WSL2 en Windows 2021
 
 
 Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.
@@ -84,3 +84,4 @@ te voy a dejar unos enlaces que simplemente instalas ejecutando.
 
 
 # Si te interesa continuar con el tutorial e instalar Archlinux dentro de WSL2, continúa con la segunda parte.
+
