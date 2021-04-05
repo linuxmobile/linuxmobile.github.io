@@ -6,6 +6,13 @@
         <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sun, 04 Apr 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://linuxmobile.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Cómo instalar Archlinux más fácil!</title>
+    <link>https://linuxmobile.github.io/posts/c%C3%B3mo-instalar-archlinux-m%C3%A1s-f%C3%A1cil/</link>
+    <pubDate>Sun, 04 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/c%C3%B3mo-instalar-archlinux-m%C3%A1s-f%C3%A1cil/</guid>
+    <description><![CDATA[<p>La nueva actualización de Arch Linux de este mes, ahora proporciona &ldquo;archinstall&rdquo; como el instalador guiado de Arch Linux para aquellos que prefieren una ruta más rápida y sencilla para implementar Arch Linux.</p>]]></description>
+</item><item>
     <title>Tengo Asperger y no me molesta tenerlo</title>
     <link>https://linuxmobile.github.io/posts/tengo-asperger-y-no-me-molesta-tenerlo/</link>
     <pubDate>Sun, 04 Apr 2021 00:00:00 &#43;0000</pubDate>
@@ -70,12 +77,5 @@ Las mejores herramientas de Pen Tensting que se pueden encontrar en BlackArch pa
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/seeker.-una-herramienta-para-obtener-datos-de-geolocalizaci%C3%B3n/</guid>
     <description><![CDATA[<p>Seeker, una herramienta para localizar con precisión cualquier móvil utilizando ingenería social.</p>]]></description>
-</item><item>
-    <title>Nueva falla en smartphones Xiaomi</title>
-    <link>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</link>
-    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/nueva-falla-en-smartphones-xiaomi/</guid>
-    <description><![CDATA[<p>Nueva falla en smartphones Xiaomi permite usar el escáner de huellas dactilares como una cámara.</p>]]></description>
 </item></channel>
 </rss>

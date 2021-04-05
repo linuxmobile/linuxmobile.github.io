@@ -3,7 +3,14 @@
         <title>linux - Categoría - linuxmobile</title>
         <link>https://linuxmobile.github.io/categories/linux/</link>
         <description>linux - Categoría - linuxmobile</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Wed, 31 Mar 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sun, 04 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Cómo instalar Archlinux más fácil!</title>
+    <link>https://linuxmobile.github.io/posts/c%C3%B3mo-instalar-archlinux-m%C3%A1s-f%C3%A1cil/</link>
+    <pubDate>Sun, 04 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/c%C3%B3mo-instalar-archlinux-m%C3%A1s-f%C3%A1cil/</guid>
+    <description><![CDATA[<p>La nueva actualización de Arch Linux de este mes, ahora proporciona &ldquo;archinstall&rdquo; como el instalador guiado de Arch Linux para aquellos que prefieren una ruta más rápida y sencilla para implementar Arch Linux.</p>]]></description>
+</item><item>
     <title>Instalando Arch-WSL2 en Windows 2021 - 2da Parte</title>
     <link>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/</link>
     <pubDate>Wed, 31 Mar 2021 00:00:00 &#43;0000</pubDate>
