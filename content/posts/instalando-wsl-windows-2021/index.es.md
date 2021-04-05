@@ -12,7 +12,7 @@ resources:
   src: "wsl2.jpeg"
 
 tags: ["linux", "wsl2", "windows", "arch"]
-categories: ["linux"]
+categories: ["linux", "documentation"]
 
 lightgallery: false
 
