@@ -2,7 +2,7 @@
 weight: 1
 title: "Instalando Arch-WSL2 en Windows 2021 - 2da Parte"
 date: 2021-03-31
-lastmod: 2021-03-31
+lastmod: 2021-04-08
 draft: false
 author: "Braian A. Diez"
 authorLink: "https://linuxmobile.github.io"
@@ -61,6 +61,12 @@ corren este comando en la shell, y se les instala sin problemas. (Recuerden que 
 Add-AppxPackage ArchWSL-AppX_20.11.25.0_x64.appx
 ```
 
+{{< admonition type=warning title="**WARNING**" open=true >}}
+En el caso de que tengamos un error similar a este: `HRESULT:0x80370102`. 
+Abrimos powershell **(siempre como administrador)** y ejecutamos `bcdedit /set hypervisorlaunchtype auto start` y **reiniciamos**
+{{< /admonition >}}
+
+
 ## Configurando Arch
 
 _Sí todo salió bien luego de la instalación les aparecerá el ícono de Arch para poder correr el subsistema. Entonces corriendo arch, vamos a ejecutar estos comandos para poder configurarlo._
@@ -79,7 +85,7 @@ passwd yourusername
 ```
 Y cierras.
 
-2. Abres nuevamente la powershell y escribes:
+2. Abres nuevamente la powershell (como administrador) y escribes:
 ```powershell
 Arch.exe config --default-user yourusername
 ```
@@ -95,7 +101,7 @@ sudo pacman-key --init && sudo pacman-key --populate
 
 2. Actualizamos pacman e instalamos algunas utilidades.
 ```powershell
-sudo pacman -Syy && sudo pacman -S base base-devel git nano wget reflector
+sudo pacman -Syy && sudo pacman -Syyu
 ```
 
 3. Habilitamos multilib 
@@ -107,6 +113,10 @@ sed -i "${linenumber}s:.*:Include = /etc/pacman.d/mirrorlist:" /etc/pacman.conf
 
 # actualizamos nuevamente
 pacman -Syy
+```
+```powershell
+# Instalamos y actualizamos algunos paquetes necesarios
+sudo pacman -S base base-devel git nano wget reflector
 ```
 
 4. Actualizamos los mirrors con reflector
