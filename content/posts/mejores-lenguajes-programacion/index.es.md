@@ -9,7 +9,7 @@ authorLink: "https://linuxmobile.github.io"
 description: " ¿Quieres saber cuáles son los lenguajes de programación más populares del mundo? El índice TIOBE nos dará la respuesta. "
 resources:
 - name: "featured-image"
-  src: "coding.png"
+  src: "coding.jpg"
 
 tags: ["programacion", "linux", "windows"]
 categories: ["programacion","linux"]
