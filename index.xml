@@ -3,9 +3,16 @@
         <title>linuxmobile</title>
         <link>https://linuxmobile.github.io/</link>
         <description>Un sitio para aprender sobre tecnologías</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sun, 11 Apr 2021 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Wed, 14 Apr 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://linuxmobile.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Descargar Office y Photoshop de forma no oficial, puede robar tus Bitcoins</title>
+    <link>https://linuxmobile.github.io/posts/descargar-office-y-photoshop-de-forma-no-oficial-puede-robar-tus-bitcoins/</link>
+    <pubDate>Wed, 14 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/descargar-office-y-photoshop-de-forma-no-oficial-puede-robar-tus-bitcoins/</guid>
+    <description><![CDATA[<p>Yo estoy seguro que la mayoría de las personas que ingresen a este blog van a tener instalado Linux, pero aún así valía la pena escribir un artículo sobre este tema. Descargar Photoshop y Office, de manera ilegal, puede terminar en un desastre.</p>]]></description>
+</item><item>
     <title>Los Mejores lenguajes de programación según expertos!</title>
     <link>https://linuxmobile.github.io/posts/los-mejores-lenguajes-de-programaci%C3%B3n-seg%C3%BAn-expertos/</link>
     <pubDate>Sun, 11 Apr 2021 00:00:00 &#43;0000</pubDate>
@@ -70,12 +77,5 @@ Las mejores herramientas de Pen Tensting que se pueden encontrar en BlackArch pa
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/ktweak-un-nuevo-mod-para-tu-kernel/</guid>
     <description><![CDATA[<p>KTweak es un mod para optimizar el rendimiento de tu kernel en Android.</p>]]></description>
-</item><item>
-    <title>Apple corta las actualizaciones de la app de Wordpress en la store.</title>
-    <link>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</link>
-    <pubDate>Sat, 22 Aug 2020 10:58:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/apple-corta-las-actualizaciones-de-la-app-de-wordpress-en-la-store./</guid>
-    <description><![CDATA[<p>El fundador de Wordpress afirma que Apple cortó las actualizaciones de su aplicación completamente gratuita porque quiere un 30%</p>]]></description>
 </item></channel>
 </rss>
