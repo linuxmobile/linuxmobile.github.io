@@ -67,7 +67,7 @@ Un paso a paso con la mejor manera de instalar este setup. Sigan los pasos al pi
 
 ### Instalación (dependencias)
 
-<a href="https://www.deviantart.com/owl4ce/art/Sakura-Saber-872360153">
+<a href="">
   <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072e191f-a0a5-4be2-bc7a-55eb140b254f/defdpeh-4b226af5-f035-4a5d-aedc-b9417b92563c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDcyZTE5MWYtYTBhNS00YmUyLWJjN2EtNTVlYjE0MGIyNTRmXC9kZWZkcGVoLTRiMjI2YWY1LWYwMzUtNGE1ZC1hZWRjLWI5NDE3YjkyNTYzYy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.NHrNlWDMbuIVmHkpw4w6l0g7dMJGecLjxXsEPz1tHkI" alt="normal" align="right" width="400px"/>
 </a>
 
@@ -271,11 +271,6 @@ exec openbox-session
 exec dbus-launch --exit-with-session openbox-session
 ```
 
-Entonces puedes proceder a [Configuración de Usuario](#users-configuration). 
-
-
----
-
 ## Adicionales
 
 **Te recomiendo habilitar este comando**
@@ -366,38 +361,6 @@ Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpe
 665 #image_source="${HOME}/.config/neofetch/images/void_dark.png"
 ...
 ```
-<details>
-<summary><strong>See Images</strong></summary>
-  
-Arch|Gentoo|Ubuntu|Void
-|----|----|----|----|
-![Arch](./.config/neofetch/images/arch.png)|![Gentoo](./.config/neofetch/images/gentoo.png)|![Ubuntu](./.config/neofetch/images/ubuntu.png)|![Void](./.config/neofetch/images/void.png)
-
-Arch Dark|Gentoo Dark|Ubuntu Dark|Void Dark
-|----|----|----|----|
-![Arch](./.config/neofetch/images/arch_dark.png)|![Gentoo](./.config/neofetch/images/gentoo_dark.png)|![Ubuntu](./.config/neofetch/images/ubuntu_dark.png)|![Void](./.config/neofetch/images/void_dark.png)
-
-Artix|LoFi|Bedrock
-|---|---|---|
-![Artix](./.config/neofetch/images/artix.png)|![LoFi](./.config/neofetch/images/lofi.png)|![Bedrock](./.config/neofetch/images/bedrock.png)
-
-<table border="0"
-<tr>
-<td>
-<b>Sakura</b>
-</tr>
-</td>
-<tr>
-<td>
-<br>
-<p align="center"><img src="./.config/neofetch/images/sakura.png" alt="Sakura"/></p>
-</td>
-</tr>
-</table>
-  
-  </details>
-
-
 
 ## :confetti_ball:  Creditos / Gracias
 - **Inspiration and resources**
