@@ -366,6 +366,7 @@ Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpe
   - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
   - [Muktazam Hasbi Ashidiqi](https://github.com/reorr)
   - [Galih Wisnuaji](https://github.com/nekonako)
+  - [owl4ce](https://github.com/owl4ce)
   - [Ghani Rafif](https://github.com/ekickx)
   - [Aditya Shakya](https://github.com/adi1090x)
   - ?
@@ -385,19 +386,7 @@ Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpe
   - [Showing Album Cover in Ncmpcpp](https://marcocheung.wordpress.com/2015/08/09/showing-album-cover-in-ncmpcpp/)
   - [Complete List of GitHub Markdown Emoji Markup](https://gist.github.com/rxaviers/7360908)
   - Many GNU/Linux and Unix forums.
-  
-- **Contributors**
-  - [Ekaunt](https://github.com/ekaunt) - [Better promptmenu](https://github.com/owl4ce/dotfiles/pull/2)
-  - [HopeBaron](https://github.com/HopeBaron) - [Termite config](https://github.com/owl4ce/dotfiles/pull/4)
-  - [Justin Faber](https://github.com/vredesbyyrd) - [Rofi matched lines indicator](https://github.com/owl4ce/dotfiles/issues/33#issuecomment-753399179)
-  
-    <br>
-    <a href="https://github.com/owl4ce/dotfiles/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=owl4ce/dotfiles" />
-    </a>
-
-    Made with [contributors-img](https://contrib.rocks).
-  
+    
 - **Softwares**
   - [Geany - The Flyweight IDE](https://www.geany.org/)
   - [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
@@ -408,10 +397,10 @@ Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpe
 - **© All artist who make icons, illustrations, and wallpapers.**
   
   The original source that I found:
-  - [OWL4CE](https://github.com/owl4ce)
   - [Gladient Icons](https://play.google.com/store/apps/details?id=com.maxghani.gladient)
   - [桜](https://www.pixiv.net/en/artworks/80518034)
   - [桜セイバー沖田総司](https://www.pixiv.net/en/artworks/59740059)
   - [沖田総司](https://www.pixiv.net/en/artworks/62996457)
+  - [owl4ce](https://github.com/owl4ce)
 
 
