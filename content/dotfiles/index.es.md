@@ -138,7 +138,7 @@ apt install obmenu-generator libgtk2-perl
 [See Installation from Git](https://github.com/trizen/obmenu-generator/blob/master/INSTALL.md)
   
 </details>
----
+
 
 <details open>
   <summary><strong>Arch Linux (y basadas en)</strong></summary>
