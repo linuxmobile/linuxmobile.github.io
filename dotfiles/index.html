@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://linuxmobile.github.io/dotfiles/" /><meta property="og:image" content="https://linuxmobile.github.io/logo.png"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2021-01-31T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-04-11T10:08:09-03:00" />
+<meta property="article:modified_time" content="2021-04-17T20:11:44-03:00" />
 
 <meta name="application-name" content="Soy Linux, un fan de arch">
 <meta name="apple-mobile-web-app-title" content="Soy Linux, un fan de arch"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -31,8 +31,8 @@
                             "url": "https:\/\/linuxmobile.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "page","wordCount":  943 ,
-        "url": "https:\/\/linuxmobile.github.io\/dotfiles\/","datePublished": "2021-01-31T00:00:00+00:00","dateModified": "2021-04-11T10:08:09-03:00","license": "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.","description": ""
+                        }],"genre": "page","wordCount":  1426 ,
+        "url": "https:\/\/linuxmobile.github.io\/dotfiles\/","datePublished": "2021-01-31T00:00:00+00:00","dateModified": "2021-04-17T20:11:44-03:00","license": "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.","description": ""
     }
     </script></head>
     <body data-header-desktop="auto" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -138,7 +138,7 @@
     </div>
 <p align="center">
   <a name="top" href="#download">
-     <img alt="owl4ce/dotfiles" height="60%" width="100%" src="https://i.ibb.co/k4PbLjv/dotfiles.png"/>
+     <img alt="linuxmobile/dotfiles" height="60%" width="100%" src="https://i.ibb.co/k4PbLjv/dotfiles.png"/>
   </a>
 </p>
 <p align="center">
@@ -371,7 +371,7 @@ git clone https://github.com/zsh-users/zsh-completions.git <span class="si">${</
 Puedes clonar o descargar como un .Zip. Luego de esto copia todos los archivos de la carpeta **dotfiles** al directorio $HOME de tu usuario.
 > Asumiendo que estás clonando el repositorio en `~/Documents` 
 ```sh
-git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles/
+git clone https://github.com/linuxmobile/dotfiles.git && cd dotfiles/
 ```
 <p>Recomiendo utilizar rsync.</p>
 <div class="highlight"><div class="chroma">
@@ -497,6 +497,406 @@ Si estás usando <code>~/.xinitrc</code> sin display manager, solamente añade</
 </code></pre></td></tr></table>
 </div>
 </div><p>Entonces puedes proceder a <a href="#users-configuration" rel="">Configuración de Usuario</a>.</p>
+<hr>
+<h2 id="adicionales">Adicionales</h2>
+<p><strong>Te recomiendo habilitar este comando</strong></p>
+<ul>
+<li><code>ls</code> ➜ <a href="https://github.com/ogham/exa" target="_blank" rel="noopener noreffer"><code>exa</code></a></li>
+</ul>
+<p><a href="./.zshrc" rel=""><code>~/.zshrc</code></a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-zsh" data-lang="zsh">...
+<span class="m">131</span> <span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s2">&#34;exa -lgh --icons --group-directories-first&#34;</span>
+<span class="m">132</span> <span class="nb">alias</span> <span class="nv">la</span><span class="o">=</span><span class="s2">&#34;exa -lgha --icons --group-directories-first&#34;</span>
+...
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p><code>cat</code> ➜ <a href="https://github.com/sharkdp/bat" target="_blank" rel="noopener noreffer"><code>bat</code></a></p>
+</li>
+<li>
+<p><strong>Las preferencias de usuario <kbd>requeridas</kbd></strong><br>
+<a href="./.linuxmobile_var" rel=""><code>~/.linuxmobile_var</code></a><br>
+En este lugar se manejan casi todas las configuración de usuario. Están comentadas, y espero que sean fácil de entender. ^^</p>
+</li>
+<li>
+<p><strong>User&rsquo;s Tray Icons</strong><br>
+<a href="./.config/openbox/tray" rel=""><code>~/.config/openbox/tray</code></a><br>
+Un ejemplo es habilitar <code>nm-applet</code>, ya que yo utilizo <a href="./.local/bin/networkmanager_dmenu" rel="">networkmanager_dmenu</a></p>
+</li>
+</ul>
+<p>Quita los hashtags de todo lo que necesitas, y luego reinicia la sesion en openbox</p>
+<ul>
+<li><strong>Aplicaciones por default disponibles</strong><br>
+<a href="./.scripts/default-apps/list" rel=""><code> ~/.scripts/default-apps/list</code></a>
+<ul>
+<li><strong>Terminal</strong>: <code>urxvt</code> <code>termite</code></li>
+<li><strong>Lockscreen</strong>: <em>cualquiera</em></li>
+<li><strong>Music Player</strong>: <code>mpd</code> <code>spotify</code></li>
+<li><strong>File Manager</strong>: <em>cualquiera</em></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cfg" data-lang="cfg"><span class="na">1 terminal</span><span class="o">=</span><span class="s">&#34;urxvt&#34;</span>
+<span class="na">2 lockscreen</span><span class="o">=</span><span class="s">&#34;slimlock&#34;</span>
+<span class="na">3 musicpl</span><span class="o">=</span><span class="s">&#34;mpd&#34;</span>
+<span class="na">4 filemanager</span><span class="o">=</span><span class="s">&#34;thunar&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>
+<p><strong>Neovim</strong><br>
+<a href="./.config/nvim/" rel=""><code>~/.config/nvim/</code></a><br>
+Supongo que ya sabes que hacer con <a href="https://github.com/junegunn/vim-plug" target="_blank" rel="noopener noreffer">Vim-plug</a>.</p>
+</li>
+<li>
+<p><strong>MPD Music Directory</strong><br>
+<a href="./.mpd/mpd.conf" rel=""><code>~/.mpd/mpd.conf</code></a></p>
+</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cfg" data-lang="cfg"><span class="na">...</span>
+<span class="na">6 music_directory     &#34;~/Music&#34;</span>
+<span class="na">...</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><strong>Ncmpcpp Music Directory</strong><br>
+Auto connect with MPD.</li>
+</ul>
+<p><strong>Cómo usar ncmpcpp albumart?</strong> (URxvt)<br>
+Es fácil pon tu <code>album|cover|folder|artwork|front.jp?g|png|gif|bmp</code> en la carpeta con las canciones del album. La imágen recomendada es de  <em>500px</em> ( <strong>1:1</strong> ) o más. <a href="https://github.com/owl4ce/dotfiles/wiki/Keybinds#ncmpcpp" target="_blank" rel="noopener noreffer">See keybinds</a></p>
+<ul>
+<li><strong>Neofetch Image</strong><br>
+<a href="./.config/neofetch/config.conf%60" rel=""><code>~/.config/neofetch/config.conf</code></a></li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cfg" data-lang="cfg"><span class="na">...</span>
+<span class="na">641 # Image Source</span>
+<span class="na">642 #</span>
+<span class="na">643 # Which image or ascii file to display.</span>
+<span class="na">644 #</span>
+<span class="na">645 # Default:  &#39;auto&#39;</span>
+<span class="na">646 # Values:   &#39;auto&#39;, &#39;ascii&#39;, &#39;wallpaper&#39;, &#39;/path/to/img&#39;, &#39;/path/to/ascii&#39;, &#39;/path/to/dir/&#39;</span>
+<span class="na">647 #           &#39;command output (neofetch --ascii &#34;$(fortune | cowsay -W 30)&#34;)&#39;</span>
+<span class="na">648 # Flag:     --source</span>
+<span class="na">649 #</span>
+<span class="na">650 # NOTE: &#39;auto&#39; will pick the best image source for whatever image backend is used.</span>
+<span class="na">651 #       In ascii mode, distro ascii art will be used and in an image mode, your</span>
+<span class="na">652 #       wallpaper will be used.</span>
+<span class="na">653 #image_source</span><span class="o">=</span><span class="s">&#34;auto&#34;</span>
+<span class="na">654 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/arch.png&#34;</span>
+<span class="na">655 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/arch_dark.png&#34;</span>
+<span class="na">656 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/artix.png&#34;</span>
+<span class="na">657 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/bedrock.png&#34;</span>
+<span class="na">658 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/gentoo.png&#34;</span>
+<span class="na">659 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/gentoo_dark.png&#34;</span>
+<span class="na">660 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/lofi.png&#34;</span>
+<span class="na">661 image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/sakura.png&#34;</span>
+<span class="na">662 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/ubuntu.png&#34;</span>
+<span class="na">663 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/ubuntu_dark.png&#34;</span>
+<span class="na">664 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/void.png&#34;</span>
+<span class="na">665 #image_source</span><span class="o">=</span><span class="s">&#34;${HOME}/.config/neofetch/images/void_dark.png&#34;</span>
+<span class="na">...</span>
+</code></pre></td></tr></table>
+</div>
+</div><details>
+<summary><strong>See Images</strong></summary>
+<table>
+<thead>
+<tr>
+<th>Arch</th>
+<th>Gentoo</th>
+<th>Ubuntu</th>
+<th>Void</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/arch.png"
+         alt="Arch"
+         title="arch.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/gentoo.png"
+         alt="Gentoo"
+         title="gentoo.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/ubuntu.png"
+         alt="Ubuntu"
+         title="ubuntu.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/void.png"
+         alt="Void"
+         title="void.png"
+    /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Arch Dark</th>
+<th>Gentoo Dark</th>
+<th>Ubuntu Dark</th>
+<th>Void Dark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/arch_dark.png"
+         alt="Arch"
+         title="arch_dark.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/gentoo_dark.png"
+         alt="Gentoo"
+         title="gentoo_dark.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/ubuntu_dark.png"
+         alt="Ubuntu"
+         title="ubuntu_dark.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/void_dark.png"
+         alt="Void"
+         title="void_dark.png"
+    /></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Artix</th>
+<th>LoFi</th>
+<th>Bedrock</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/artix.png"
+         alt="Artix"
+         title="artix.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/lofi.png"
+         alt="LoFi"
+         title="lofi.png"
+    /></td>
+<td>
+
+
+
+
+<img loading="lazy" decoding="async"
+         src="./.config/neofetch/images/bedrock.png"
+         alt="Bedrock"
+         title="bedrock.png"
+    /></td>
+</tr>
+</tbody>
+</table>
+<table border="0"
+<tr>
+<td>
+<b>Sakura</b>
+</tr>
+</td>
+<tr>
+<td>
+<br>
+<p align="center"><img src="./.config/neofetch/images/sakura.png" alt="Sakura"/></p>
+</td>
+</tr>
+</table>
+  </details>
+<h2 id="--creditos--gracias">🎊  Creditos / Gracias</h2>
+<ul>
+<li>
+<p><strong>Inspiration and resources</strong></p>
+<ul>
+<li><a href="https://github.com/owl4ce" target="_blank" rel="noopener noreffer">OWL4CE</a></li>
+<li><a href="https://github.com/elenapan" target="_blank" rel="noopener noreffer">Elena</a></li>
+<li><a href="https://github.com/addy-dclxvi" target="_blank" rel="noopener noreffer">Adhi Pambudi</a></li>
+<li><a href="https://github.com/fikriomar16" target="_blank" rel="noopener noreffer">Fikri Omar</a></li>
+<li><a href="https://github.com/okitavera" target="_blank" rel="noopener noreffer">Nanda Oktavera</a></li>
+<li><a href="https://github.com/bandithijo" target="_blank" rel="noopener noreffer">Rizqi Nur Assyaufi</a></li>
+<li><a href="https://github.com/reorr" target="_blank" rel="noopener noreffer">Muktazam Hasbi Ashidiqi</a></li>
+<li><a href="https://github.com/nekonako" target="_blank" rel="noopener noreffer">Galih Wisnuaji</a></li>
+<li><a href="https://github.com/ekickx" target="_blank" rel="noopener noreffer">Ghani Rafif</a></li>
+<li><a href="https://github.com/adi1090x" target="_blank" rel="noopener noreffer">Aditya Shakya</a></li>
+<li>?</li>
+</ul>
+</li>
+<li>
+<p><strong>Knowledge and other resources</strong></p>
+<ul>
+<li><a href="https://digitalsynopsis.com/" target="_blank" rel="noopener noreffer">Digital Synopsis</a></li>
+<li><a href="http://openbox.org/wiki/Help:Themes" target="_blank" rel="noopener noreffer">Wiki @ Openbox</a></li>
+<li><a href="https://developer.gnome.org/pango/stable/pango-Markup.html" target="_blank" rel="noopener noreffer">Pango Markup @ Gnome</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/desktop_environment#Custom_environments" target="_blank" rel="noopener noreffer">Custom Environment @ ArchWiki</a></li>
+<li><a href="https://github.com/dylanaraps/pure-bash-bible" target="_blank" rel="noopener noreffer">Pure Bash Bible</a></li>
+<li><a href="https://github.com/stark/Color-Scripts" target="_blank" rel="noopener noreffer">Stark&rsquo;s Color Scripts</a></li>
+<li><a href="https://github.com/vlevit/notify-send.sh" target="_blank" rel="noopener noreffer">Notify Send (bash)</a></li>
+<li><a href="https://github.com/firecat53/networkmanager-dmenu" target="_blank" rel="noopener noreffer">NetworkManager Dmenu</a></li>
+<li><a href="https://linux.die.net/man/1/urxvt" target="_blank" rel="noopener noreffer">URxvt Manual</a></li>
+<li><a href="https://github.com/simmel/urxvt-resize-font" target="_blank" rel="noopener noreffer">URxvt Resize Font</a></li>
+<li><a href="https://github.com/mina86/urxvt-tabbedex" target="_blank" rel="noopener noreffer">URxvt Tabbed Extended</a></li>
+<li><a href="https://marcocheung.wordpress.com/2015/08/09/showing-album-cover-in-ncmpcpp/" target="_blank" rel="noopener noreffer">Showing Album Cover in Ncmpcpp</a></li>
+<li><a href="https://gist.github.com/rxaviers/7360908" target="_blank" rel="noopener noreffer">Complete List of GitHub Markdown Emoji Markup</a></li>
+<li>Many GNU/Linux and Unix forums.</li>
+</ul>
+</li>
+<li>
+<p><strong>Contributors</strong></p>
+<ul>
+<li>
+<p><a href="https://github.com/ekaunt" target="_blank" rel="noopener noreffer">Ekaunt</a> - <a href="https://github.com/owl4ce/dotfiles/pull/2" target="_blank" rel="noopener noreffer">Better promptmenu</a></p>
+</li>
+<li>
+<p><a href="https://github.com/HopeBaron" target="_blank" rel="noopener noreffer">HopeBaron</a> - <a href="https://github.com/owl4ce/dotfiles/pull/4" target="_blank" rel="noopener noreffer">Termite config</a></p>
+</li>
+<li>
+<p><a href="https://github.com/vredesbyyrd" target="_blank" rel="noopener noreffer">Justin Faber</a> - <a href="https://github.com/owl4ce/dotfiles/issues/33#issuecomment-753399179" target="_blank" rel="noopener noreffer">Rofi matched lines indicator</a></p>
+<br>
+<a href="https://github.com/owl4ce/dotfiles/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=owl4ce/dotfiles" />
+</a>
+<p>Made with <a href="https://contrib.rocks" target="_blank" rel="noopener noreffer">contributors-img</a>.</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Softwares</strong></p>
+<ul>
+<li><a href="https://www.geany.org/" target="_blank" rel="noopener noreffer">Geany - The Flyweight IDE</a></li>
+<li><a href="https://www.gimp.org/" target="_blank" rel="noopener noreffer">GIMP - GNU Image Manipulation Program</a></li>
+<li><a href="http://www.gpick.org/" target="_blank" rel="noopener noreffer">Gpick - Advanced Color Picker</a></li>
+<li><a href="https://github.com/themix-project/oomox" target="_blank" rel="noopener noreffer">Themix - GUI Theme Designer</a></li>
+<li>Tint2conf, etc.</li>
+</ul>
+</li>
+<li>
+<p><strong>© All artist who make icons, illustrations, and wallpapers.</strong></p>
+<p>The original source that I found:</p>
+<ul>
+<li><a href="https://github.com/owl4ce" target="_blank" rel="noopener noreffer">OWL4CE</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.maxghani.gladient" target="_blank" rel="noopener noreffer">Gladient Icons</a></li>
+<li><a href="https://www.pixiv.net/en/artworks/80518034" target="_blank" rel="noopener noreffer">桜</a></li>
+<li><a href="https://www.pixiv.net/en/artworks/59740059" target="_blank" rel="noopener noreffer">桜セイバー沖田総司</a></li>
+<li><a href="https://www.pixiv.net/en/artworks/62996457" target="_blank" rel="noopener noreffer">沖田総司</a></li>
+</ul>
+</li>
+</ul>
 </div><div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
             </noscript></div></div></div>
