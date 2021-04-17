@@ -73,8 +73,6 @@ Un paso a paso con la mejor manera de instalar este setup. Sigan los pasos al pi
 
 {{< admonition tip >}}
 No es necesario que instalen absolutamente todas las dependencias, pero en cuyo caso no lo hagan, les dará problemas para tener todo tal cual lo tengo instalado yo.
-**Detailed environment**  
-Please refer to [wiki/Detailed-Environment](https://github.com/linuxmobile/dotfiles/wiki/Detailed-Environment).
 **Warning!** Esta configuración depende totalmente de `bash`, `sed`, `awk`, y `coreutils`.  
 Doy por sentado que estamos usando [`sudo`](https://www.sudo.ws/) o [`doas`](https://github.com/Duncaen/OpenDoas).
 {{< /admonition >}}
