@@ -325,7 +325,7 @@ Supongo que ya sabes que hacer con [Vim-plug](https://github.com/junegunn/vim-pl
 Auto connect with MPD.
   
 **Cómo usar ncmpcpp albumart?** (URxvt)  
-Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpeta con las canciones del album. La imágen recomendada es de  *500px* ( **1:1** ) o más. [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#ncmpcpp)
+Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpeta con las canciones del album. La imágen recomendada es de  *500px* ( **1:1** ) o más.
 
 
 - **Neofetch Image**  
