@@ -12,7 +12,7 @@ draft: false
 
 <p align="center">
   <a name="top" href="#download">
-     <img alt="owl4ce/dotfiles" height="60%" width="100%" src="https://i.ibb.co/k4PbLjv/dotfiles.png"/>
+     <img alt="linuxmobile/dotfiles" height="60%" width="100%" src="https://i.ibb.co/k4PbLjv/dotfiles.png"/>
   </a>
 </p>
 
@@ -195,7 +195,7 @@ git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-m
 Puedes clonar o descargar como un .Zip. Luego de esto copia todos los archivos de la carpeta **dotfiles** al directorio $HOME de tu usuario.
 > Asumiendo que estás clonando el repositorio en `~/Documents` 
 ```sh
-git clone https://github.com/owl4ce/dotfiles.git && cd dotfiles/
+git clone https://github.com/linuxmobile/dotfiles.git && cd dotfiles/
 ```
    
 Recomiendo utilizar rsync.
@@ -272,4 +272,187 @@ exec dbus-launch --exit-with-session openbox-session
 
 Entonces puedes proceder a [Configuración de Usuario](#users-configuration). 
 
+
+---
+
+## Adicionales
+
+**Te recomiendo habilitar este comando**
+- `ls` ➜ [`exa`](https://github.com/ogham/exa)  
+
+[`~/.zshrc`](./.zshrc)  
+```zsh
+...
+131 alias ls="exa -lgh --icons --group-directories-first"
+132 alias la="exa -lgha --icons --group-directories-first"
+...
+```
+
+- `cat` ➜ [`bat`](https://github.com/sharkdp/bat)
+
+ 
+- **Las preferencias de usuario <kbd>requeridas</kbd>**  
+  [`~/.linuxmobile_var`](./.linuxmobile_var)  
+  En este lugar se manejan casi todas las configuración de usuario. Están comentadas, y espero que sean fácil de entender. ^^
+  
+- **User's Tray Icons**  
+  [`~/.config/openbox/tray`](./.config/openbox/tray)  
+  Un ejemplo es habilitar `nm-applet`, ya que yo utilizo [networkmanager_dmenu](./.local/bin/networkmanager_dmenu)
+
+Quita los hashtags de todo lo que necesitas, y luego reinicia la sesion en openbox
+
+- **Aplicaciones por default disponibles**  
+  [` ~/.scripts/default-apps/list`](./.scripts/default-apps/list)
+  - **Terminal**: `urxvt` `termite`
+  - **Lockscreen**: *cualquiera*
+  - **Music Player**: `mpd` `spotify`
+  - **File Manager**: *cualquiera*
+  
+```cfg
+1 terminal="urxvt"
+2 lockscreen="slimlock"
+3 musicpl="mpd"
+4 filemanager="thunar"
+```
+
+- **Neovim**  
+[`~/.config/nvim/`](./.config/nvim/)  
+Supongo que ya sabes que hacer con [Vim-plug](https://github.com/junegunn/vim-plug).
+  
+- **MPD Music Directory**  
+  [`~/.mpd/mpd.conf`](./.mpd/mpd.conf)
+```cfg
+...
+6 music_directory     "~/Music"
+...
+```
+  
+- **Ncmpcpp Music Directory**  
+Auto connect with MPD.
+  
+**Cómo usar ncmpcpp albumart?** (URxvt)  
+Es fácil pon tu `album|cover|folder|artwork|front.jp?g|png|gif|bmp` en la carpeta con las canciones del album. La imágen recomendada es de  *500px* ( **1:1** ) o más. [See keybinds](https://github.com/owl4ce/dotfiles/wiki/Keybinds#ncmpcpp)
+
+
+- **Neofetch Image**  
+[`~/.config/neofetch/config.conf`](./.config/neofetch/config.conf`)
+```cfg
+...
+641 # Image Source
+642 #
+643 # Which image or ascii file to display.
+644 #
+645 # Default:  'auto'
+646 # Values:   'auto', 'ascii', 'wallpaper', '/path/to/img', '/path/to/ascii', '/path/to/dir/'
+647 #           'command output (neofetch --ascii "$(fortune | cowsay -W 30)")'
+648 # Flag:     --source
+649 #
+650 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
+651 #       In ascii mode, distro ascii art will be used and in an image mode, your
+652 #       wallpaper will be used.
+653 #image_source="auto"
+654 #image_source="${HOME}/.config/neofetch/images/arch.png"
+655 #image_source="${HOME}/.config/neofetch/images/arch_dark.png"
+656 #image_source="${HOME}/.config/neofetch/images/artix.png"
+657 #image_source="${HOME}/.config/neofetch/images/bedrock.png"
+658 #image_source="${HOME}/.config/neofetch/images/gentoo.png"
+659 #image_source="${HOME}/.config/neofetch/images/gentoo_dark.png"
+660 #image_source="${HOME}/.config/neofetch/images/lofi.png"
+661 image_source="${HOME}/.config/neofetch/images/sakura.png"
+662 #image_source="${HOME}/.config/neofetch/images/ubuntu.png"
+663 #image_source="${HOME}/.config/neofetch/images/ubuntu_dark.png"
+664 #image_source="${HOME}/.config/neofetch/images/void.png"
+665 #image_source="${HOME}/.config/neofetch/images/void_dark.png"
+...
+```
+<details>
+<summary><strong>See Images</strong></summary>
+  
+Arch|Gentoo|Ubuntu|Void
+|----|----|----|----|
+![Arch](./.config/neofetch/images/arch.png)|![Gentoo](./.config/neofetch/images/gentoo.png)|![Ubuntu](./.config/neofetch/images/ubuntu.png)|![Void](./.config/neofetch/images/void.png)
+
+Arch Dark|Gentoo Dark|Ubuntu Dark|Void Dark
+|----|----|----|----|
+![Arch](./.config/neofetch/images/arch_dark.png)|![Gentoo](./.config/neofetch/images/gentoo_dark.png)|![Ubuntu](./.config/neofetch/images/ubuntu_dark.png)|![Void](./.config/neofetch/images/void_dark.png)
+
+Artix|LoFi|Bedrock
+|---|---|---|
+![Artix](./.config/neofetch/images/artix.png)|![LoFi](./.config/neofetch/images/lofi.png)|![Bedrock](./.config/neofetch/images/bedrock.png)
+
+<table border="0"
+<tr>
+<td>
+<b>Sakura</b>
+</tr>
+</td>
+<tr>
+<td>
+<br>
+<p align="center"><img src="./.config/neofetch/images/sakura.png" alt="Sakura"/></p>
+</td>
+</tr>
+</table>
+  
+  </details>
+
+
+
+## :confetti_ball:  Creditos / Gracias
+- **Inspiration and resources**
+  - [OWL4CE](https://github.com/owl4ce)
+  - [Elena](https://github.com/elenapan)
+  - [Adhi Pambudi](https://github.com/addy-dclxvi)
+  - [Fikri Omar](https://github.com/fikriomar16)
+  - [Nanda Oktavera](https://github.com/okitavera)
+  - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
+  - [Muktazam Hasbi Ashidiqi](https://github.com/reorr)
+  - [Galih Wisnuaji](https://github.com/nekonako)
+  - [Ghani Rafif](https://github.com/ekickx)
+  - [Aditya Shakya](https://github.com/adi1090x)
+  - ?
+
+- **Knowledge and other resources**
+  - [Digital Synopsis](https://digitalsynopsis.com/)
+  - [Wiki @ Openbox](http://openbox.org/wiki/Help:Themes)
+  - [Pango Markup @ Gnome](https://developer.gnome.org/pango/stable/pango-Markup.html)
+  - [Custom Environment @ ArchWiki](https://wiki.archlinux.org/index.php/desktop_environment#Custom_environments)
+  - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+  - [Stark's Color Scripts](https://github.com/stark/Color-Scripts)
+  - [Notify Send (bash)](https://github.com/vlevit/notify-send.sh)
+  - [NetworkManager Dmenu](https://github.com/firecat53/networkmanager-dmenu)
+  - [URxvt Manual](https://linux.die.net/man/1/urxvt)
+  - [URxvt Resize Font](https://github.com/simmel/urxvt-resize-font)
+  - [URxvt Tabbed Extended](https://github.com/mina86/urxvt-tabbedex)
+  - [Showing Album Cover in Ncmpcpp](https://marcocheung.wordpress.com/2015/08/09/showing-album-cover-in-ncmpcpp/)
+  - [Complete List of GitHub Markdown Emoji Markup](https://gist.github.com/rxaviers/7360908)
+  - Many GNU/Linux and Unix forums.
+  
+- **Contributors**
+  - [Ekaunt](https://github.com/ekaunt) - [Better promptmenu](https://github.com/owl4ce/dotfiles/pull/2)
+  - [HopeBaron](https://github.com/HopeBaron) - [Termite config](https://github.com/owl4ce/dotfiles/pull/4)
+  - [Justin Faber](https://github.com/vredesbyyrd) - [Rofi matched lines indicator](https://github.com/owl4ce/dotfiles/issues/33#issuecomment-753399179)
+  
+    <br>
+    <a href="https://github.com/owl4ce/dotfiles/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=owl4ce/dotfiles" />
+    </a>
+
+    Made with [contributors-img](https://contrib.rocks).
+  
+- **Softwares**
+  - [Geany - The Flyweight IDE](https://www.geany.org/)
+  - [GIMP - GNU Image Manipulation Program](https://www.gimp.org/)
+  - [Gpick - Advanced Color Picker](http://www.gpick.org/)
+  - [Themix - GUI Theme Designer](https://github.com/themix-project/oomox)
+  - Tint2conf, etc.
+
+- **© All artist who make icons, illustrations, and wallpapers.**
+  
+  The original source that I found:
+  - [OWL4CE](https://github.com/owl4ce)
+  - [Gladient Icons](https://play.google.com/store/apps/details?id=com.maxghani.gladient)
+  - [桜](https://www.pixiv.net/en/artworks/80518034)
+  - [桜セイバー沖田総司](https://www.pixiv.net/en/artworks/59740059)
+  - [沖田総司](https://www.pixiv.net/en/artworks/62996457)
 
