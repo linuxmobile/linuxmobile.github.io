@@ -194,6 +194,7 @@ git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:=~/.oh-m
 <details open>
 Puedes clonar o descargar como un .Zip. Luego de esto copia todos los archivos de la carpeta **dotfiles** al directorio $HOME de tu usuario.
 > Asumiendo que estás clonando el repositorio en `~/Documents` 
+
 ```sh
 git clone https://github.com/linuxmobile/dotfiles.git && cd dotfiles/
 ```
