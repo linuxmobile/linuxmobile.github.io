@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>software - Etiqueta - linuxmobile</title>
+        <link>https://linuxmobile.github.io/tags/software/</link>
+        <description>software - Etiqueta - linuxmobile</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/software/" rel="self" type="application/rss+xml" /><item>
+    <title>Terminus, una alternativa a las terminales de linux</title>
+    <link>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</link>
+    <pubDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</guid>
+    <description><![CDATA[<p>Terminus se autodefine como una terminal para la <code>era moderna</code>. Y en cierto punto, es una correcta forma de expresar lo que simbolíza esta terminal multiplataforma.</p>]]></description>
+</item></channel>
+</rss>
