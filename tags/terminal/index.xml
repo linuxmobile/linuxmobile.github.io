@@ -3,7 +3,14 @@
         <title>terminal - Etiqueta - linuxmobile</title>
         <link>https://linuxmobile.github.io/tags/terminal/</link>
         <description>terminal - Etiqueta - linuxmobile</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/terminal/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/terminal/" rel="self" type="application/rss+xml" /><item>
+    <title>Volviendo a usar WINDOWS</title>
+    <link>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</link>
+    <pubDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</guid>
+    <description><![CDATA[<p>Cómo tengo configurado Windows, qué versión estoy usando, cómo configuré la terminal para utilizar WSL2.</p>]]></description>
+</item><item>
     <title>Terminus, una alternativa a las terminales de linux</title>
     <link>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</link>
     <pubDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</pubDate>

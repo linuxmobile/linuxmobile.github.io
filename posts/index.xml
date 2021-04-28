@@ -3,7 +3,14 @@
         <title>Todos los Artículos - linuxmobile</title>
         <link>https://linuxmobile.github.io/posts/</link>
         <description>Todos los Artículos | linuxmobile</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Volviendo a usar WINDOWS</title>
+    <link>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</link>
+    <pubDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</guid>
+    <description><![CDATA[<p>Cómo tengo configurado Windows, qué versión estoy usando, cómo configuré la terminal para utilizar WSL2.</p>]]></description>
+</item><item>
     <title>Terminus, una alternativa a las terminales de linux</title>
     <link>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</link>
     <pubDate>Sat, 24 Apr 2021 00:00:00 &#43;0000</pubDate>
@@ -67,13 +74,5 @@ Sin embargo, he tomado la decisión de probar <code>Microsoft Edge</code> ya que
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</guid>
     <description><![CDATA[<p>Sonic Pi es un proyecto social más que un software en sí. Y es que ha conseguido unificar la creatividad con el aprendizaje de programación. Consiguiendo que quienes quieran aprender a programar y sean melómanos puedan divertirse creando sus propios temas mientras aprenden a programar casi sin darse cuenta.</p>]]></description>
-</item><item>
-    <title>Las mejores herramientas de Pen Testing para explorar con tu teléfono</title>
-    <link>https://linuxmobile.github.io/posts/las-mejores-herramientas-de-pen-testing-para-explorar-con-tu-tel%C3%A9fono/</link>
-    <pubDate>Tue, 25 Aug 2020 10:11:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/las-mejores-herramientas-de-pen-testing-para-explorar-con-tu-tel%C3%A9fono/</guid>
-    <description><![CDATA[<h1>Parte 1</h1>
-Las mejores herramientas de Pen Tensting que se pueden encontrar en BlackArch para penetrar un móvil.]]></description>
 </item></channel>
 </rss>
