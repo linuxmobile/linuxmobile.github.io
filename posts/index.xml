@@ -3,7 +3,14 @@
         <title>Todos los Artículos - linuxmobile</title>
         <link>https://linuxmobile.github.io/posts/</link>
         <description>Todos los Artículos | linuxmobile</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Fri, 30 Apr 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Sale, POR FIN, Elementary OS 6 BETA</title>
+    <link>https://linuxmobile.github.io/posts/sale-por-fin-elementary-os-6-beta/</link>
+    <pubDate>Fri, 30 Apr 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/sale-por-fin-elementary-os-6-beta/</guid>
+    <description><![CDATA[<p>Recién hace tan solo una hora, acaba de ser anunciada la primer BETA pública de <code>Elementary OS</code>.</p>]]></description>
+</item><item>
     <title>Volviendo a usar WINDOWS</title>
     <link>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</link>
     <pubDate>Tue, 27 Apr 2021 00:00:00 &#43;0000</pubDate>
@@ -67,12 +74,5 @@
     <guid>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</guid>
     <description><![CDATA[<p>No soy un gran fanático de los productos de Microsoft, tampoco suelo cambiar de navegador aunque admito que he probado la mayoría de ellos.
 Sin embargo, he tomado la decisión de probar <code>Microsoft Edge</code> ya que mi esposa suele utilizarlo como su navegador predeterminado!</p>]]></description>
-</item><item>
-    <title>Sonic Pi. Aprende programación con la música!</title>
-    <link>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</link>
-    <pubDate>Thu, 25 Mar 2021 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</guid>
-    <description><![CDATA[<p>Sonic Pi es un proyecto social más que un software en sí. Y es que ha conseguido unificar la creatividad con el aprendizaje de programación. Consiguiendo que quienes quieran aprender a programar y sean melómanos puedan divertirse creando sus propios temas mientras aprenden a programar casi sin darse cuenta.</p>]]></description>
 </item></channel>
 </rss>
