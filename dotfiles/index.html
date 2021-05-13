@@ -8,10 +8,10 @@
         <meta name="Description" content="Un sitio para aprender sobre tecnologías"><meta property="og:title" content="DOTFILES" />
 <meta property="og:description" content="Advertencia  Éste artículo está bajo construcción. Pronto publicaré mi setup.        Bienvenidos a todos, este es mi aporte con los dotfiles que utilizo día a día.  Esta es mi configuración personal basada en openbox. El dotfiles y el setup es 100% completo. Encontraran tanto mis aplicaciones favoritas como los ajustes necesarios para mi workflow. En mi caso utilizo openbox porque me ha resultado más cómodo a la hora de trabajar con múltiples ventanas y elementos." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://linuxmobile.github.io/dotfiles/" />
-<meta property="og:image" content="https://linuxmobile.github.io/logo.png"/>
-<meta property="article:published_time" content="2021-01-31T00:00:00+00:00" />
+<meta property="og:url" content="https://linuxmobile.github.io/dotfiles/" /><meta property="og:image" content="https://linuxmobile.github.io/logo.png"/><meta property="article:section" content="" />
+<meta property="article:published_time" content="2021-01-31T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2021-04-17T20:38:14-03:00" />
+
 <meta name="application-name" content="Soy Linux, un fan de arch">
 <meta name="apple-mobile-web-app-title" content="Soy Linux, un fan de arch"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -31,7 +31,7 @@
                             "url": "https:\/\/linuxmobile.github.io\/images\/Apple-Devices-Preview.png",
                             "width":  3200 ,
                             "height":  2048 
-                        }],"genre": "page","wordCount":  1401 ,
+                        }],"genre": "page","wordCount":  1373 ,
         "url": "https:\/\/linuxmobile.github.io\/dotfiles\/","datePublished": "2021-01-31T00:00:00+00:00","dateModified": "2021-04-17T20:38:14-03:00","license": "Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.","description": ""
     }
     </script></head>
@@ -384,17 +384,49 @@ Puedes clonar o descargar como un .Zip. Luego de esto copia todos los archivos d
 <pre class="chroma"><code class="language-sh" data-lang="sh">rsync -avxHAXP --exclude <span class="s1">&#39;.git*&#39;</span> .* ~/
 </code></pre></td></tr></table>
 </div>
-</div><p><strong>Explicación breve</strong>
-| Opción    | Función                                             |
-|:&mdash;&mdash;&mdash;:|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;|
-| -a        | todos los archivos, con permisos, etc.              |
-| -v        | verbose, mencionar los archivos                     |
-| -x        | mismo sistema de archivos                           |
-| -H        | preserve hard links (no incluído con  -a)           |
-| -A        | preserve ACLs/permissions (no incluído en -a)       |
-| -X        | preserve extended attributes (no incluído en -a)    |
-| -P        | mostrar progreso                                    |
-| &ndash;exclude | excluir archivos                                    |</p>
+</div><p><strong>Explicación breve</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Opción</th>
+<th>Función</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">-a</td>
+<td>todos los archivos, con permisos, etc.</td>
+</tr>
+<tr>
+<td style="text-align:center">-v</td>
+<td>verbose, mencionar los archivos</td>
+</tr>
+<tr>
+<td style="text-align:center">-x</td>
+<td>mismo sistema de archivos</td>
+</tr>
+<tr>
+<td style="text-align:center">-H</td>
+<td>preserve hard links (no incluído con  -a)</td>
+</tr>
+<tr>
+<td style="text-align:center">-A</td>
+<td>preserve ACLs/permissions (no incluído en -a)</td>
+</tr>
+<tr>
+<td style="text-align:center">-X</td>
+<td>preserve extended attributes (no incluído en -a)</td>
+</tr>
+<tr>
+<td style="text-align:center">-P</td>
+<td>mostrar progreso</td>
+</tr>
+<tr>
+<td style="text-align:center">&ndash;exclude</td>
+<td>excluir archivos</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Diferencias</strong></p>
 <ul>
 <li><code>cp</code> es para duplicar cosas y, de forma predeterminada, solo garantiza que los archivos tengan nombres de ruta completos únicos.</li>

@@ -8,10 +8,10 @@
 <meta name="twitter:description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."/><meta name="twitter:creator" content="@n00b2h4ck3r"/><meta name="Description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2."><meta property="og:title" content="Instalando Arch-WSL2 en Windows 2021 - 2da Parte" />
 <meta property="og:description" content="Hoy vamos a instalar Archlinux dentro de Windows, con la ayuda de wsl2." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" />
-<meta property="og:image" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/wsl2.jpeg"/>
-<meta property="article:published_time" content="2021-03-31T00:00:00+00:00" />
+<meta property="og:url" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/" /><meta property="og:image" content="https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/wsl2.jpeg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-03-31T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2021-04-08T13:13:58-03:00" />
+
 <meta name="application-name" content="Soy Linux, un fan de arch">
 <meta name="apple-mobile-web-app-title" content="Soy Linux, un fan de arch"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -281,7 +281,7 @@ corren este comando en la shell, y se les instala sin problemas. (Recuerden que 
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-AppxPackage</span> <span class="n">ArchWSL-AppX_20</span><span class="p">.</span><span class="n">11</span><span class="p">.</span><span class="n">25</span><span class="p">.</span><span class="n">0_x64</span><span class="p">.</span><span class="n">appx</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="nb">Add-AppxPackage</span> <span class="nb">ArchWSL-AppX_20</span><span class="p">.</span><span class="n">11</span><span class="p">.</span><span class="n">25</span><span class="p">.</span><span class="n">0_x64</span><span class="p">.</span><span class="n">appx</span>
 </code></pre></td></tr></table>
 </div>
 </div><div class="details admonition warning open">
@@ -340,7 +340,7 @@ Abrimos powershell <strong>(siempre como administrador)</strong> y ejecutamos <c
 <pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">sudo</span> <span class="n">pacman-key</span> <span class="p">-</span><span class="n">-init</span> <span class="p">&amp;&amp;</span> <span class="n">sudo</span> <span class="n">pacman-key</span> <span class="p">-</span><span class="n">-populate</span>
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">sudo</span> <span class="nb">pacman-key</span> <span class="p">-</span><span class="n">-init</span> <span class="p">&amp;&amp;</span> <span class="n">sudo</span> <span class="nb">pacman-key</span> <span class="p">-</span><span class="n">-populate</span>
 </code></pre></td></tr></table>
 </div>
 </div><ol start="2">
@@ -384,7 +384,7 @@ Abrimos powershell <strong>(siempre como administrador)</strong> y ejecutamos <c
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="c"># Instalamos y actualizamos algunos paquetes necesarios</span>
-<span class="n">sudo</span> <span class="n">pacman</span> <span class="n">-S</span> <span class="n">base</span> <span class="n">base-devel</span> <span class="n">git</span> <span class="n">nano</span> <span class="nb">wget </span><span class="n">reflector</span>
+<span class="n">sudo</span> <span class="n">pacman</span> <span class="n">-S</span> <span class="n">base</span> <span class="nb">base-devel</span> <span class="n">git</span> <span class="n">nano</span> <span class="nb">wget </span><span class="n">reflector</span>
 </code></pre></td></tr></table>
 </div>
 </div><ol start="4">
