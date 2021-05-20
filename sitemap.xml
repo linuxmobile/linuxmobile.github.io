@@ -2,15 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://linuxmobile.github.io/posts/silicon-una-bella-herramienta-para-mostrar-tu-c%C3%B3digo/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/cuales-son-las-mejores-distros-linux-este-2021/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/sale-por-fin-elementary-os-6-beta/</loc><lastmod>2021-04-30T22:12:04-03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</loc><lastmod>2021-04-24T10:52:28-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/descargar-office-y-photoshop-de-forma-no-oficial-puede-robar-tus-bitcoins/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/los-mejores-lenguajes-de-programaci%C3%B3n-seg%C3%BAn-expertos/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/sale-por-fin-elementary-os-6-beta/</loc><lastmod>2021-04-30T22:12:04-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/volviendo-a-usar-windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/terminus-una-alternativa-a-las-terminales-de-linux/</loc><lastmod>2021-04-24T10:52:28-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/descargar-office-y-photoshop-de-forma-no-oficial-puede-robar-tus-bitcoins/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/los-mejores-lenguajes-de-programaci%C3%B3n-seg%C3%BAn-expertos/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/c%C3%B3mo-instalar-archlinux-m%C3%A1s-f%C3%A1cil/</loc><lastmod>2021-04-05T13:21:52-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/tengo-asperger-y-no-me-molesta-tenerlo/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/probando-microsoft-edge-en-archlinux/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/sonic-pi.-aprende-programaci%C3%B3n-con-la-m%C3%BAsica/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -22,25 +23,28 @@
             <loc>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/la-mejor-app-para-compartir-pantalla-scrcpy-se-actualiza/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/documentacion/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/herramientas/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/linux/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/posts/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/terminal/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/terminal/</loc><lastmod>2021-05-20T01:07:10-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/distro/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/linux/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/linux/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/posts/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/sistemas-operativos/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/</loc><lastmod>2021-05-13T08:14:00-03:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/elementary/</loc><lastmod>2021-04-30T22:12:04-03:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/terminal/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/software/</loc><lastmod>2021-04-24T10:52:28-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/noticias/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/photoshop/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/seguridad/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/seguridad/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/programacion/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/categories/programacion/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/elementary/</loc><lastmod>2021-04-30T22:12:04-03:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/windows/</loc><lastmod>2021-04-28T12:00:48-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/software/</loc><lastmod>2021-04-24T10:52:28-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/noticias/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/photoshop/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/seguridad/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/seguridad/</loc><lastmod>2021-04-14T23:50:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/programacion/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/categories/programacion/</loc><lastmod>2021-04-11T10:10:54-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/archlinux/</loc><lastmod>2021-04-05T13:21:52-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/archlinux/</loc><lastmod>2021-04-05T13:21:52-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/asperger/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -48,17 +52,16 @@
             <loc>https://linuxmobile.github.io/tags/linuxmobile/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/sobre-mi/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/sobre-mi/</loc><lastmod>2021-04-04T21:10:29-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/arch/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/wsl2/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/arch/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://linuxmobile.github.io/tags/wsl2/</loc><lastmod>2021-04-08T13:13:58-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/browser/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/edge/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/microsoft/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/musica/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/software/</loc><lastmod>2021-03-25T09:44:25-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://linuxmobile.github.io/dotfiles/</loc><lastmod>2021-04-17T20:38:14-03:00</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url><url>
+            <loc>https://linuxmobile.github.io/dotfiles/</loc><lastmod>2021-04-17T20:38:14-03:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/android/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/categories/android/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://linuxmobile.github.io/tags/herramientas/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/tools/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/kernel/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://linuxmobile.github.io/tags/apple/</loc><lastmod>2021-03-24T12:44:55-03:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
