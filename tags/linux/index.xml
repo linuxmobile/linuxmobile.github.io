@@ -4,6 +4,20 @@
         <link>https://linuxmobile.github.io/tags/linux/</link>
         <description>linux - Etiqueta - linuxmobile</description>
         <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://linuxmobile.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Ricing. Customizando Linux al máximo</title>
+    <link>https://linuxmobile.github.io/posts/ricing.-customizando-linux-al-m%C3%A1ximo/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/ricing.-customizando-linux-al-m%C3%A1ximo/</guid>
+    <description><![CDATA[<p>Muchos preguntan acerca de cómo dejar Linux bonito. El <code>Ricing</code> es la explicación a esto. Una cultura para los amantes de la tecnología, de <code>Linux</code>. Hoy una <strong>documentación</strong> sobre <code>RICING</code></p>]]></description>
+</item><item>
+    <title>Ricing. Customizando Linux al máximo</title>
+    <link>https://linuxmobile.github.io/ricing/</link>
+    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/ricing/</guid>
+    <description><![CDATA[<p>Muchos preguntan acerca de cómo dejar Linux bonito. El <code>Ricing</code> es la explicación a esto. Una cultura para los amantes de la tecnología, de <code>Linux</code>. Hoy una <strong>documentación</strong> sobre <code>RICING</code></p>]]></description>
+</item><item>
     <title>Silicon, una bella herramienta para mostrar tu código</title>
     <link>https://linuxmobile.github.io/posts/silicon-una-bella-herramienta-para-mostrar-tu-c%C3%B3digo/</link>
     <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
@@ -59,19 +73,5 @@
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021/</guid>
     <description><![CDATA[<p>Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.</p>]]></description>
-</item><item>
-    <title>Ya disponible las primeras compilaciones de Elementary OS 6</title>
-    <link>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</link>
-    <pubDate>Mon, 10 Aug 2020 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/ya-disponible-las-primeras-compilaciones-de-elementary-os-6/</guid>
-    <description><![CDATA[<p>Ya disponemos las primeras versiones de Elementary OS 6 para que los usuarios puedan probar todas las novedades.</p>]]></description>
-</item><item>
-    <title>r/unixporn | Una comunidad de &#39;nix lovers</title>
-    <link>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</link>
-    <pubDate>Sun, 09 Aug 2020 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/r/unixporn-una-comunidad-de-nix-lovers/</guid>
-    <description><![CDATA[<p>r/unixporn una comunidad dedicada a todos aquellos amantes de modificar la apariencia de su escritorio.</p>]]></description>
 </item></channel>
 </rss>
