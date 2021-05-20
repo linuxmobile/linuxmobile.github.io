@@ -5,8 +5,6 @@ draft: false
 
 lightgallery: true
 
-math:
-  enable: true
 ---
 
 {{< admonition warning >}}
