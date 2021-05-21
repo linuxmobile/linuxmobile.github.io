@@ -6,13 +6,6 @@
         <generator>Hugo -- gohugo.io</generator><language>es</language><copyright>Esta obra está autorizada bajo una licencia internacional de reconocimiento-no comercial 4.0 de Creative Commons.</copyright><lastBuildDate>Thu, 20 May 2021 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://linuxmobile.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Ricing. Customizando Linux al máximo</title>
-    <link>https://linuxmobile.github.io/posts/ricing.-customizando-linux-al-m%C3%A1ximo/</link>
-    <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
-    <author>Braian A. Diez</author>
-    <guid>https://linuxmobile.github.io/posts/ricing.-customizando-linux-al-m%C3%A1ximo/</guid>
-    <description><![CDATA[<p>Muchos preguntan acerca de cómo dejar Linux bonito. El <code>Ricing</code> es la explicación a esto. Una cultura para los amantes de la tecnología, de <code>Linux</code>. Hoy una <strong>documentación</strong> sobre <code>RICING</code></p>]]></description>
-</item><item>
     <title>Silicon, una bella herramienta para mostrar tu código</title>
     <link>https://linuxmobile.github.io/posts/silicon-una-bella-herramienta-para-mostrar-tu-c%C3%B3digo/</link>
     <pubDate>Thu, 20 May 2021 00:00:00 &#43;0000</pubDate>
@@ -75,5 +68,12 @@
     <author>Braian A. Diez</author>
     <guid>https://linuxmobile.github.io/posts/tengo-asperger-y-no-me-molesta-tenerlo/</guid>
     <description><![CDATA[<p>Hoy particularmente no vamos a aprender sobre Linux, tampoco sobre tecnología. Hoy quisiera unos minutos para hablar sobre <code>Asperger</code></p>]]></description>
+</item><item>
+    <title>Instalando Arch-WSL2 en Windows 2021 - 2da Parte</title>
+    <link>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/</link>
+    <pubDate>Wed, 31 Mar 2021 00:00:00 &#43;0000</pubDate>
+    <author>Braian A. Diez</author>
+    <guid>https://linuxmobile.github.io/posts/instalando-arch-wsl2-en-windows-2021-2da-parte/</guid>
+    <description><![CDATA[<p>Hoy vamos a aprender, juntos, a instalar Archlinux dentro de Windows, aprovechando la herramienta del subsistema de linux.</p>]]></description>
 </item></channel>
 </rss>
