@@ -76,12 +76,19 @@ enableEmoji = true
         title = ""
         weight = 5
       [[languages.es.menu.main]]
-        identifier = "dotfiles"
+        identifier = "ricing"
         pre = ""
-        name = "DOTFILES"
-        url = "/dotfiles/"
+        name = "ricing"
+        url = "/posts/ricing.-customizando-linux-al-máximo"
         title = ""
         weight = 6
+      [[languages.es.menu.main]]
+        identifier = "dotfiles"
+        pre = ""
+        name = "MIS DOTFILES"
+        url = "/dotfiles/"
+        title = ""
+        weight = 7
       [[languages.es.menu.main]]
         identifier = "github"
         pre = "<i class='fab fa-github fa-fw'></i>"
