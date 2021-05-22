@@ -623,10 +623,15 @@ Nosotros utilizamos esta palabra para referirnos a un `desktop` atractivo visual
 
 ## Contributing
 
-Your contributions are always welcome!
+Your contributions are always welcome! Please take a look at our [contribution guidelines](https://github.com/Sparkenstein/awesome-ricing/blob/master/contributing.md) and [code of conduct](https://github.com/Sparkenstein/awesome-ricing/blob/master/code-of-conduct.md) first.
 
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Sparkenstein](https://github.com/Sparkenstein) has waived all copyright and related or neighboring rights to this work.
+
+# Derechos: [Sparkenstein](https://github.com/fosslife/awesome-ricing)
+
 
 <div align="center"> Made with ❤️  by the community </div>
