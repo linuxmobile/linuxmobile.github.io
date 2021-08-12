@@ -76,7 +76,11 @@ git clone https://github.com/xshin404/myTermux
 
 ```bash
 cd myTermux
+```
+```bash
 cp .xshin.var $HOME
+```
+```bash
 chmod +x install.sh # le damos los permisos de ejecución
 ```
 

@@ -46,7 +46,7 @@ Si seguiste todo al pie de la letra, **no debería tener mayores complicaciones 
 {{< image src="release.png">}}
 
 2. En el link vamos a encontrar tres archivos diferentes. Uno es un `.Appx`, otro es un `.cer` y un `.zip`.
-_Solo vamos a necesitar el .appx y .cer_
+<i>Solo vamos a necesitar el .appx y .cer</i>
 3. Una vez hayamos descargado debemos instalar el archivo `.cer` de manera manual. 
 
 {{< image src="https://wsldl-pg.github.io/ArchW-docs/img/cert/1.install.png">}}
@@ -69,7 +69,7 @@ Abrimos powershell **(siempre como administrador)** y ejecutamos `bcdedit /set h
 
 ## Configurando Arch
 
-_Sí todo salió bien luego de la instalación les aparecerá el ícono de Arch para poder correr el subsistema. Entonces corriendo arch, vamos a ejecutar estos comandos para poder configurarlo._
+<i>Sí todo salió bien luego de la instalación les aparecerá el ícono de Arch para poder correr el subsistema. Entonces corriendo arch, vamos a ejecutar estos comandos para poder configurarlo.</i>
 
 1. Configuramos el Usuario y Contraseña
 
@@ -92,7 +92,7 @@ Arch.exe config --default-user yourusername
 
 
 ## Configurando arch desde dentro
-_Bien, ya tienes configurado arch para poder utilizarlo, pero debemos configurar arch para que pueda ser usado tal y como es_
+<i>Bien, ya tienes configurado arch para poder utilizarlo, pero debemos configurar arch para que pueda ser usado tal y como es</i>
 
 1. Iniciamos los keyrings (necesario para poder correr pacman)
 ```powershell
@@ -135,6 +135,6 @@ makepkg -si
 
 ## Listo!
 
-_Ahora con Arch instalado dentro de windows, podremos hacer cuanto quisieramos. Luego más adelante realizaré otro tutorial, enseñando a instalar ohmyzsh y algunos plugins interesantes para esta hermosa herramienta._
+<i>Ahora con Arch instalado dentro de windows, podremos hacer cuanto quisieramos. Luego más adelante realizaré otro tutorial, enseñando a instalar ohmyzsh y algunos plugins interesantes para esta hermosa herramienta.</i>
 
 # No se pierdan nuestro próximo post, y si tuvieron algún problema, no duden en escribirnos en los comentarios!!!
