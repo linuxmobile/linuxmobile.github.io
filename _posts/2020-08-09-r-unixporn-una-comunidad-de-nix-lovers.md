@@ -4,7 +4,7 @@ title: r/unixporn | Una comunidad de Linux lovers
 description: r/unixporn una comunidad dedicada a todos aquellos amantes de modificar
   la apariencia de su escritorio.
 date: 2020-08-09 03:00:00 +0000
-image: "/images/posts/unixporn-bar.png"
+image: "/images/posts/unixporn-show.png"
 tags:
 - Unixporn
 - Linux
