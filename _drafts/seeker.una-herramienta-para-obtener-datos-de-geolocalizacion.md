@@ -74,3 +74,23 @@ Seguido, es tan simple de instalar haciendo:
 {% highlight bash %}
 sudo pacman -S seeker
 {% endhighlight %}
+
+![](/uploads/pacman-seeker.png)
+
+**Por cierto, si les interesa saber que hay en el respositorio de** `BlackArch` **les dejo unos comandos que les serán muy útiles**
+
+{% highlight bash %}  
+`# Para ver todos los paquetes disponibles
+sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u`  
+{% endhighlight %}
+
+{% highlight bash %}  
+`# Para ver por categorías
+sudo pacman -Sg | grep blackarch`  
+{% endhighlight %}
+
+![](/uploads/blackarch.png)
+
+{% highlight bash %}  
+  
+{% endhighlight %}
