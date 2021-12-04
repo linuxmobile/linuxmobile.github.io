@@ -1,0 +1,31 @@
+---
+layout: page
+title: Envíame un Mensaje!
+permalink: /contact/
+image: '/images/45.jpg'
+---
+<div class="form-container">
+  {% if site.contact.description %}
+  <p class="contact-description">{{site.contact.description}}</p>
+  {% endif %}
+  <form class="form"
+    action="{% if site.contact.email %}https://formspree.io/{{site.contact.email}}{% else %}#{% endif %}" method="POST">
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-name">Tu nombre</label>
+      <input class="form__input" id="form-name" type="text" name="name" placeholder="nombre" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-email">Tu Correo</label>
+      <input class="form__input" id="form-email" type="email" name="_replyto" placeholder="email" required>
+    </div>
+    <div class="form__group">
+      <label class="form__label screen-reader-text" for="form-text">Tu mensaje</label>
+      <textarea class="form__input" id="form-text" name="text" rows="10" placeholder="mensaje" required></textarea>
+    </div>
+    <div class="form__group">
+      <button class="button button--primary" type="submit">Enviar</button>
+    </div>
+    <input type="hidden" name="_next" value="{{ site.baseurl }}/contact/thanks/" />
+  </form>
+  <hr>
+</div>
