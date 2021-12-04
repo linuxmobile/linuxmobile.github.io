@@ -91,6 +91,68 @@ sudo pacman -Sg | grep blackarch`
 
 ![](/uploads/blackarch.png)
 
+## Uso
+
+Para utilizar la herramienta no se necesita mucha inteligencia ni ser un completo experto en _seguridad informática_. Basta simplemente con ejecutar un par de comandos y saber que se está haciendo.
+
 {% highlight bash %}  
-  
+`seeker -h`  
 {% endhighlight %}
+
+![](/uploads/seeker-h.png)
+
+**Este comando arroja información de ayuda para saber como manejar** `seeker`
+
+{% highlight bash %}  
+`sudo seeker -t manual -s whatsapp`  
+{% endhighlight %}
+
+![](/uploads/seeker-template.png)
+
+**En esta imagen podemos ver que el funcionamiento de** `seeker` **es muy básico, pero funciona perfectamente. Acá tenemos que elegir las opciones en mi caso utilicé la plantilla de Whatsapp**
+
+![](/uploads/seeker-template2.png)
+
+**Seleccionas un título para el grupo y luego una imagen de perfil. ¡Muy fácil!**
+
+### Instalar y utilizar ngrok
+
+En la última versión `Serveo` fue deshabilitado, así que debemos hacerlo de manera manual. Para esto utilizaremos `ngrok`
+
+{% highlight bash %}  
+`sudo pacman -S ngrok
+# Arrancamos el servidor!
+ngrok http 8080`  
+{% endhighlight %}
+
+**Una vez realizado esto y puesto en marcha el servidor, vamos a dirigirnos al link que nos genera** `ngrok`
+
+![](/uploads/ngrok.png)
+
+**En desktop vamos a obtener el mismo resultado que en el móvil, entras al link y como cualquier otro grupo de whatsapp. Se ve exactamente igual.**
+
+![](/uploads/desktop.png)
+
+Como verán `seeker` nos devuelve con muchísima exactitud la geolocalización de manera muy precisa.
+
+![](/uploads/location.png)
+
+## Errores
+
+### Si pip3 no está instalado
+
+{% highlight bash %}  
+`sudo pacman -S python-pip`  
+{% endhighlight %}
+
+![](/uploads/pipnotinstalled.png)
+
+### Si no tiene permisos para ejecutarse
+
+{% highlight bash %}  
+`# Solo para usuarios de ARCH
+sudo chmod 777 /usr/share/seeker/arch_install.sh
+sudo bash /user/share/seeker/arch_install.sh`  
+{% endhighlight %}
+
+# Obviamente, esta herramientas es únicamente con fines de aprendizaje y conocimiento.
