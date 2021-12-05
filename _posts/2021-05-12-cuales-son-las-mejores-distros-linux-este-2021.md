@@ -17,7 +17,7 @@ Sinceramente estoy cansado de esos `Shitpost` donde hacen clickbait con `cuáles
 
     Este es mi punto de vista de cuáles son las mejores opciones hoy en día, con su adecuada justificación. Por ende, este punto de vista no es una opción correcta o incorrecta, cada cual tiene sus gustos y disfrutará más o menos de ‘X’ distro.
 
-[![/posts/cuales-son-las-mejores-distros-linux-este-2021/distro.jpg](http://localhost:1313/posts/cuales-son-las-mejores-distros-linux-este-2021/distro.jpg) ](http://localhost:1313/posts/cuales-son-las-mejores-distros-linux-este-2021/distro.jpg "/posts/cuales-son-las-mejores-distros-linux-este-2021/distro.jpg")
+
 
 ## La mejor (a mi gusto)
 
@@ -37,6 +37,7 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 </table>
 </div>
 
+
 ## La más funcional (a mi gusto)
 
 # ElementaryOS
@@ -44,6 +45,7 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 `ElementaryOS` no es mi opción favorita, pero es con la que mejor experiencia he tenido. Fácil de instalar, buena interfaz sin necesidad de configurar nada. Instalas y listo.
 
 [![https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png "https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png")
+
 
 <div class="table-container">
 <table>
@@ -68,8 +70,8 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 
 # Linux Mint.
 
-Tengo que reconocer que, a mi gusto, es la mejor opción en lo que respecta a clasico, estable, y sencilla. Esta opción no suele fallar. Es conocida, no está super cargada de cosas y funciona bien.  
-  
+Tengo que reconocer que, a mi gusto, es la mejor opción en lo que respecta a clasico, estable, y sencilla. Esta opción no suele fallar. Es conocida, no está super cargada de cosas y funciona bien.
+
 <div class="table-container"> <table> <tr><th>PROS</th></tr> <tr><td>Fácil de instalar</td></tr> <tr><td>Muy estable</td></tr> <tr><td>Un diseño parecido a Windows. Con una barra muy similar a la de Windows. Cualquiera podría entender como usar la interfaz.</td></tr> <tr><td>Es una opción buena para los que recién empiezan, no entienden nada y tampoco tienen ganas o tiempo para aprender.</td></tr> </table> </div>
 
 ## La mejor para “hackear”
