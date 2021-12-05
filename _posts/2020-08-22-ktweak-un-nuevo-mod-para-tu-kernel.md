@@ -2,7 +2,7 @@
 layout: post
 title: KTweak un nuevo mod para tu kernel
 description: KTweak es un mod para optimizar el rendimiento de tu kernel en Android.
-date: 2020-08-22 03:00:00 +0000
+date: 2020-08-22T03:00:00.000+00:00
 image: https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
 tags:
 - Documentacion
@@ -32,4 +32,4 @@ En comparación con otros “optimizadores” `KTweak` está basado en ajustes r
 
 Pueden descargarlo de manera muy sencilla desde el link de [`Magisk`](https://github.com/Magisk-Modules-Alt-Repo/ktweak)
 
-![](/uploads/magisk.png)
+![](/images/posts/magisk.png)
