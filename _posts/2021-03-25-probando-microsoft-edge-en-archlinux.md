@@ -5,7 +5,7 @@ description: No soy un gran fanático de los productos de Microsoft, tampoco sue
   cambiar de navegador aunque admito que he probado la mayoría de ellos. Sin embargo,
   he tomado la decisión de probar Microsoft Edge ya que mi esposa suele utilizarlo
   como su navegador predeterminado!
-date: 2021-03-25 03:00:00 +0000
+date: 2021-03-25T03:00:00.000+00:00
 image: "/images/posts/RE4ncJa.jpg"
 tags:
 - Software
@@ -35,6 +35,6 @@ No viene por defecto habilitado, por ende, vamos a tener que hacerlo de manera m
 
 Con total sinceridad **el navegador me parece excelente**. No cambiaría mi apreciado `Firefox` pero puedo decir que Microsoft ha estado haciendo un trabajo excelente. Tiene poco consumo de ram. Un manejo excelente de la interfaz _(algunos puede gustarles, y a otros puede que no)._
 
-![](/uploads/microsoft.png)
+![](/images/posts/microsoft.png)
 
 _Tu qué harías? Probarías Edge en tu Distribución?_
