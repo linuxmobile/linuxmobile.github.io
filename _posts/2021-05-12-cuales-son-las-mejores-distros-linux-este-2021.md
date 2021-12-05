@@ -15,9 +15,9 @@ tags:
 ---
 Sinceramente estoy cansado de esos `Shitpost` donde hacen clickbait con `cuáles son las mejores distribuciones de linux` y hacen mención de las “más populares”. Pongo comillas porque no son realmente las más populares sino son solamente las que ellos conocen. **Hoy voy a compartir mi experiencia. Cuáles son, PARA MI, las mejores distros de LINUX**
 
-    Este es mi punto de vista de cuáles son las mejores opciones hoy en día, con su adecuada justificación. Por ende, este punto de vista no es una opción correcta o incorrecta, cada cual tiene sus gustos y disfrutará más o menos de ‘X’ distro.
+Este es mi punto de vista de cuáles son las mejores opciones hoy en día, con su adecuada justificación. Por ende, este punto de vista no es una opción correcta o incorrecta, cada cual tiene sus gustos y disfrutará más o menos de ‘X’ distro.
 
-![](/uploads/distro.jpg)
+![](/images/posts/distro.jpg)
 
 ## La mejor (a mi gusto)
 
@@ -43,7 +43,7 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 
 `ElementaryOS` no es mi opción favorita, pero es con la que mejor experiencia he tenido. Fácil de instalar, buena interfaz sin necesidad de configurar nada. Instalas y listo.
 
-[![https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png "https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png")
+[![https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)
 
 <div class="table-container">
 <table>
@@ -61,7 +61,8 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 
 ![](https://i.blogs.es/27226e/garuda-dr460nized/1366_2000.jpg)
 
-**Es una hermosa**. No puedo decir más. Es una de las distros más lindas que he visto. Viene con multiples opciones pero me enfoco solamente en KDE, con ese blur hermoso, un wallpaper muy lindo, es bella. Una distro BELLA.  
+**Es una hermosa**. No puedo decir más. Es una de las distros más lindas que he visto. Viene con multiples opciones pero me enfoco solamente en KDE, con ese blur hermoso, un wallpaper muy lindo, es bella. Una distro BELLA. 
+
 <div class="table-container"> <table> <tr><th>PROS</th></tr> <tr><td>Está basada en Archlinux. No tengo mucho para decir sobre esto. Si leyeron el principio.</td></tr> <tr><td>Tiene AUR.</td></tr> <tr><td>Viene configurada por defecto de una manera MUY bien cuidada</td></tr> <tr><td>“Optimizada” para gaming y producción. Supuestamente, está optimizada de mejor manera para poder jugar y/o trabajar. (Digo supuestamente, porque particularmente no he notado mejor rendimiento.)</td></tr> <tr><td>Trae un kernel y apps exclusivamente enfocados en optimización del sistema.</td></tr> </table> </div>
 
 ## La clásica.
