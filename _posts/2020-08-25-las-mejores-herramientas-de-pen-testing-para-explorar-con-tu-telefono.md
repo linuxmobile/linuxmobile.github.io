@@ -3,7 +3,7 @@ layout: post
 title: Las mejores herramientas de Pen Testing para explorar con tu teléfono
 description: 'Las mejores herramientas de Pen Tensting que se pueden encontrar en
   BlackArch para penetrar un móvil. '
-date: 2020-08-25 03:00:00 +0000
+date: 2020-08-25T03:00:00.000+00:00
 image: https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80
 tags:
 - Seguridad
@@ -45,7 +45,7 @@ El concepto de `StaCoAn` es muy sencillo, la “app” incluso te brinda una int
 `sudo pacman -S stacoan`  
 {% endhighlight %}
 
-![](/uploads/pacman.png)
+![](/images/posts/pacman.png)
 
 **Para utilizarlo, exactamente como hicimos con** `Seeker`
 
@@ -55,7 +55,7 @@ El concepto de `StaCoAn` es muy sencillo, la “app” incluso te brinda una int
 
 ## SigPloit
 
-[photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80](https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
+![](https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
 
 `SigPloit` es una herramienta que te permite testear las señales **Telecom** y explorar las vulnerabilidades in los protocolos de señalización que utilizan los operadores móviles.
 
@@ -74,7 +74,7 @@ pacman -S sigploit
 
 ## rvi_capture (rvictl)
 
-![](/uploads/rvicapture.jpg)
+![](/images/posts/rvicapture.jpg)
 
 `rvictl` es una herramienta excelente que sirve para capturar paquetes que entran y salen de dispositivos, tanto **Android como iOS.**
 
@@ -84,7 +84,7 @@ Esta herramienta puede ser un arma excelente para capturar todos los datos que s
 
 ## Quark
 
-[68747470733a2f2f692e696d6775722e636f6d2f6e7a346d386b722e706e67](https://camo.githubusercontent.com/6bc95becd91a926ecaea0c89dcb2ca85e86d3070ab8a2d62254af3a23c9509df/68747470733a2f2f692e696d6775722e636f6d2f6e7a346d386b722e706e67)
+![](https://camo.githubusercontent.com/6bc95becd91a926ecaea0c89dcb2ca85e86d3070ab8a2d62254af3a23c9509df/68747470733a2f2f692e696d6775722e636f6d2f6e7a346d386b722e706e67.png)
 
 **El concepto de** `Quark` **funciona como un motor de análisis de malware en Android.**
 
