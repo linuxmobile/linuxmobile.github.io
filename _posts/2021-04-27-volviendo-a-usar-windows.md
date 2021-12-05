@@ -11,7 +11,7 @@ tags:
 ---
 Hacía muchísimo tiempo que no utilizaba Windows como mi Sistema Operativo Personal. Lo he usado, obviamente para poder cumplir con algunas necesidades. Pero no mucho más que eso. Al dedicarme a compilar roms y trabajar bastante con el desarrollo de `Android` me es necesario trabajar con **Linux**. Sin embargo, he logrado suplir esa necesidad utilizando `WSL2`, junto con `Windows Terminal` y `VSCode`. A continuación voy a dejar algunos pasos de cómo tengo configurado todo y mis recomendaciones.
 
-![](/uploads/explorer.png)
+![](/images/posts/explorer.png)
 
 ## Qué versión de Windows?
 
@@ -28,7 +28,9 @@ En resumen, MiniOS es una modificación de Windows 10, con lo escencial. No hay 
 * El **menú extendido** tiene muchisimas herramientas útiles.
 * Tiene una **guía** de qué hace cada sección y opción del menú.
 
-![](/uploads/stream.png)Así que como podrán notar, decidí utilizar la versión de `Marcos Cerqueiro (WinterOS)`.
+![](/images/posts/stream.png)
+
+Así que como podrán notar, decidí utilizar la versión de `Marcos Cerqueiro (WinterOS)`.
 
 ## Cómo lo he configurado?
 
@@ -49,7 +51,7 @@ Tengo deshabilitado todo. Windows Update, Windows Defender, Firewall, eliminado 
 
 * `Optimizador de MODOS`.
 
-![](/uploads/modos.png)
+![](/images/posts/modos.png)
 
 En la opción de `modos`, tengo configurado en **GOLD**. Y he deshabilitado las otras opciones (Barra de juegos, HyperV, modo de juego de Windows)
 
@@ -59,7 +61,8 @@ En la opción de `modos`, tengo configurado en **GOLD**. Y he deshabilitado las 
 
 Esta parte no es sumamente necesaria, pero la verdad que funciona muy bien.
 
-<iframe src="[https://youtu.be/AfmPNoIbJxI](https://youtu.be/AfmPNoIbJxI "https://youtu.be/AfmPNoIbJxI")" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://youtu.be/AfmPNoIbJxI](https://youtu.be/AfmPNoIbJxI" frameborder="0" allowfullscreen></iframe>
+
 
 Yo utilizo esta herramienta creada por EverythingTech. Dejo el link de [Descarga Directa](https://drive.google.com/drive/folders/1RYKqcqp6YzM0ZXArdWX70NWle6Q3BhYB). **Por favor, vean bien el video, sean precavidos y sigan la guía.**
 
@@ -67,11 +70,13 @@ Yo utilizo esta herramienta creada por EverythingTech. Dejo el link de [Descarga
 
 Con mi tema de Windows, no me refiero a que sea mío, más bien a el que yo decidí utilizar.
 
-[![https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png)](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png")[Descargalo desde aquí y sigue la guía del .zip](https://www.deviantart.com/kdr3w/art/Dev-825722799)
+[![https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/d3c7a0fa-5f10-46fa-abe9-66c00454b216/ddnm3sf-53f9f344-3c56-42fb-afae-9bf99a0c5ae9.png)
+
+[Descargalo desde aquí y sigue la guía del .zip](https://www.deviantart.com/kdr3w/art/Dev-825722799)
 
 ### Windows Terminal y VSCode
 
-![](/uploads/terminal.png)
+![](/images/posts/terminal.png)
 
 # Daniell's dotfiles
 
