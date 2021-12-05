@@ -43,7 +43,7 @@ Además en la última ISO, ya contamos con un instalador guíado nativo. No es o
 
 `ElementaryOS` no es mi opción favorita, pero es con la que mejor experiencia he tenido. Fácil de instalar, buena interfaz sin necesidad de configurar nada. Instalas y listo.
 
-[![https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)
+![](https://blog.elementary.io/images/look-and-feel-changes-coming-elementary-os-6/accent-green.png)
 
 <div class="table-container">
 <table>
