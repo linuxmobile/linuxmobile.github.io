@@ -7,7 +7,7 @@ description: Sinceramente estoy cansado de esos Shitpost donde hacen clickbait c
   Pongo comillas porque no son realmente las más populares sino son solamente las
   que ellos conocen. Hoy voy a compartir mi experiencia. Cuáles son, PARA MI, las
   mejores distros de LINUX
-date: 2021-05-12 03:00:00 +0000
+date: 2021-05-12T03:00:00.000+00:00
 image: https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80
 tags:
 - Linux
