@@ -3,7 +3,7 @@ layout: post
 title: Ya disponible las primeras compilaciones de Elementary OS 6
 description: Ya disponemos las primeras versiones de Elementary OS 6 para que los
   usuarios puedan probar todas las novedades.
-date: 2020-08-09 03:00:00 +0000
+date: 2020-08-09T03:00:00.000+00:00
 image: "/images/posts/card.png"
 tags:
 - Noticias
@@ -26,7 +26,7 @@ El equipo de desarrollo anuncio esta la semana pasada que las primeras compilaci
 
 Hay muchos cambios en `Elementary OS` y uno de los que notarás primero es un diseño renovado y fresco.
 
-![](/uploads/notebook-desktop.png)
+![](/images/posts/notebook-desktop.png)
 
 Adicionalmente al `modo oscuro` para los componentes del sistema como el dock y los ajustes, tendremos la posibilidad de elegir colores de usuario para apps, además de tipografía y estilos, con un contraste mejorado y esquinas redondeadas en varias apps.
 
