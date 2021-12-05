@@ -3,7 +3,7 @@ layout: post
 title: r/unixporn | Una comunidad de Linux lovers
 description: r/unixporn una comunidad dedicada a todos aquellos amantes de modificar
   la apariencia de su escritorio.
-date: 2020-08-09 03:00:00 +0000
+date: 2020-08-09T03:00:00.000+00:00
 image: "/images/posts/unixporn-show.png"
 tags:
 - Unixporn
@@ -18,7 +18,7 @@ Tal vez la mayoría de ustedes ya conozca lo que es la comunidad de `r/unixporn`
 
 `r/unixporn` es una comunidad de Reddit. En la cual los usuarios de ‘NIX son los participes de la misma. Ellos se encargan de customizar la apariencia de sus _desktops_. al mismo tiempo, la mayoría de las personas nos dejan sus configuraciones, mejor llamadas `dotfiles`.
 
-![](/uploads/unixporn-bar.png)
+![](/images/posts/unixporn-bar.png)
 
 ### No solo Reddit
 
