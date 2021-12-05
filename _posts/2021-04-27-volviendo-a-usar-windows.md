@@ -61,7 +61,7 @@ En la opción de `modos`, tengo configurado en **GOLD**. Y he deshabilitado las 
 
 Esta parte no es sumamente necesaria, pero la verdad que funciona muy bien.
 
-<iframe src="https://youtu.be/AfmPNoIbJxI](https://youtu.be/AfmPNoIbJxI" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AfmPNoIbJxI](https://youtu.be/AfmPNoIbJxI" frameborder="0" allowfullscreen></iframe>
 
 
 Yo utilizo esta herramienta creada por EverythingTech. Dejo el link de [Descarga Directa](https://drive.google.com/drive/folders/1RYKqcqp6YzM0ZXArdWX70NWle6Q3BhYB). **Por favor, vean bien el video, sean precavidos y sigan la guía.**
@@ -80,7 +80,7 @@ Con mi tema de Windows, no me refiero a que sea mío, más bien a el que yo deci
 
 # Daniell's dotfiles
 
-!\[Visual Studio Code (WSL: Ubuntu 20.04)\](https://i.imgur.com/ZBiFD0S.gif =980pxx)
+!\[Visual Studio Code WSL: Ubuntu 20.04](https://i.imgur.com/ZBiFD0S.gif)
 
 La configuración es muy sencilla, voy a dejar el link de [Github](https://github.com/daniellwdb/dotfiles) para que puedan descargar estos `Dotfiles`. Y configurarlo como yo lo hice.
 
