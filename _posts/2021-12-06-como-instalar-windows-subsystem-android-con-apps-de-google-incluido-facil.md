@@ -43,16 +43,15 @@ Estos requisitos, son los mínimos. Es posible que algunas aplicaciones o juegos
 
 ![](/images/posts/fork.png)
 
-1. Luego en tu repositorio "forkeado". Vas a la pestaña **Acciones** (Actions), presionas en **WSA-GA-Actions** _(el que está del lado izquierdo),_ y le das a **Run Workflow.**
-2. En este punto, deben **elegir que GAPPS quieren tener instalado**. Preferentemente prefiero las GAPPS pico o nano. Y la arquitectura del PC. Y le dan a **Run Workflow**.
-3. Una vez finaliza el proceso y aparece **"Complete Job"**. Tenemos que chequear el log y **descargar** el **WSA** desde transfer.sh
+2. Luego en tu repositorio "forkeado". Vas a la pestaña **Acciones** (Actions), presionas en **WSA-GA-Actions** _(el que está del lado izquierdo),_ y le das a **Run Workflow.**
+3. En este punto, deben **elegir que GAPPS quieren tener instalado**. Preferentemente prefiero las GAPPS pico o nano. Y la arquitectura del PC. Y le dan a **Run Workflow**.
+4. Una vez finaliza el proceso y aparece **"Complete Job"**. Tenemos que chequear el log y **descargar** el **WSA** desde transfer.sh
 
 ![](/images/posts/forkv.png)
 
-1. Y el último paso, como prometí 🤣. Tenemos que **abrir la Powershell como Administrador**.  
+5. Y el último paso, como prometí 🤣. Tenemos que **abrir la Powershell como Administrador**.  
    {% highlight bash %}  
-   cd Downloads/WSA-gapps # Acá va el directorio donde Extrajiste el .zip
-
+   cd Downloads/WSA-gapps # Acá va el directorio donde Extrajiste el .zip  
    Add-AppxPackage -Register AppxManifest.xml  
    {% endhighlight %}
 
