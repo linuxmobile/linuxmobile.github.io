@@ -21,7 +21,7 @@ Como ya han de saber, **la mayoría de las personas con Windows 11 ya tienen la 
 
 A mi gusto personal, **la tienda de Amazon es un asco**. Y como muchas personas, no nos queda otra que instalar algunas aplicaciones por otro camino.
 
-Hasta hace unos días atras, la manera disponible era, a través de **ADB Sideload**. Esto es, al igual que en Android, utilizando el **Modo Desarrollador** (_Depuración USB | USB debugging_). Para hacer esto, tenemos que bajar la herramienta para poder usar ADB en Windows, algo que ya debería venir pre-instalado, luego con el modo desarrollador activado, utilizar los comandos de adb para poder mandar el .apk y poder cargarlo en el subsistema de **Android™**. Un proceso un poco largo, y para algunos usarios, tal vez dificil.
+Hasta hace unos días atras, la manera disponible era, a través de **ADB Sideload**. Esto es, al igual que en Android, utilizando el **Modo Desarrollador** (_Depuración USB / USB debugging_). Para hacer esto, tenemos que bajar la herramienta para poder usar ADB en Windows, algo que ya debería venir pre-instalado, luego con el modo desarrollador activado, utilizar los comandos de adb para poder mandar el .apk y poder cargarlo en el subsistema de **Android™**. Un proceso un poco largo, y para algunos usarios, tal vez dificil.
 
 ***
 
@@ -72,7 +72,7 @@ Ahora, solo basta con ir al a pestaña de inicio y abrir el **Windows Subsystem 
 
 ## Ya podemos utilizar las apps de Google
 
-Con estos simples pasos, y este hermoso tutorial, ya podemos utilizar las apps de Google sin problemas. 
+Con estos simples pasos, y este hermoso tutorial, ya podemos utilizar las apps de Google sin problemas.
 
 ![](/images/posts/playstore.png)
 
