@@ -35,21 +35,21 @@ Primero que nada me gustaría darle un breve repaso a los **requisitos mínimos*
 * **SSD**
 * Virtualización **habilitada** en nuestro equipo
 
-Estos requisitos, son los mínimos. Es posible que algunas aplicaciones o juegos, no te funcionen como en un teléfono Android con 8gb de ram. Más bien, acorde a las especificaciones de tu pc, Android™ correrá mejor o peor. 
+Estos requisitos, son los mínimos. Es posible que algunas aplicaciones o juegos, no te funcionen como en un teléfono Android con 8gb de ram. Más bien, acorde a las especificaciones de tu pc, Android™ correrá mejor o peor.
 
 ## Los "cinco" pasos para poder instalar Android™ y las Gapps.
 
-1. El primer, y sencillo, paso es **ir al Repositorio**, de Github, de [**Nageshwar128**](https://github.com/Nageshwar128/WSA-GA-Actions). Y le damos al botón **FORK**. 
+1. El primer, y sencillo, paso es **ir al Repositorio**, de Github, de [**Nageshwar128**](https://github.com/Nageshwar128/WSA-GA-Actions). Y le damos al botón **FORK**.
 
 ![](/images/posts/fork.png)
 
-2. Luego en tu repositorio "forkeado". Vas a la pestaña **Acciones** (Actions), presionas en **WSA-GA-Actions** _(el que está del lado izquierdo),_ y le das a **Run Workflow.**
-3. En este punto, deben **elegir que GAPPS quieren tener instalado**. Preferentemente prefiero las GAPPS pico o nano. Y la arquitectura del PC. Y le dan a **Run Workflow**.
-4. Una vez finaliza el proceso y aparece **"Complete Job"**. Tenemos que chequear el log y **descargar** el **WSA** desde transfer.sh
+1. Luego en tu repositorio "forkeado". Vas a la pestaña **Acciones** (Actions), presionas en **WSA-GA-Actions** _(el que está del lado izquierdo),_ y le das a **Run Workflow.**
+2. En este punto, deben **elegir que GAPPS quieren tener instalado**. Preferentemente prefiero las GAPPS pico o nano. Y la arquitectura del PC. Y le dan a **Run Workflow**.
+3. Una vez finaliza el proceso y aparece **"Complete Job"**. Tenemos que chequear el log y **descargar** el **WSA** desde transfer.sh
 
 ![](/images/posts/forkv.png)
 
-5. Y el último paso, como prometí 🤣. Tenemos que **abrir la Powershell como Administrador**.   
+1. Y el último paso, como prometí 🤣. Tenemos que **abrir la Powershell como Administrador**.  
    {% highlight bash %}  
    cd Downloads/WSA-gapps # Acá va el directorio donde Extrajiste el .zip
 
@@ -60,6 +60,28 @@ Estos requisitos, son los mínimos. Es posible que algunas aplicaciones o juegos
 
 ## Con esto ya disponemos de Android™
 
-Ahora, solo basta con ir al a pestaña de inicio y abrir el **Windows Subsystem for Android™**. Quiero aclarar que las apps de google (Play Store, y algunas otras) **no aparecen instantaneamente** ya que se están **instalando en background**, por lo tanto, antes de venir a escribirme, ten paciencia... ya aparecerá todo. 
+Ahora, solo basta con ir al a pestaña de inicio y abrir el **Windows Subsystem for Android™**. Quiero aclarar que las apps de google (Play Store, y algunas otras) **no aparecen instantaneamente** ya que se están **instalando en background**, por lo tanto, antes de venir a escribirme, ten paciencia... ya aparecerá todo. (Si aún no aparece la Play Store, reinicia).
 
-![](/images/posts/android.png)
+<div class="gallery-box">
+<div class="gallery">
+<img src="/images/posts/android.png">
+<img src="/images/posts/debbugin.png">
+<img src="/images/posts/inicio.png">
+</div>
+</div>
+
+## Ya podemos utilizar las apps de Google
+
+Con estos simples pasos, y este hermoso tutorial, ya podemos utilizar las apps de Google sin problemas. 
+
+![](/images/posts/playstore.png)
+
+## Errores que pueden presentarse en la instalación
+
+Es posible que no tengas habilitada la **virtualización**, o qué tal vez no sepas que es. Simplemente abre la **Powershell como Administrador** y escribe:
+
+{% highlight bash %}  
+_dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all_  
+{% endhighlight %}
+
+### Eso ha sido todo por hoy, luego haré otro tutorial explicando como instalar WSLg en 2 simples pasos. Por favor, si te gustó este post, te pido que me ayudes a divulgarlo. Y dejame un comentario, así continuaré escribiendo post como este!
