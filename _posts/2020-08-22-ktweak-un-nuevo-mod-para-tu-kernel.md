@@ -30,6 +30,6 @@ En comparación con otros “optimizadores” `KTweak` está basado en ajustes r
 
 **En el repositorio de** [**Magisk**](https://github.com/Magisk-Modules-Alt-Repo/ktweak) **se explica extensivamente y de manera muy detallada todo lo que el kernel hace. A diferencia de otros “optimizadores” puedo decir que es muy concisa la información y correcta.**
 
-Pueden descargarlo de manera muy sencilla desde el link de [`Magisk`](https://github.com/Magisk-Modules-Alt-Repo/ktweak)
+Pueden descargarlo de manera muy sencilla desde el link de [`Magisk`](https://github.com/Magisk-Modules-Alt-Repo/ktweak).
 
 ![](/images/posts/magisk.png)
