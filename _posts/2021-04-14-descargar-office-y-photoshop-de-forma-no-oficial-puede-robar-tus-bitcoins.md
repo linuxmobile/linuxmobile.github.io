@@ -15,11 +15,11 @@ tags:
 ---
 Yo estoy seguro que la mayoría de las personas que ingresen a este blog van a tener instalado Linux, pero aún así valía la pena escribir un artículo sobre este tema. Descargar Photoshop y Office, de manera ilegal, puede terminar en un desastre.
 
-Desde el surgimiento del software comercial múltiples desarrolladores se han dedicado a la creación y lanzamiento de cracks y parches, términos que se refieren a aplicaciones simples y fáciles de usar que permiten a los usuarios esquivar los mecanismos anti piratería en estos productos para utilizarlos sin tener que pagar.
+Desde el surgimiento del software comercial, múltiples desarrolladores se han dedicado a la creación y lanzamiento de cracks y parches, términos que se refieren a aplicaciones simples y fáciles de usar que permiten a los usuarios esquivar los mecanismos anti-piratería en estos productos para utilizarlos sin tener que pagar.
 
 Los principales problemas de esta práctica tienen que ver con la violación de legislaciones de propiedad intelectual, aunque recientemente han aumentado los reportes de incidentes de seguridad relacionados con el uso de software **“crackeado”**.
 
-Un reciente reporte de la firma de seguridad `BitDefender` hace referencia al descubrimiento de una serie de ataques basados en la **explotación de fallas de seguridad** en versiones piratas de `Microsoft Office` y algunas herramientas para la edición de imágenes como el popular `Photoshop`. Estos ataques buscan **tomar control de los dispositivos afectados** para secuestrar carteras de criptomoneda y extraer información de forma inadvertida a través de la red `Tor`.
+Un reciente reporte de la firma de seguridad `BitDefender` hace referencia al descubrimiento de una serie de ataques basados en la **explotación de fallas de seguridad** en versiones piratas de `Microsoft Office` y algunas herramientas para la edición de imágenes como el popular `Photoshop`. Estos ataques buscan **tomar control de los dispositivos afectados** para secuestrar carteras de criptomonedas y extraer información de forma inadvertida a través de la red `Tor`.
 
 Al ejecutarse en el sistema comprometido, el software crackeado entrega una instancia de `ncat.exe`, **una herramienta de envío de datos sin procesar a través de la red, además de un proxy Tor**. Estos archivos se colocan en el almacenamiento del sistema identificados como `%syswow64%\nap.exe` o `%syswow64%\ndc.exe`, y `%syswow64\tarsrv.exe`. También se coloca un archivo por lotes en `%syswow64%\chknap.bat` que contiene una línea de comandos para el componente Ncat dedicado a recorrer los puertos 8000 y 9000 en dominios .onion como se muestra a continuación.
 
