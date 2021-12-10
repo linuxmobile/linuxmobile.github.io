@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Los Mejores lenguajes de programación según expertos!
+title: ¡Los mejores lenguajes de programación según expertos!
 description: "¿Cuál lenguaje debes elegir si quieres ser programador? ¿Por cuál empezar?
   ¿Cuál me dará más oportunidades de encontrar empleo?"
 date: 2021-04-11 03:00:00 +0000
@@ -39,4 +39,4 @@ Por su parte, `Python tiene mucho éxito en el ámbito científico y en el proce
 
 # No te olvides de dejar un comentario para ayudarnos en el algoritmo de Google…
 
-Y pronto dejaré las redes sociales para que puedas seguirnos y comunicarte con nosotros :)
+Y pronto dejaré las redes sociales para que puedas seguirnos y comunicarte con nosotros. :)
