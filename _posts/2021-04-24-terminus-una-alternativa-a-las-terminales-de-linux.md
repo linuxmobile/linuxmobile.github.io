@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Terminus, una alternativa a las terminales de linux
+title: Terminus, una alternativa a las terminales de Linux
 description: Terminus se autodefine como una terminal para la era moderna. Y en cierto
   punto, es una correcta forma de expresar lo que simbolíza esta terminal multiplataforma.
 date: 2021-04-24 03:00:00 +0000
