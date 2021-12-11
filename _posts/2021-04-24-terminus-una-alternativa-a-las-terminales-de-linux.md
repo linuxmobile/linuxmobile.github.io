@@ -10,7 +10,7 @@ tags:
 - Linux
 
 ---
-    Terminus Es una terminal 100% configurable, con soporte SSH. Y con soporte multiplataforma… Windows, MacOS, Linux.
+    Terminus es una terminal 100% configurable, con soporte SSH. Y con soporte multiplataforma… Windows, MacOS, Linux.
     Algunas de las características que no voy a traducir porque si lees este blog, más o menos debes entender…
 
 * Integrated SSH client and connection manager
@@ -44,8 +44,8 @@ _Para ver todas las características te recomiendo ir a su_ [Github](https://git
 
 ## Conclusión
 
-No escribí el post para detallar profundamente todas las características y sus funciones. Más bien porque quizá muchos no conocen **terminus**. Sinceramente, esta terminal es excelente. Me gusta el diseño, tiene plugins muy útiles, muy buenas características.
+No escribí el post para detallar profundamente todas las características y sus funciones. Más bien porque quizá muchos no conocen **Terminus**. Sinceramente, esta terminal es excelente. Me gusta el diseño, tiene plugins muy útiles y muy buenas características.
 
-_La recomiendo para aquellos que tienen muy buena pc, que no les importa mucho el rendimiento, la ram y demás. Consume bastante para aquellos que tienen un intel celeron, atom, con 4 gb de ram!_
+_La recomiendo para aquellos que tienen muy buena pc, que no les importa mucho el rendimiento, la ram y demás. ¡Consume bastante para aquellos que tienen un Intel Celeron, Atom, con 4 gb de ram!_
 
 ![](https://raw.githubusercontent.com/Eugeny/terminus/master/docs/readme-ssh.png)
