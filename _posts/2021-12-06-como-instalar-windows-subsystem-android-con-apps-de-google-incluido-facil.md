@@ -1,10 +1,10 @@
 ---
 layout: post
 featured: true
-title: Como instalar Windows Subsystem Android con Apps de Google incluído (FACIL)
+title: Cómo instalar Windows Subsystem Android con Apps de Google incluido (FÁCIL)
 description: Después de su anuncio oficial en Junio, por fin podemos probar las aplicaciones
   Android™ en Windows 11. Hoy voy a enseñarte, cómo instalar Android™ con las Gapps
-  de Google incluídas en sólo 5 pasos últra sencillos!
+  de Google incluídas,¡en sólo 5 pasos últra sencillos!
 date: 2021-12-06 03:00:00 +0000
 image: https://www.xda-developers.com/files/2021/10/Windows-Subsystem-for-Android-with-Play-Store-Featured-3.jpg
 tags:
@@ -21,7 +21,7 @@ Como ya han de saber, **la mayoría de las personas con Windows 11 ya tienen la 
 
 A mi gusto personal, **la tienda de Amazon es un asco**. Y como muchas personas, no nos queda otra que instalar algunas aplicaciones por otro camino.
 
-Hasta hace unos días atras, la manera disponible era, a través de **ADB Sideload**. Esto es, al igual que en Android, utilizando el **Modo Desarrollador** (_Depuración USB / USB debugging_). Para hacer esto, tenemos que bajar la herramienta para poder usar ADB en Windows, algo que ya debería venir pre-instalado, luego con el modo desarrollador activado, utilizar los comandos de adb para poder mandar el .apk y poder cargarlo en el subsistema de **Android™**. Un proceso un poco largo, y para algunos usarios, tal vez dificil.
+Hasta hace unos días atras, la manera disponible era, a través de **ADB Sideload**. Esto es, al igual que en Android, utilizando el **Modo Desarrollador** (_Depuración USB / USB debugging_). Para hacer esto, tenemos que bajar la herramienta para poder usar ADB en Windows (algo que ya debería venir pre-instalado). Luego con el modo desarrollador activado, utilizar los comandos de adb para poder mandar el .apk y poder cargarlo en el subsistema de **Android™**. Un proceso un poco largo, y para algunos usarios, tal vez difícil.
 
 ***
 
@@ -44,7 +44,7 @@ Estos requisitos, son los mínimos. Es posible que algunas aplicaciones o juegos
 ![](/images/posts/fork.png)
 
 2. Luego en tu repositorio "forkeado". Vas a la pestaña **Acciones** (Actions), presionas en **WSA-GA-Actions** _(el que está del lado izquierdo),_ y le das a **Run Workflow.**
-3. En este punto, deben **elegir que GAPPS quieren tener instalado**. Preferentemente prefiero las GAPPS pico o nano. Y la arquitectura del PC. Y le dan a **Run Workflow**.
+3. En este punto, deben **elegir que GAPPS quieren tener instalado**. Personalmente prefiero las GAPPS pico o nano. Seleccionan la arquitectura del PC y le dan a **Run Workflow**.
 4. Una vez finaliza el proceso y aparece **"Complete Job"**. Tenemos que chequear el log y **descargar** el **WSA** desde transfer.sh
 
 ![](/images/posts/forkv.png)
@@ -71,7 +71,7 @@ Ahora, solo basta con ir al a pestaña de inicio y abrir el **Windows Subsystem 
 
 ## Ya podemos utilizar las apps de Google
 
-Con estos simples pasos, y este hermoso tutorial, ya podemos utilizar las apps de Google sin problemas.
+Con estos simples pasos y este hermoso tutorial, ya podemos utilizar las apps de Google sin problemas.
 
 ![](/images/posts/playstore.png)
 
@@ -83,4 +83,4 @@ Es posible que no tengas habilitada la **virtualización**, o qué tal vez no se
 _dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all_  
 {% endhighlight %}
 
-### Eso ha sido todo por hoy, luego haré otro tutorial explicando como instalar WSLg en 2 simples pasos. Por favor, si te gustó este post, te pido que me ayudes a divulgarlo. Y dejame un comentario, así continuaré escribiendo post como este!
+### Eso ha sido todo por hoy, luego haré otro tutorial explicando como instalar WSLg en 2 simples pasos. Por favor, si te gustó este post, te pido que me ayudes a divulgarlo. Y dejame un comentario, ¡así continuaré escribiendo post como este!

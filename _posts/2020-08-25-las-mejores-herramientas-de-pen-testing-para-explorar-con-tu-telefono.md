@@ -57,7 +57,7 @@ El concepto de `StaCoAn` es muy sencillo, la “app” incluso te brinda una int
 
 ![](https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80)
 
-`SigPloit` es una herramienta que te permite testear las señales **Telecom** y explorar las vulnerabilidades in los protocolos de señalización que utilizan los operadores móviles.
+`SigPloit` es una herramienta que te permite testear las señales **Telecom** y explorar las vulnerabilidades en los protocolos de señalización que utilizan los operadores móviles.
 
 Algunas de las caracteristicas de `SigPloit` son:
 
@@ -106,4 +106,4 @@ pacman -S quark
 
 {% endhighlight %}
 
-## Esto va a ser todo por hoy. Dentro de unos días voy a publicar la segunda parte de este mismo artículo. No se lo pierdan y dejen su comentario, así me ayudan a crecer!
+## Esto va a ser todo por hoy. Dentro de unos días voy a publicar la segunda parte de este mismo artículo. ¡No se lo pierdan y dejen su comentario, así me ayudan a crecer!

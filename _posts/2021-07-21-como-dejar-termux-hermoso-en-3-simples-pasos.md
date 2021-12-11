@@ -1,7 +1,7 @@
 ---
 layout: post
 featured: true
-title: Como dejar Termux hermoso en 3 simples pasos!
+title: ¡Cómo dejar Termux hermoso en 3 simples pasos!
 description: Termux, una de las mejores terminales para Android pero que luce un poco
   anticuada. Hoy te enseño como dejar Termux de la manera más linda posible!
 date: 2021-07-21 03:00:00 +0000
@@ -13,7 +13,7 @@ tags:
 ---
 ## Intro
 
-`Termux` es un emulador de terminal disponible para **Android, de manera gratuita y opensource**. Cuenta con una **comunidad** [**enorme**](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/enorme) dentro del mundo de Android y Linux. En la cual se puede encontrar muchísima información útil.
+`Termux` es un emulador de terminal disponible para **Android, de manera gratuita y OpenSource**. Cuenta con una **comunidad** [**enorme**](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/enorme) dentro del mundo de Android y Linux. En la cual se puede encontrar muchísima información útil.
 
 Con `Termux` se pueden hacer miles de cosas.
 
@@ -31,7 +31,7 @@ Con `Termux` se pueden hacer miles de cosas.
 </div>
 </div>
 
-# y también customizarlo
+# Y también customizarlo
 
 ![](https://mytermux-xshin404.vercel.app/assets/images/preview-3d60b7d9d08bcef67420fd52af4c1846.png)
 
@@ -39,9 +39,9 @@ Con `Termux` se pueden hacer miles de cosas.
 
 # Instalando Termux
 
-La aplicación de `Termux` la podemos encontrar facilmente en [F-Droid](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/F-Droid). La versión de la _Play Store está obsoleta, y en Github, Termux recomiendo no instalar en lo absoluto la versión de allí._ Por lo tanto lo mejor es bajar el **APK** desde F-Droid.
+La aplicación de `Termux` la podemos encontrar fácilmente en [F-Droid](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/F-Droid). La versión de la _Play Store está obsoleta, y en Github, Termux recomienda no instalar en lo absoluto la versión de allí._ Por lo tanto lo mejor es bajar el **APK** desde F-Droid.
 
-Una vez instalada la aplicación, la abrimos y escribimos
+Una vez instalada la aplicación, la abrimos y escribimos:
 
 {% highlight html %}  
 termux-setup-storage  
@@ -51,7 +51,7 @@ Eso es para darle a `Termux` los permisos para acceder a nuestro Storage.
 
 ## Instalando los Dotfiles
 
-Para dejar `Termux` bellisimo. Vamos a utilizar los **Dotfiles** de [xshin404](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/xshin404)
+Para dejar `Termux` bellísimo. Vamos a utilizar los **Dotfiles** de [xshin404](http://localhost:1313/posts/como-dejar-termux-hermoso-en-3-simples-pasos/xshin404)
 
 Así que vamos a ello.
 
@@ -95,7 +95,7 @@ nvim
 
 ## Comentarios finales
 
-Eso es todo. Voy a dejar algunos comandos que son útiles y que disponemos ahora que ya hemos instalado los dotfiles
+Eso es todo. Voy a dejar algunos comandos que son útiles y que disponemos ahora que ya hemos instalado los Dotfiles.
 
 {% highlight html %}  
 cava    # Visualizer  
@@ -109,4 +109,4 @@ ls      # En vez del natural ls, utilizamos 'exa'
 
 # Espero que les haya gustado este post. Me ayudarían muchísimo comentando y compartiendo este post en donde sea: Grupos de Telegram, Redes Sociales, ustedes saben.-
 
-_para poder ver algunos ajustes, como la batería, en neofetch vamos a necesitar Termux-Api (también lo encontramos en fdroid, y además de instalarlo como apk, debemos instalarlo con `pkg install termux-api`)_
+_Para poder ver algunos ajustes, como la batería, en Neofetch vamos a necesitar Termux-Api (también lo encontramos en F-Droid y además de instalarlo como apk, debemos instalarlo con `pkg install termux-api`)_
