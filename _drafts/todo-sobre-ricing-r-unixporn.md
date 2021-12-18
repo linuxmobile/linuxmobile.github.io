@@ -29,21 +29,21 @@ Una lista de todas las herramientas y tecnologías para hacer que nuestro **Sist
 * [darwintiler](https://github.com/veryjos/darwintiler) - _Un WM para MacOS y Linux._ **(C, Nim)**
 * [echinus](https://github.com/polachok/echinus) - _Un WM liviano y fácil de configurar._ **(C)**
 * [exwm](https://github.com/ch11ng/exwm) - _Emacs X window manager._ **(Emacs Lisp)**
-* [fpwm](https://github.com/sduverger/fpwm) - python tiling window manager .(python)
-* [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm) - A manual tiling window manager for X11. (C++,python)
-* [howm](https://github.com/HarveyHunt/howm) - A lightweight, X11 tiling window manager that behaves like vim. (C)
-* [i3](https://github.com/i3/i3) - A tiling window manager. (C , perl)
-* [larswm](http://porneia.free.fr/larswm/larswm.html) - A tiling window manager based on 9wm. (C)
-* [leftwm](https://github.com/leftwm/leftwm) - A tiling window manager for Adventurers. (rust)
-* [marwind](https://github.com/patrislav/marwind) - A simple X11 tiling window manager .(go)
-* [notion](https://github.com/raboof/notion) - Tiling tabbed window manager. (C,Lua)
-* [pytyle1x](https://github.com/zehkira/pytyle1x) - Tiling manager which runs on top of EWMH window managers. (python)
-* [qtile](https://github.com/qtile/qtile) - A full-featured, hackable tiling window manager written and configured in Python .(python)
-* [quicktile](https://github.com/ssokolow/quicktile) - (Adds window-tiling hotkeys to any X11 desktop. (An analogue to WinSplit Revolution for people who don't want to use Compiz Grid (python)
-* [ratpoison](https://www.nongnu.org/ratpoison/) - simple Window Manager with no fat library dependencies.(C)
-* [sara](https://github.com/gitluin/sara) - Originally a fork of catwm, now an offspring of dwm with a streamlined featureset, plus some bspwm. (C)
-* [sdorfehs](https://github.com/jcs/sdorfehs) - X11 Window manager. (C)
-* [shellshape](https://github.com/timbertson/shellshape) - tiling window manager extension for gnome-shell .(typescript)
+* [fpwm](https://github.com/sduverger/fpwm) - _Un WM escrito en Python._ **(python)**
+* [herbstluftwm](https://github.com/herbstluftwm/herbstluftwm) - _Un WM manual para X11._ **(C++, python)**
+* [howm](https://github.com/HarveyHunt/howm) - _Un Tiling liviano para X11 tiling que se comporta como VIM._ **(C)**
+* [i3](https://github.com/i3/i3) - _Ya lo conocen... Un window manager._ **(C , perl)**
+* [larswm](http://porneia.free.fr/larswm/larswm.html) - _Un Tiling basado en 9wm._ **(C)**
+* [leftwm](https://github.com/leftwm/leftwm) - A tiling window manager for Adventurers. **(rust)**
+* [marwind](https://github.com/patrislav/marwind) - A simple X11 tiling window manager. **(go)**
+* [notion](https://github.com/raboof/notion) - _Un WM con pestañas._ **(C, Lua)**
+* [pytyle1x](https://github.com/zehkira/pytyle1x) - _Un WM que corre arriba de EWMH._ **(python)**
+* [qtile](https://github.com/qtile/qtile) - _Uno de los WM más configurables y con más funciones._ **(python)**
+* [quicktile](https://github.com/ssokolow/quicktile) - (Adds window-tiling hotkeys to any X11 desktop. (An analogue to WinSplit Revolution for people who don't want to use Compiz Grid **(python)**
+* [ratpoison](https://www.nongnu.org/ratpoison/) - _Un WM sencillo, con poquitas dependencias._  **(C)**
+* [sara](https://github.com/gitluin/sara) - _En principio un fork de catwm. Ahora tiene algunas cosas de DWM y otras de BSWPM._ **(C)**
+* [sdorfehs](https://github.com/jcs/sdorfehs) - _X11 Window manager._ **(C)**
+* [shellshape](https://github.com/timbertson/shellshape) - _Extension WM para gnome-shell._ **(typescript)**
 * [shod](https://github.com/phillbush/shod) - hybrid (floating and tiling) tabbed window manager. (C)
 * [stumpwm](https://github.com/stumpwm/stumpwm) - X11 Window Manager written entirely in Common Lisp. .(Common Lisp)
 * [subtle](https://github.com/MinasMazar/subtle) - A grid-based manual window manager .(C, ruby)
