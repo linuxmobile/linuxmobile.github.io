@@ -44,7 +44,7 @@ Una lista de todas las herramientas y tecnologías para hacer que nuestro **Sist
 * [sara](https://github.com/gitluin/sara) - _En principio un fork de catwm. Ahora tiene algunas cosas de DWM y otras de BSWPM._ **(C)**
 * [sdorfehs](https://github.com/jcs/sdorfehs) - _X11 Window manager._ **(C)**
 * [shellshape](https://github.com/timbertson/shellshape) - _Extension WM para gnome-shell._ **(typescript)**
-* [shod](https://github.com/phillbush/shod) - hybrid (floating and tiling) tabbed window manager. (C)
+* [shod](https://github.com/phillbush/shod) - _Un hibrido WM (floating y tiling)_. **(C)**
 * [stumpwm](https://github.com/stumpwm/stumpwm) - X11 Window Manager written entirely in Common Lisp. .(Common Lisp)
 * [subtle](https://github.com/MinasMazar/subtle) - A grid-based manual window manager .(C, ruby)
 * [taowm](https://github.com/nigeltao/taowm) - The Acutely Opinionated Window Manager .(go)
