@@ -8,10 +8,10 @@
       <li class="nav__item">
         <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
       </li>
-      <li class="nav__item">
-        <a href="https://linuxmobile.netlify.app/2021/12/27/queres-que-tu-arch-se-vea-hermoso-aca-te-dejo-mis-dotfiles/" class="nav__link">DOTFILES</a>
-      </li>
       {% endif %}
     {% endunless %}
   {% endfor %}
+  <li class="nav__item">
+    <a href="https://linuxmobile.netlify.app/2021/12/27/queres-que-tu-arch-se-vea-hermoso-aca-te-dejo-mis-dotfiles/" class="nav__link">DOTFILES</a>
+  </li>
 </ul>
