@@ -148,3 +148,13 @@ fc-cache -rv
 ### Les dejo un video de mi anterior Desktop
 
 <div class="video"> <iframe src="[https://www.youtube.com/embed/tiGCbY3EXks](https://www.youtube.com/embed/tiGCbY3EXks "https://www.youtube.com/embed/tiGCbY3EXks")" frameborder="0" allowfullscreen></iframe> </div>
+
+### **  
+**Creditos
+
+**  
+**_A la hermosa comunidad de_ [_r/unixporn_](https://www.reddit.com/r/unixporn)_._
+
+**_©_** _A todos los artistas que crearon los iconis, ilustraciones, y wallpapers._
+
+**_©_** _A cada uno que ha creado y mantiene los proyectos que he mencionado y utilizado anteriormente._
