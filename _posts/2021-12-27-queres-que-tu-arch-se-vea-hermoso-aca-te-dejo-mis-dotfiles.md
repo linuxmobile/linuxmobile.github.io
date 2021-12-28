@@ -6,7 +6,7 @@ description: Te gustaría tener un Arch hermoso, sin gastar mucho esfuerzo y tie
   aprendiendo. Bueno, acá te dejo mis DOTFILES para que puedas utilizarlo cuando quieras,
   y cuantas veces quieras.
 date: 2021-12-27 03:00:00 +0000
-image: https://imgur.com/ePgG6Wl
+image: https://i.imgur.com/ePgG6Wl.png
 tags:
 - Linux
 - Documentacion
