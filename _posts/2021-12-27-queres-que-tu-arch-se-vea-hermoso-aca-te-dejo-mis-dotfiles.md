@@ -13,8 +13,7 @@ tags:
 - Dotfiles
 
 ---
-![https://camo.githubusercontent.com/57dc81b1e0993770e553e1f70ca9ba0b0e0d1c2d4982d71eb232b05133b0e6ba/68747470733a2f2f692e696d6775722e636f6d2f775136696838382e706e67](https://camo.githubusercontent.com/57dc81b1e0993770e553e1f70ca9ba0b0e0d1c2d4982d71eb232b05133b0e6ba/68747470733a2f2f692e696d6775722e636f6d2f775136696838382e706e67)  
-![https://camo.githubusercontent.com/f483eb3c2696abb42852049457672bfcd738dc17ac4dc290b5b74d153c63c108/68747470733a2f2f692e696d6775722e636f6d2f615268575157712e706e67](https://camo.githubusercontent.com/f483eb3c2696abb42852049457672bfcd738dc17ac4dc290b5b74d153c63c108/68747470733a2f2f692e696d6775722e636f6d2f615268575157712e706e67)![https://camo.githubusercontent.com/11b5b8f1265a8e63c786cde3fb8539a1ac77e805a4aa4a50794281cdbf07742f/68747470733a2f2f692e696d6775722e636f6d2f483632423974472e706e67](https://camo.githubusercontent.com/11b5b8f1265a8e63c786cde3fb8539a1ac77e805a4aa4a50794281cdbf07742f/68747470733a2f2f692e696d6775722e636f6d2f483632423974472e706e67)![https://camo.githubusercontent.com/85977cca6cb3ce1140f9e34b2dfab3c5cfe7f40fb8d3498133ed6b37f712d4ea/68747470733a2f2f692e696d6775722e636f6d2f4b4b6b764b45312e706e67](https://camo.githubusercontent.com/85977cca6cb3ce1140f9e34b2dfab3c5cfe7f40fb8d3498133ed6b37f712d4ea/68747470733a2f2f692e696d6775722e636f6d2f4b4b6b764b45312e706e67)![https://camo.githubusercontent.com/1100fcb3b9aa2ce7d469af9f75e03b55e5e08fd20d10a9b58e163e191e91e31a/68747470733a2f2f692e696d6775722e636f6d2f473939335478412e706e67](https://camo.githubusercontent.com/1100fcb3b9aa2ce7d469af9f75e03b55e5e08fd20d10a9b58e163e191e91e31a/68747470733a2f2f692e696d6775722e636f6d2f473939335478412e706e67)
+![https://camo.githubusercontent.com/57dc81b1e0993770e553e1f70ca9ba0b0e0d1c2d4982d71eb232b05133b0e6ba/68747470733a2f2f692e696d6775722e636f6d2f775136696838382e706e67](https://camo.githubusercontent.com/57dc81b1e0993770e553e1f70ca9ba0b0e0d1c2d4982d71eb232b05133b0e6ba/68747470733a2f2f692e696d6775722e636f6d2f775136696838382e706e67)
 
 ***
 
@@ -35,6 +34,8 @@ Algunos detalles sobre mi **Desktop**.
 * **Launcher** • [Rofi](https://github.com/davatorium/rofi) 🚀 Realmente rápido y customizable!
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) y [Ranger ](https://github.com/ranger/ranger)🔖 customizado!
 * **GUI Basic-IDE** • [Geany](https://www.geany.org) 🗒️Un IDE muy livianito!
+
+## Este es mi actual desktop
 
 <div class="video">
 <iframe src="https://www.youtube.com/embed/8RDsBZiNLTA" frameborder="0" allowfullscreen></iframe>
@@ -64,8 +65,8 @@ makepkg -si
 #### Instalamos Oh-My-Zsh 🐚
 
 {% highlight bash %}  
-\# First install Oh-My-Zsh   
-echo "### Installing oh-my-zsh"   
+\# First install Oh-My-Zsh  
+echo "### Installing oh-my-zsh"  
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
 {% endhighlight %}
 
@@ -95,7 +96,7 @@ git clone --depth 1 https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTO
 ##### Primero vamos a instalar las dependencias.
 
 {% highlight bash %}  
-sudo pacman -S --needed cairo gdb ninja gcc cmake libxcb xcb-proto xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm xcb-util-xrm gtkmm gtk4 gtkmm3   
+sudo pacman -S --needed cairo gdb ninja gcc cmake libxcb xcb-proto xcb-util xcb-util-cursor xcb-util-image xcb-util-keysyms xcb-util-renderutil xcb-util-wm xcb-util-xrm gtkmm gtk4 gtkmm3  
 {% endhighlight %}
 
 ##### Compilamos Hypr WM
@@ -129,10 +130,10 @@ rsync -avxHAXP --exclude '.git*' .* \~/
 
 {% highlight bash %}  
 pushd \~/.icons/ && \\
-    tar -xJf Papirus-Custom.tar.xz && tar -xJf Papirus-Dark-Custom.tar.xz && \\
-    sudo ln -vs \~/.icons/Papirus-Custom /usr/share/icons/
-    sudo ln -vs \~/.icons/Papirus-Dark-Custom /usr/share/icons/
-    rm -rf *.tar.xz
+tar -xJf Papirus-Custom.tar.xz && tar -xJf Papirus-Dark-Custom.tar.xz && \\
+sudo ln -vs \~/.icons/Papirus-Custom /usr/share/icons/
+sudo ln -vs \~/.icons/Papirus-Dark-Custom /usr/share/icons/
+rm -rf *.tar.xz
 popd  
 {% endhighlight %}
 
