@@ -61,8 +61,7 @@ cd paru
 makepkg -si  
 {% endhighlight %}
 
-####   
-Instalamos Oh-My-Zsh 🐚
+#### Instalamos Oh-My-Zsh 🐚
 
 {% highlight bash %}  
 \# First install Oh-My-Zsh   
@@ -70,7 +69,7 @@ echo "### Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
 {% endhighlight %}
 
-#### Instalando los paquetes requierios 📦
+#### Instalando los paquetes requeridos 📦
 
 {% highlight bash %}  
 echo "### Installing Required Packages"
