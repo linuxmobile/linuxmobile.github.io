@@ -132,3 +132,64 @@ Una lista de todas las herramientas y tecnologías para hacer que nuestro **Sist
 #### Other
 
 * [vioarr](https://github.com/Meulengracht/vioarr) - _pen source, cross-platform window manager. Default window manager for Vali/MollenOS._ **(C)**
+
+***
+
+## Barras y Paneles
+
+* [barmaid.lua](https://github.com/ColumPaget/barmaid.lua) - _A status-bar generation program for dzen2, lemonbar, or the terminal._ **(lua)**
+* [barr](https://github.com/OkayDave/barr) - _Barr is a status line style generator for LemonBar._ **(ruby)**
+* [bevelbar](https://www.uninformativ.de/git/bevelbar/file/README.html) - _Draw an X11 status bar with fancy schmancy 1985-ish beveled borders._ **(C)**
+* [blockbar](https://gitlab.com/sambazley/blockbar) - _Blocks based status bar for X window managers._ **(C)**
+* [bmpanel](https://github.com/nsf/bmpanel) - _lightweight, netwm compliant, x11 panel with desktop switcher, taskbar, systray and clock._ **(C)**
+* [bumblebee-status](https://github.com/tobi-wan-kenobi/bumblebee-status) - _A modular, theme-able status line generator for the i3wm._ **(python)**
+* [cnx](https://github.com/mjkillough/cnx) - _A simple X11 status bar for use with simple WMs._ **(rust)**
+* [dwmbar-powerline](https://github.com/Leomv55/dwmbar-powerline) - _dwmbar with powerline look._ **(go)**
+* [dwmbar](https://github.com/thytom/dwmbar) - _A Modular Status Bar for dwm._ **(shell)**
+* [dzenbar](https://github.com/qbbr/dzenbar) - _dzen2 bar w multiple monitors support._ **(shell)**
+* [eww](https://github.com/elkowar/eww) - _ElKowar's wacky widgets._ **(rust)**
+* [fbpanel](https://github.com/aanatoly/fbpanel) - _lightweight X11 desktop panel._ **(C)**
+* [gobar](https://github.com/distatus/gobar) - _minimalistic X status bar._ **(go)**
+* [goblocks](https://github.com/davidscholberg/goblocks) - _Fast, lightweight i3status._ **(go)**
+* [goi3bar](https://github.com/denbeigh2000/goi3bar) - _Configurable, extensible replacement._ **(go)**
+* [i3blocks](https://github.com/vivien/i3blocks) - _A flexible scheduler for your i3bar blocks._ **(C)**
+* [i3status-rust](https://github.com/greshake/i3status-rust) - V_ery resourcefriendly and feature-rich replacement for i3status._ **(rust)**
+* [i3status](https://github.com/i3/i3status) - _Generates status bar to use with i3bar, dzen2 or xmobar_. **(C)**
+* [lemonbar](https://github.com/LemonBoy/bar) - _A featherweight, lemon-scented, bar based on xcb._ **(C)**
+* [luastatus](https://github.com/shdown/luastatus) - _universal status bar content generator._ **(C)**
+* [lxpanel](https://github.com/lxde/lxpanel) - _Lightweight X11 desktop panel._ **(C)**
+* [mate-panel](https://github.com/mate-desktop/mate-panel) - _MATE panel._ **(C)**
+* [monky](https://github.com/monky-hs/monky) - _Universal status bar content generator._ **(Haskell)**
+* [mowedline](https://github.com/retroj/mowedline) - _A X status bar program._ **(scheme)**
+* [oxbar](https://github.com/ryanflannery/oxbar) - _configurable X11 status bar for OpenBSD._ **(C)**
+* [perlpanel](https://savannah.nongnu.org/projects/perlpanel/) - _Panel made for X11 wms like openbox , icewm._ **(perl)**
+* [polybar](https://github.com/polybar/polybar) - _A fast and easy to use bar._ **(C++)**
+* [polydock](https://github.com/folke/polydock) - _A shiny and hackable application dock._ **(typescript)**
+* [py3status](https://github.com/ultrabug/py3status) - _py3status is an extensible i3status wrapper._ **(python)**
+* [pypanel](http://pypanel.sourceforge.net) - _lightweight panel/taskbar for X11 wms_ **(python , C)**
+* [quobar](https://github.com/tv42/quobar) - _X11 status bar._ **(go)**
+* [rust-dwm-status](https://github.com/pierrechevalier83/rust-dwm-status) - _A status bar for dwm._ **(rust)**
+* [statbar](https://github.com/pzl/statbar) - _A Linux status bar, supporting multiple lightweight clients (multi-head)._ **(C)**
+* [statusbar](https://github.com/l3pp4rd/statusbar) - _Statusbar for linux window manager._ **(go)**
+* [taffybar](https://github.com/taffybar/taffybar) - _A gtk based status bar for tiling window managers such as XMonad._ **(Haskell)**
+* [tianbar](https://github.com/koterpillar/tianbar) - _A status bar for XMonad using WebKit for rendering._ **(Haskell)**
+* [tint2](https://gitlab.com/o9000/tint2) - _A lightweight panel/taskbar for Linux and BSD._ **(C)**
+* [tint3](https://github.com/jmc-88/tint3) - _rewrite of the tint2 panel._ **(C)**
+* [tinto-panel](https://github.com/chigoncalves/tinto-panel) - _Tiny X11 panel._ **(C)**
+* [unixbar](https://github.com/unrelentingtech/unixbar) - _Rust library for creating output for UNIX-style desktop bars like i3bar/swaybar, dzen2, lemonbar._ **(rust)**
+* [vala-panel](https://gitlab.com/vala-panel-project/vala-panel) - _Vala rewrite of SimplePanel._ **(C)**
+* [vbar](https://github.com/AndrewVos/vbar) - _A lightweight bar written._ **(go)**
+* [waybar](https://github.com/Alexays/Waybar) - _Highly customizable Wayland bar for Sway and Wlroots based compositors._ **(C++)**
+* [winbar](https://github.com/jmanc3/winbar) - _A familiar X11 panel/dock to ease new linux users transitio._ **(C++)**
+* [wingpanel](https://github.com/elementary/wingpanel) - S_tylish top panel that holds indicators and spawns an application launcher._ **(vala)**
+* [xfce4-panel](https://gitlab.xfce.org/xfce/xfce4-panel) - _A panel made for xfce , should work on most stacking wms too._ **(C)**
+* [xmobar](https://github.com/jaor/xmobar) - _A minimalistic status bar._ **(Haskell)**
+* [yabar](https://github.com/geommer/yabar) - _A modern and lightweight status bar for X window managers._ **(C)**
+* [yagostatus](https://github.com/burik666/yagostatus) - _Yet Another i3status replacement._ **(go)**
+* [yambar](https://codeberg.org/dnkl/yambar) - _Modular status panel for X11 and Wayland, inspired by polybar._ **(C)**
+
+***
+
+### 
+
+## CLI Tools
