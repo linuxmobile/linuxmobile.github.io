@@ -38,6 +38,10 @@ Algunos detalles sobre mi **Desktop**.
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) y [Ranger ](https://github.com/ranger/ranger)🔖 customizado!
 * **GUI Basic-IDE** • [Geany](https://www.geany.org) 🗒️Un IDE muy livianito!
 
+<div class="video">
+    <iframe src="https://www.youtube.com/embed/tiGCbY3EXks" frameborder="0" allowfullscreen></iframe>
+</div>
+
 ## 🌸 Setup
 
 Esto va a ser un intento de un "paso a paso". Pero siempre recomiendo no copiar y pegar al pie de la letra. Sino "inspirarse".   
