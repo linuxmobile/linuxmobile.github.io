@@ -19,8 +19,7 @@ tags:
 
 ***
 
-  
-![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png ":octocat:" =20x20)  Hola, si estás acá dejame decirte **¡muchas gracias por visitar este post! Me ayudarías muchisimo si lo compartes con alguien.** 
+![:octocat:](https://github.githubassets.com/images/icons/emoji/octocat.png ":octocat:" =20x20)  Hola, si estás acá dejame decirte **¡muchas gracias por visitar este post! Me ayudarías muchisimo si lo compartes con alguien.**
 
 Esta es mi **configuración personal**. Utilizando un WM no muy conocido, y ademas, algunas configuraciones que utilizo frecuentemente. Junto con, tal vez, algunos consejos.
 
@@ -39,10 +38,10 @@ Algunos detalles sobre mi **Desktop**.
 * **GUI Basic-IDE** • [Geany](https://www.geany.org) 🗒️Un IDE muy livianito!
 
 <div class="video">
-    <iframe src="https://www.youtube.com/embed/tiGCbY3EXks" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/tiGCbY3EXks" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## 🌸 Setup
 
-Esto va a ser un intento de un "paso a paso". Pero siempre recomiendo no copiar y pegar al pie de la letra. Sino "inspirarse".   
+Esto va a ser un intento de un "paso a paso". Pero siempre recomiendo no copiar y pegar al pie de la letra. Sino "inspirarse".  
 Como suelen decir en la comunidad de linux. Solamente [R.T.F.M](https://en.wikipedia.org/wiki/RTFM).
