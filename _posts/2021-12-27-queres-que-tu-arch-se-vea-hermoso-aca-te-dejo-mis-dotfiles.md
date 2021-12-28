@@ -151,8 +151,7 @@ fc-cache -rv
 
 ### Creditos
 
-**  
-**_A la hermosa comunidad de_ [_r/unixporn_](https://www.reddit.com/r/unixporn)_._
+_A la hermosa comunidad de_ [_r/unixporn_](https://www.reddit.com/r/unixporn)_._
 
 **_©_** _A todos los artistas que crearon los iconis, ilustraciones, y wallpapers._
 
