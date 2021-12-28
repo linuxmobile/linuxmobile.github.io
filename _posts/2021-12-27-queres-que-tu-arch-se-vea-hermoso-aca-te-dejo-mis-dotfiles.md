@@ -37,7 +37,7 @@ Algunos detalles sobre mi **Desktop**.
 * **GUI Basic-IDE** • [Geany](https://www.geany.org) 🗒️Un IDE muy livianito!
 
 <div class="video">
-<iframe src="https://www.youtube.com/embed/tiGCbY3EXks" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/8RDsBZiNLTA" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## 🌸 Setup
@@ -147,10 +147,7 @@ fc-cache -rv
 
 ### Les dejo un video de mi anterior Desktop
 
-<div class="video"> <iframe src="[https://www.youtube.com/embed/tiGCbY3EXks](https://www.youtube.com/embed/tiGCbY3EXks "https://www.youtube.com/embed/tiGCbY3EXks")" frameborder="0" allowfullscreen></iframe> </div>
-
-### **  
-**Creditos
+### Creditos
 
 **  
 **_A la hermosa comunidad de_ [_r/unixporn_](https://www.reddit.com/r/unixporn)_._
