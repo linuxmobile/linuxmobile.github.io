@@ -49,7 +49,7 @@ Como suelen decir en la comunidad de linux. Solamente [R.T.F.M](https://en.wikip
 
     Primero que nada un breve "disclaimer". Esta configuración es la que estoy utilizando actualmente. Está pensado para funcionar en Archlinux, y para dejar el escritorio tal cual lo tengo yo. Por lo tanto, si estás utilizando otra distribución vas a tener que instalar las dependencias en base a ello. Así que si no utilizas Archlinux, no deberías copiar y pegar.
 
-#### Instalando Paru como AUR Helper
+#### Instalando Paru como AUR Helper 🆘
 
   
 {% highlight bash %}  
@@ -60,13 +60,17 @@ cd $HOME/Downloads/_cloned-repos
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si  
-{% endhighlight %}  
-  
-  
-  
-  
-  
-  
+{% endhighlight %}
+
+####   
+Instalamos Oh-My-Zsh 🐚
+
+{% highlight bash %}  
+\# First install Oh-My-Zsh   
+echo "### Installing oh-my-zsh"   
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  
+{% endhighlight %}
+
 {% highlight bash %}  
   
 {% endhighlight %}
