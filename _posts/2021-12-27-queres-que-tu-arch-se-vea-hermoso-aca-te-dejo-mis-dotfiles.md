@@ -116,6 +116,35 @@ sudo cp build/Hypr /usr/bin/
 sudo cp example/hypr.desktop /usr/share/xsessions/  
 {% endhighlight %}
 
+#### Ahora procedemos a Clonar y copiar los Dotfiles
+
+##### Clonamos y Copiamos
+
 {% highlight bash %}  
-  
+git clone https://github.com/linuxmobile/dotfiles $HOME/dotfiles/  
+cd $HOME/dotfiles/
+rsync -avxHAXP --exclude '.git*' .* \~/  
 {% endhighlight %}
+
+##### Agregamos los iconos
+
+{% highlight bash %}  
+pushd \~/.icons/ && \\
+    tar -xJf Papirus-Custom.tar.xz && tar -xJf Papirus-Dark-Custom.tar.xz && \\
+    sudo ln -vs \~/.icons/Papirus-Custom /usr/share/icons/
+    sudo ln -vs \~/.icons/Papirus-Dark-Custom /usr/share/icons/
+    rm -rf *.tar.xz
+popd  
+{% endhighlight %}
+
+##### Por último actualizamos las fuentes
+
+{% highlight bash %}  
+fc-cache -rv  
+{% endhighlight %}
+
+    Eso es todo lo necesario. Tal vez necesite ir actualizando este post, ya que siempre es necesario mantener actualizado todo. Quizá faltan cosas, porque me olvidé o por alguna razón. Así que agregaré todo lo necesario con el tiempo.
+
+### Les dejo un video de mi anterior Desktop
+
+<div class="video"> <iframe src="[https://www.youtube.com/embed/tiGCbY3EXks](https://www.youtube.com/embed/tiGCbY3EXks "https://www.youtube.com/embed/tiGCbY3EXks")" frameborder="0" allowfullscreen></iframe> </div>
