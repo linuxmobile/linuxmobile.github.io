@@ -1,11 +1,11 @@
 ---
 layout: post
-featured: true
+featured: false
 title: "¿Querés que tu Arch se vea hermoso? Acá te dejo mis DOTFILES"
 description: Te gustaría tener un Arch hermoso, sin gastar mucho esfuerzo y tiempo
   aprendiendo. Bueno, acá te dejo mis DOTFILES para que puedas utilizarlo cuando quieras,
   y cuantas veces quieras.
-date: 2021-12-27 03:00:00 +0000
+date: 2021-12-27T03:00:00.000+00:00
 image: https://i.imgur.com/ePgG6Wl.png
 tags:
 - Linux
