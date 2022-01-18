@@ -1,10 +1,10 @@
 ---
 layout: post
-featured: true
-title: ¡Cómo dejar Termux hermoso en 3 simples pasos!
+featured: false
+title: "¡Cómo dejar Termux hermoso en 3 simples pasos!"
 description: Termux, una de las mejores terminales para Android pero que luce un poco
   anticuada. Hoy te enseño como dejar Termux de la manera más linda posible!
-date: 2021-07-21 03:00:00 +0000
+date: 2021-07-21T03:00:00.000+00:00
 image: https://mytermux-xshin404.vercel.app/assets/images/preview-3d60b7d9d08bcef67420fd52af4c1846.png
 tags:
 - Android
