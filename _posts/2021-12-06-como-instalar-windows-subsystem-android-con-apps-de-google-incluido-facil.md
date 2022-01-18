@@ -1,11 +1,11 @@
 ---
 layout: post
-featured: true
+featured: false
 title: Cómo instalar Windows Subsystem Android con Apps de Google incluido (FÁCIL)
 description: Después de su anuncio oficial en Junio, por fin podemos probar las aplicaciones
   Android™ en Windows 11. Hoy voy a enseñarte, cómo instalar Android™ con las Gapps
   de Google incluídas,¡en sólo 5 pasos últra sencillos!
-date: 2021-12-06 03:00:00 +0000
+date: 2021-12-06T03:00:00.000+00:00
 image: https://www.xda-developers.com/files/2021/10/Windows-Subsystem-for-Android-with-Play-Store-Featured-3.jpg
 tags:
 - Documentacion
