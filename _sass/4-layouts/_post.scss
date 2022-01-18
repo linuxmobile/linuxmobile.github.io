@@ -158,7 +158,7 @@
 .page__content {
   color: $gray;
   a {
-    border-bottom: 2px solid rgb(148 108 227 / 41%);
+    border-bottom: 2px solid rgba(148, 108, 227, 0.45);
     &:hover {
       border-color: $brand-color;
       color: $text-color;
