@@ -85,7 +85,7 @@ Bueno, resulta que quisiera aprender algunos lenguajes como **NextJS, Vite, y ot
 
 - **[Nvim-AutoPairs](https://github.com/windwp/nvim-autopairs)**: *Un completo `AutoPair` escrito en Lua.*
 
-  - **[Dashboard-nvim](https://github.com/glepnir/dashboard-nvim)**: *Simplemente es un Dashboard para que nvim luzca lindo*
+- **[Dashboard-nvim](https://github.com/glepnir/dashboard-nvim)**: *Simplemente es un Dashboard para que nvim luzca lindo*
 
 ### Otros plugins que te pueden interesar 💎 :
 
