@@ -27,7 +27,7 @@ tags:
 * **Notify Daemon** • [Dunst ](https://github.com/dunst-project/dunst) 🍃 minimalista!
 * **Launcher** • [Rofi ](https://github.com/davatorium/rofi) 🚀 Realmente rápido y customizable!
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) y [Ranger ](https://github.com/ranger/ranger)🔖 customizado!
-* **GUI Basic-IDE** • [NVIM ](https://github.com/vlagh3/NvChad) 🗒️Un IDE muy hermoso!
+* **GUI Basic-IDE** • [NVIM ](https://github.com/vlagh3/NvChad) 📝 Un IDE muy hermoso!
 
 ## Setup
 
