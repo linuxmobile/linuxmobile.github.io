@@ -22,4 +22,21 @@ _Para instalar voy a utilizar [Paru](https://github.com/Morganamilo/paru) como m
 paru -S code code-features code-marketplace
 {% endhighlight %}
 
+#### Instalamos Cascadia Code NF (opcional)
+
+_Esto es absolutamente opcional. Pero lo cierto es que quedan muy bien con VSCODE._ 
+
+{% highlight shell %}
+# Creamos la carpeta nerdfonts
+mkdir -p $HOME/Downloads/nerdfonts/
+cd $HOME/Downloads/
+# Descargamos la fuente 
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/2.2.0-RC/CascadiaCode.zip
+# La descomprimimos dentro de la carpeta nerdfonts 
+unzip '*.zip' -d $HOME/Downloads/nerdfonts/
+# Borramos el .zip 
+rm -rf *.zip
+# Y con sudo, lo copiamos a la carpeta "fonts" del sistema.
+sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
+{% endhighlight %}
 
