@@ -163,9 +163,6 @@ settings json
     "editor.renderIndentGuides": true,
     "editor.bracketPairsColorization.enabled": true,
     "telemetry.telemetryLevel": "off",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "editor.cursorBlinking": "expand",
