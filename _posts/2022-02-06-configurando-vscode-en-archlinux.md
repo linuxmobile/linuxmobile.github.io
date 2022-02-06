@@ -142,7 +142,8 @@ ext install PKief.material-product-icons
 #### Configurando vscode .json
 
 ![](https://i.imgur.com/T7D02kQ.png)
-**Para abrir los ajustes es suficiente con hacer `Ctrl+Shift+P` y escribir **
+
+**Para abrir los ajustes es suficiente con hacer `Ctrl+Shift+P` y escribir**
 
 ![](https://i.imgur.com/ifo1JiX.png)
 
