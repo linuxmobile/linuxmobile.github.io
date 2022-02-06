@@ -147,9 +147,6 @@ ext install PKief.material-product-icons
 
 ![](https://i.imgur.com/ifo1JiX.png)
 
-{% highlight json %}
-{% endhighlight %}
-
 ## Y por último...
 
 Bueno, sinceramente eso ha sido todo por hoy. Tengo preparado un post para publicar en esta semana.
