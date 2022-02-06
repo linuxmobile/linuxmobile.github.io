@@ -166,6 +166,7 @@ settings json
     "telemetry.telemetryLevel": "off",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
+    },
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "editor.cursorBlinking": "expand",
