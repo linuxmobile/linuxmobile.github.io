@@ -125,7 +125,7 @@ ext install Catppuccin.catppuccin-vsc
 
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
-![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/fileIcons.png)
+![](https://i.imgur.com/spgqrNt.png)
 
 {% highlight shell %}
 ext install PKief.material-icon-theme
@@ -133,7 +133,7 @@ ext install PKief.material-icon-theme
 
 [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
 
-![](https://i.imgur.com/spgqrNt.png)
+![](https://raw.githubusercontent.com/PKief/vscode-material-product-icons/main/images/preview-explorer.png)
 
 {% highlight shell %}
 ext install PKief.material-product-icons
