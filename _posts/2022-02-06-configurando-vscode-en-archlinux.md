@@ -40,3 +40,76 @@ rm -rf *.zip
 sudo cp -R $HOME/Downloads/nerdfonts/ /usr/share/fonts/
 {% endhighlight %}
 
+### Configurando...
+
+A este punto, ya tenemos instalado todo lo necesario para que **vscode** funcione.
+Vamos a proceder abriendo **vscode**.
+
+![Welcome Page en vscode](https://i.imgur.com/YoJIMbk.png)
+
+#### Extensiones (mis recomendaciones)
+
+**Para pegar el código es suficiente con hacer `Ctrl+P` y luego pegar el código.**
+
+[AutoCloseTag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+
+![](https://github.com/formulahendry/vscode-auto-close-tag/raw/HEAD/images/usage.gif)
+
+{% highlight shell %}
+ext install formulahendry.auto-close-tag
+{% endhighlight %}
+
+[ColorHighlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+
+![](https://i.imgur.com/Xtl6NQ4.png)
+
+{% highlight shell %}
+ext install naumovs.color-highlight
+{% endhighlight %}
+
+[ErrorLens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+![](https://raw.githubusercontent.com/usernamehw/vscode-error-lens/master/img/demo.png)
+
+{% highlight shell %}
+ext install usernamehw.errorlens
+{% endhighlight %}
+
+[EsLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+{% highlight shell %}
+ext install dbaeumer.vscode-eslint
+{% endhighlight %}
+
+[GitCommitPlugin](https://marketplace.visualstudio.com/items?itemName=redjue.git-commit-plugin)
+
+![](https://github.com/RedJue/git-commit-plugin/raw/HEAD/assets/open.gif)
+
+{% highlight shell %}
+ext install redjue.git-commit-plugin
+{% endhighlight %}
+
+[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/main/images/docs/revision-navigation.gif)
+
+{% highlight shell %}
+ext install eamodio.gitlens
+{% endhighlight %}
+
+[PathIntellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+![](https://i.giphy.com/iaHeUiDeTUZuo.gif)
+
+{% highlight shell %}
+ext install christian-kohler.path-intellisense
+{% endhighlight %}
+
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+![](https://i.imgur.com/WB7tnvT.png)
+
+{% highlight shell %}
+ext install esbenp.prettier-vscode
+{% endhighlight %}
+
