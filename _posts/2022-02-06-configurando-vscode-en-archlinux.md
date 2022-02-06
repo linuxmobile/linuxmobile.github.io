@@ -133,7 +133,7 @@ ext install PKief.material-icon-theme
 
 [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
 
-![](https://raw.githubusercontent.com/PKief/vscode-material-product-icons/main/images/preview.png)
+![](https://i.imgur.com/spgqrNt.png)
 
 {% highlight shell %}
 ext install PKief.material-product-icons
