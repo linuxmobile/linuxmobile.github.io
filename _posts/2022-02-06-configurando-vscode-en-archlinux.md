@@ -143,9 +143,6 @@ ext install PKief.material-product-icons
 
 ![](https://i.imgur.com/T7D02kQ.png)
 **Para abrir los ajustes es suficiente con hacer `Ctrl+Shift+P` y escribir **
-{% highlight bash %}
-settings json
-{% endhighlight %}
 
 ![](https://i.imgur.com/ifo1JiX.png)
 
