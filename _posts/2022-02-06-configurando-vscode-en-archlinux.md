@@ -150,22 +150,6 @@ settings json
 ![](https://i.imgur.com/ifo1JiX.png)
 
 {% highlight json %}
-"editor.inlineSuggest.enabled": true,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Catppuccin",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "material-product-icons",
-    "files.autoSave": "afterDelay",
-    "editor.fontligatures": true,
-    "editor.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code PL', 'Cascadia Code', Consolas, 'Courier New', monospace",
-    "editor.codeLensFontFamily": "'CaskaydiaCove NF', Consolas, 'Courier New', monospace",
-    "editor.guides.bracketPairs": true,
-    "editor.renderIndentGuides": true,
-    "editor.bracketPairsColorization.enabled": true,
-    "telemetry.telemetryLevel": "off",
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "editor.cursorBlinking": "expand",
 {% endhighlight %}
 
 ## Y por último...
