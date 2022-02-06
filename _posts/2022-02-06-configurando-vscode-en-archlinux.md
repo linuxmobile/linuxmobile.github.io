@@ -150,8 +150,7 @@ settings json
 ![](https://i.imgur.com/ifo1JiX.png)
 
 {% highlight json %}
-{
-    "editor.inlineSuggest.enabled": true,
+"editor.inlineSuggest.enabled": true,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.colorTheme": "Catppuccin",
     "workbench.iconTheme": "material-icon-theme",
@@ -170,7 +169,6 @@ settings json
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "editor.cursorBlinking": "expand",
-}
 {% endhighlight %}
 
 ## Y por último...
