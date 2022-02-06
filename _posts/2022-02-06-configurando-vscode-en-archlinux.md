@@ -113,3 +113,67 @@ ext install christian-kohler.path-intellisense
 ext install esbenp.prettier-vscode
 {% endhighlight %}
 
+#### Temas e Iconos (opcional)
+
+[Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+
+![](https://raw.githubusercontent.com/catppuccin/vscode/main/assets/ss.png)
+
+{% highlight shell %}
+ext install Catppuccin.catppuccin-vsc
+{% endhighlight %}
+
+[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+
+![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/fileIcons.png)
+
+{% highlight shell %}
+ext install PKief.material-icon-theme
+{% endhighlight %}
+
+[Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons)
+
+![](https://raw.githubusercontent.com/PKief/vscode-material-product-icons/main/images/preview.png)
+
+{% highlight shell %}
+ext install PKief.material-product-icons
+{% endhighlight %}
+
+#### Configurando vscode .json
+
+![](https://i.imgur.com/T7D02kQ.png)
+**Para abrir los ajustes es suficiente con hacer `Ctrl+Shift+P` y escribir `settings`.**
+
+![](https://i.imgur.com/ifo1JiX.png)
+
+{% highlight json %}
+{
+    "editor.inlineSuggest.enabled": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Catppuccin",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "files.autoSave": "afterDelay",
+    "editor.fontligatures": true,
+    "editor.fontFamily": "'CaskaydiaCove NF', 'Cascadia Code PL', 'Cascadia Code', Consolas, 'Courier New', monospace",
+    "editor.codeLensFontFamily": "'CaskaydiaCove NF', Consolas, 'Courier New', monospace",
+    "editor.guides.bracketPairs": true,
+    "editor.renderIndentGuides": true,
+    "editor.bracketPairsColorization.enabled": true,
+    "telemetry.telemetryLevel": "off",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "editor.cursorBlinking": "expand",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+}
+{% endhighlight %}
+
+## Y por último...
+
+Bueno, sinceramente eso ha sido todo por hoy. Tengo preparado un post para publicar en esta semana.
+Y es acerca de **Github Copilot**. Pero hablaremos de eso más adelante. Espero que les haya servido
+de ayuda este post. Y bueno, ¡espero sus comentarios!
