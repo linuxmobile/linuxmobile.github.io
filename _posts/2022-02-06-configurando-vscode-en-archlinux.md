@@ -18,7 +18,7 @@ _Hoy les quiero enseñar como instalar [VSCODE](https://github.com/microsoft/vsc
 
 _Para instalar voy a utilizar [Paru](https://github.com/Morganamilo/paru) como mi AUR Helper. ¡Podés utilizar cualquier otro!_
 
-{% highlight shell %}
+{% highlight bash %}
 paru -S code code-features code-marketplace
 {% endhighlight %}
 
@@ -143,7 +143,7 @@ ext install PKief.material-product-icons
 
 ![](https://i.imgur.com/T7D02kQ.png)
 **Para abrir los ajustes es suficiente con hacer `Ctrl+Shift+P` y escribir **
-{% highlight shell %}
+{% highlight bash %}
 settings json
 {% endhighlight %}
 
